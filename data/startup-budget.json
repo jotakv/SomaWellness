@@ -1,0 +1,5 @@
+{
+ "physical":{"esterillas10":220,"zafus10":200,"bloquesCintas":120,"mantas":120,"almacenamiento":180,"zapateroPercheros":80,"altavoz":100,"iluminacion":150,"pinturaDIY":180,"senalizacion":70,"seguridadBotiquin":150,"decoracion":150,"limpiezaInicial":80,"otros":200},
+ "capital":{"capexFisico":2000,"fianzaEstimada":600,"circulante":1000,"tecnicoLicenciaTramites":800,"colchon":600},
+ "budgets":{"low":3800,"base":5000,"high":7500},"status":"ESTIMADO"
+}

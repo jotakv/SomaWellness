@@ -1,0 +1,13 @@
+{
+  "meta":{"project":"SomaWellness","nameStatus":"NOMBRE PROVISIONAL","studioCount":1,"taxBasis":"PRE-TAX","guaranteed":false},
+  "premises":{"usefulAreaM2":{"min":30,"max":37},"address":null,"capacity":8,"legalCapacityStatus":"PENDIENTE","fullMonthlyRent":300},
+  "calendar":{"weeksPerMonth":4.33,"seasonality":[1,1,1,1,1,1,1,1,1,1,1,1]},
+  "classes":{"classesPerWeek":18,"occupancy":0.60,"effectiveRevenuePerAttendance":10.50,"teacherShare":0.50},
+  "workshops":{"perMonth":4,"attendees":6,"effectivePrice":22,"teacherShare":0.65},
+  "operatingCosts":{"electricidad":70,"agua":15,"internet":25,"limpieza":70,"seguro":30,"gestoria":40,"retaPromotor":80,"reservasSoftware":20,"mantenimiento":25,"consumibles":20,"otrosContingencia":55},
+  "initialCapital":5000,
+  "founderTime":{"founderHoursPerMonth":40,"shadowHourlyRate":15},
+  "realEstateResidual":0,
+  "rentSchedule":[{"fromMonth":1,"toMonth":6,"rate":0},{"fromMonth":7,"toMonth":12,"rate":0.25},{"fromMonth":13,"toMonth":24,"rate":0.50},{"fromMonth":25,"toMonth":36,"rate":0.75},{"fromMonth":37,"toMonth":60,"rate":1}],
+  "yearOneRamp":[{"fromMonth":1,"toMonth":3,"classesPerWeek":8,"occupancy":0.35,"workshopsPerMonth":2},{"fromMonth":4,"toMonth":6,"classesPerWeek":12,"occupancy":0.45,"workshopsPerMonth":3},{"fromMonth":7,"toMonth":9,"classesPerWeek":16,"occupancy":0.55,"workshopsPerMonth":4},{"fromMonth":10,"toMonth":12,"classesPerWeek":18,"occupancy":0.60,"workshopsPerMonth":4}]
+}
