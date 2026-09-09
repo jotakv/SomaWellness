@@ -1,7 +1,20 @@
 {
- "official":[],"market":[],"competitors":[],"prices":[],
- "internal":[
-  {"title":"Hipótesis económicas facilitadas para SomaWellness","organization":"Promotor — input interno","url":null,"date":"2026-09-09","consultedAt":"2026-09-09","supports":"Capacidad, precios de referencia, reparto, renta, costes, CAPEX, rampa y escenarios","quality":"HIPÓTESIS; no evidencia externa"}
- ],
- "notice":"PENDIENTE: la búsqueda web no estuvo disponible durante la ejecución. No se han inventado fuentes, competidores, precios observados ni normativa. Completar con fuentes oficiales y URLs verificadas antes de invertir."
+  "official": [],
+  "market": [],
+  "competitors": [],
+  "prices": [],
+  "internal": [
+    {"id":"E-0006","title":"Auditoría de artefactos conductuales del repositorio","organization":"SomaWellness","url":null,"date":"2026-09-09","consultedAt":"2026-09-09","method":"Inspección de data, documentos, web y tests","supports":"Ausencia de entrevistas, reservas, asistencias y compras observadas","quality":"Alta para constatar artefactos internos; no informa demanda","status":"CONFIRMADO"},
+    {"id":"E-0007","title":"Mapa preliminar de segmentos, situaciones y alternativas","organization":"SomaWellness","url":null,"date":"2026-09-09","consultedAt":"2026-09-09","method":"Derivación explícita desde T-0001–T-0003 y el perímetro de iteración 01","supports":"Diseño del protocolo; no valida prevalencia ni preferencia","quality":"Media como instrumento de investigación; no es evidencia externa","status":"DERIVADO"}
+  ],
+  "candidates": [
+    {"title":"Tabla de población por municipios","organization":"Instituto Nacional de Estadística","url":"https://www.ine.es/jaxiT3/Tabla.htm?t=67988","intendedUse":"Delimitar denominador geográfico después de elegir radio","verification":"PENDIENTE: conexión bloqueada el 2026-09-09","status":"PENDIENTE"},
+    {"title":"Portal de Datos Abiertos del Ayuntamiento de Madrid","organization":"Ayuntamiento de Madrid","url":"https://datos.madrid.es/portal/site/egob","intendedUse":"Buscar población por distrito o barrio con periodo y definición","verification":"PENDIENTE: conexión bloqueada el 2026-09-09","status":"PENDIENTE"},
+    {"title":"Encuesta de Hábitos Deportivos en España","organization":"Ministerio de Cultura y Deporte","url":"https://www.culturaydeporte.gob.es/servicios-al-ciudadano/estadisticas/deportes/encuesta-habitos-deportivos-en-espana.html","intendedUse":"Contextualizar hábitos sin extrapolar automáticamente a demanda local","verification":"PENDIENTE: conexión bloqueada el 2026-09-09","status":"PENDIENTE"},
+    {"title":"Zentro Urban Yoga","organization":"Zentro Urban Yoga","url":"https://zentroyoga.com/","intendedUse":"Candidato para muestra acotada de alternativas","verification":"PENDIENTE: contenido no consultado","status":"PENDIENTE"},
+    {"title":"City Yoga","organization":"City Yoga","url":"https://www.city-yoga.com/","intendedUse":"Candidato para muestra acotada de alternativas","verification":"PENDIENTE: contenido no consultado","status":"PENDIENTE"},
+    {"title":"The Class Yoga","organization":"The Class Yoga","url":"https://theclassyoga.com/","intendedUse":"Candidato para muestra acotada de alternativas","verification":"PENDIENTE: contenido no consultado","status":"PENDIENTE"}
+  ],
+  "notice":"Investigación inicial no concluyente: solo hay evidencia interna sobre el estado del estudio. Las URLs externas son candidatas, no fuentes aceptadas, porque la red bloqueó su consulta; no respaldan todavía cifras, oferta ni precios.",
+  "status":"PENDIENTE"
 }

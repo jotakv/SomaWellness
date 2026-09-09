@@ -1,13 +1,19 @@
 {
   "name": "SomaWellness",
   "document": "Plan de Empresa",
-  "iteration": "01-concepto-alcance-tesis",
+  "iteration": "02-clientes-problema-evidencia",
   "maturity": {
-    "completedIterations": 2,
+    "completedIterations": 3,
     "plannedIterations": 12,
-    "label": "CONCEPTO, ALCANCE Y TESIS INICIAL"
+    "label": "CLIENTES Y PROBLEMA PRELIMINARES; EVIDENCIA DE CAMPO PENDIENTE"
   },
-  "evidenceStates": ["CONFIRMADO", "DERIVADO", "ESTIMADO", "HIPÓTESIS", "PENDIENTE"],
+  "evidenceStates": [
+    "CONFIRMADO",
+    "DERIVADO",
+    "ESTIMADO",
+    "HIPÓTESIS",
+    "PENDIENTE"
+  ],
   "constraints": {
     "deepMarketStudyCompleted": false,
     "definitiveFinancialModelCompleted": false,
