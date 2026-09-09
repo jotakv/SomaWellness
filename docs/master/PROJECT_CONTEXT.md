@@ -2,7 +2,7 @@
 
 ## Propósito
 
-Construir de forma incremental, versionada y auditable un plan de empresa para **SomaWellness**. En la iteración 01 se define el concepto que será objeto de contraste; no se concluye demanda, rentabilidad ni viabilidad. **Estado: CONFIRMADO.**
+Construir de forma incremental, versionada y auditable un plan de empresa para **SomaWellness**. En la iteración 02 se priorizan segmentos preliminares y se define cómo contrastar T-0001–T-0003; no se concluye demanda, rentabilidad ni viabilidad. **Estado: CONFIRMADO.**
 
 ## Definición breve
 
@@ -48,4 +48,8 @@ Acogida, proximidad, coherencia de programación y simplicidad son **HIPÓTESIS*
 
 ## Madurez y límites actuales
 
-**Iteración 01 completada: 2 de 12 previstas — concepto delimitado y tesis inicial sin validación de mercado.** El total de iteraciones sigue siendo una HIPÓTESIS de planificación. No se ha realizado estudio profundo de mercado, censo exhaustivo de competencia, modelo financiero definitivo ni evaluación Go/No-Go.
+**Iteración 02 completada: 3 de 12 previstas — segmentos y protocolo definidos, sin entrevistas ni evidencia conductual.** El total de iteraciones sigue siendo una HIPÓTESIS de planificación. No se ha realizado estudio profundo de mercado, censo exhaustivo de competencia, modelo financiero definitivo ni evaluación Go/No-Go.
+
+## Aprendizaje de iteración 02
+
+Se priorizan para reclutamiento S-01 (principiantes que intentan crear rutina), S-02 (practicantes que buscan continuidad) y S-03 (personas con poco tiempo), todos como **HIPÓTESIS**. La inspección interna confirma únicamente que no existen entrevistas, reservas, asistencias o compras registradas. Las pruebas P-01–P-03 fijan de antemano señales de apoyo, refutación y calidad. T-0001, T-0002 y T-0003 no cambian de estado. La fuente estructurada es `data/market-research.json`.

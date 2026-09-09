@@ -1,17 +1,19 @@
 # SomaWellness — Plan de Empresa en construcción
 
-Este repositorio construye el plan de empresa de **SomaWellness** de forma incremental, versionada y auditable. El estado actual es **ITERACIÓN 00 — BOOTSTRAP**: existe la infraestructura, pero todavía no hay una conclusión de viabilidad.
+Este repositorio construye el plan de empresa de **SomaWellness** de forma incremental, versionada y auditable. El estado actual es **ITERACIÓN 02 — CLIENTES, PROBLEMA Y EVIDENCIA INICIAL**: existe la infraestructura, pero todavía no hay una conclusión de viabilidad.
 
 ## Estado actual
 
-- Arquitectura web estática y navegación inicial.
+- Segmentos preliminares priorizados con situaciones, trabajos, fricciones y alternativas.
+- Protocolo y matriz de evidencia para T-0001–T-0003.
+- Despliegue continuo de la web estática mediante GitHub Actions.
 - Datos estructurados en `data/`.
 - Documentos vivos en `docs/master/`.
 - Histórico reproducible en `docs/iterations/`.
 - Prompt activo y siguiente paso en `prompts/`.
 - Tests de JSON, rutas y continuidad del siguiente prompt.
 
-Los materiales exploratorios que ya existen en otras páginas o ficheros no se consideran resultados confirmados de esta iteración. El concepto se revisará en la iteración 01; la investigación profunda de mercado, el modelo financiero definitivo y la evaluación de viabilidad corresponden a iteraciones posteriores.
+Los materiales exploratorios que ya existen en otras páginas o ficheros no se consideran resultados confirmados de esta iteración. No se realizaron entrevistas ni pruebas conductuales: las señales iniciales no constituyen validación y la investigación profunda, el modelo financiero definitivo y la evaluación de viabilidad corresponden a iteraciones posteriores.
 
 ## Estados de evidencia
 

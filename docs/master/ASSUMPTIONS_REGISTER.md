@@ -11,3 +11,5 @@ No se borrarán supuestos silenciosamente. Un cambio futuro conservará el regis
 | A-0005 | Canales | Descubrimiento digital, recomendación y reserva directa generan captación y repetición medibles | Alta | HIPÓTESIS | 01; contrastar embudo y cohortes |
 
 Los detalles de prueba y refutación de la tesis se mantienen en `data/concept.json`, evitando duplicar formulaciones estructuradas.
+| A-0006 | Segmentos | S-01, S-02 y S-03 son unidades útiles para reclutar y comparar problemas | Alta | HIPÓTESIS | 02; contrastar con episodios y conducta, no demografía asumida |
+| A-0007 | Investigación | Episodios recientes y acciones observables reducirán el sesgo frente a intención declarada | Media | HIPÓTESIS | 02; protocolo adoptado, aplicación PENDIENTE |

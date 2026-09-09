@@ -35,11 +35,11 @@ test('todas las rutas HTML internas básicas existen', async () => {
   }
 });
 
-test('NEXT_PROMPT existe, coincide con iteración 01 y anuncia iteración 02', async () => {
+test('NEXT_PROMPT existe, coincide con iteración 02 y anuncia iteración 03', async () => {
   const current = await readFile(path.join(root, 'prompts/NEXT_PROMPT.md'), 'utf8');
-  const archived = await readFile(path.join(root, 'docs/iterations/01-concepto-alcance-tesis/NEXT_PROMPT.md'), 'utf8');
+  const archived = await readFile(path.join(root, 'docs/iterations/02-clientes-problema-evidencia/NEXT_PROMPT.md'), 'utf8');
   assert.equal(current, archived);
-  assert.match(current, /ITERACIÓN 02 — CLIENTES, PROBLEMA Y EVIDENCIA DE MERCADO INICIAL/);
+  assert.match(current, /ITERACIÓN 03 — PROPUESTA DE VALOR Y DISEÑO DE EXPERIMENTOS/);
 });
 
 test('el proyecto declara exactamente el vocabulario oficial', async () => {
@@ -73,13 +73,40 @@ test('la tesis es contrastable y registra apoyo y refutación', async () => {
   }
 });
 
-test('la web declara iteración 01 y madurez sin validación', async () => {
+test('la web declara iteración 02 y evidencia de campo pendiente', async () => {
   const [home, concept] = await Promise.all([
     readFile(path.join(root, 'index.html'), 'utf8'),
     readFile(path.join(root, 'concepto.html'), 'utf8')
   ]);
-  assert.match(home, /ITERACIÓN 01/);
-  assert.match(home, /SIN VALIDACIÓN DE MERCADO/);
-  assert.match(concept, /ITERACIÓN 01/);
-  assert.match(concept, /TESIS INICIAL SIN VALIDAR/);
+  assert.match(home, /ITERACIÓN 02/);
+  assert.match(home, /SIN VALIDACIÓN CONCLUYENTE/);
+  assert.match(concept, /ITERACIÓN 02/);
+  assert.match(concept, /TESIS ACTUALIZADA SIN CAMBIO DE ESTADO/);
+});
+
+
+test('la investigación define segmentos, pruebas y límites sin inventar resultados', async () => {
+  const market = JSON.parse(await readFile(path.join(root, 'data/market-research.json'), 'utf8'));
+  assert.equal(market.segments.length, 3);
+  assert.deepEqual(market.tests.map(item => item.thesis), ['T-0001', 'T-0002', 'T-0003']);
+  for (const item of market.tests) {
+    assert.equal(item.status, 'PENDIENTE');
+    assert.ok(item.supportSignal && item.refuteSignal && item.qualityGate);
+  }
+  assert.equal(market.competitors.length, 0);
+  assert.match(market.limitations.join(' '), /Sin participantes/);
+});
+
+test('las fuentes candidatas no se presentan como evidencia aceptada', async () => {
+  const sources = JSON.parse(await readFile(path.join(root, 'data/sources.json'), 'utf8'));
+  assert.ok(sources.candidates.length >= 3);
+  assert.ok(sources.candidates.every(item => item.status === 'PENDIENTE'));
+  assert.ok(sources.official.length === 0 && sources.market.length === 0 && sources.competitors.length === 0);
+});
+
+test('existe un workflow de Pages que prueba antes de desplegar', async () => {
+  const workflow = await readFile(path.join(root, '.github/workflows/pages.yml'), 'utf8');
+  assert.match(workflow, /npm test/);
+  assert.match(workflow, /needs: test/);
+  assert.match(workflow, /actions\/deploy-pages@v4/);
 });
