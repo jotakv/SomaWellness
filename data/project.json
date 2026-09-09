@@ -1,0 +1,17 @@
+{
+  "name": "SomaWellness",
+  "document": "Plan de Empresa",
+  "iteration": "00-bootstrap",
+  "maturity": {
+    "completedIterations": 1,
+    "plannedIterations": 12,
+    "label": "BOOTSTRAP"
+  },
+  "evidenceStates": ["CONFIRMADO", "DERIVADO", "ESTIMADO", "HIPÓTESIS", "PENDIENTE"],
+  "constraints": {
+    "deepMarketStudyCompleted": false,
+    "definitiveFinancialModelCompleted": false,
+    "viabilityConclusionCompleted": false
+  },
+  "status": "CONFIRMADO"
+}
