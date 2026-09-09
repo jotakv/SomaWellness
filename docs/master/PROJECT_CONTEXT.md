@@ -2,7 +2,7 @@
 
 ## Propósito
 
-Construir de forma incremental, versionada y auditable un plan de empresa para **SomaWellness**. En la iteración 02 se priorizan segmentos preliminares y se define cómo contrastar T-0001–T-0003; no se concluye demanda, rentabilidad ni viabilidad. **Estado: CONFIRMADO.**
+Construir de forma incremental, versionada y auditable un plan de empresa para **SomaWellness**. En la iteración 03 se convierten problemas preliminares en propuestas y mensajes contrastables para S-01 y S-02 y se preregistra cómo ejecutar P-01 y P-02; no se concluye demanda, rentabilidad ni viabilidad. **Estado: CONFIRMADO.**
 
 ## Definición breve
 
@@ -48,8 +48,15 @@ Acogida, proximidad, coherencia de programación y simplicidad son **HIPÓTESIS*
 
 ## Madurez y límites actuales
 
-**Iteración 02 completada: 3 de 12 previstas — segmentos y protocolo definidos, sin entrevistas ni evidencia conductual.** El total de iteraciones sigue siendo una HIPÓTESIS de planificación. No se ha realizado estudio profundo de mercado, censo exhaustivo de competencia, modelo financiero definitivo ni evaluación Go/No-Go.
+**Iteración 03 completada: 4 de 12 previstas — propuestas, mensajes y protocolo ético preregistrados, sin entrevistas ni evidencia conductual.** El total de iteraciones sigue siendo una HIPÓTESIS de planificación. No se ha realizado estudio profundo de mercado, censo exhaustivo de competencia, modelo financiero definitivo ni evaluación Go/No-Go.
 
 ## Aprendizaje de iteración 02
 
 Se priorizan para reclutamiento S-01 (principiantes que intentan crear rutina), S-02 (practicantes que buscan continuidad) y S-03 (personas con poco tiempo), todos como **HIPÓTESIS**. La inspección interna confirma únicamente que no existen entrevistas, reservas, asistencias o compras registradas. Las pruebas P-01–P-03 fijan de antemano señales de apoyo, refutación y calidad. T-0001, T-0002 y T-0003 no cambian de estado. La fuente estructurada es `data/market-research.json`.
+
+
+## Aprendizaje de iteración 03
+
+Cuatro alternativas de propuesta de valor conectan explícitamente trabajos y fricciones de S-01 y S-02. Sus cuatro mensajes se compararán solo dentro de cada segmento, con orden alternado, texto fijo y captura de comprensión, preferencia «ninguno» y evidencia adversa. **Estado: HIPÓTESIS.**
+
+El consentimiento, reclutamiento, hoja vacía, códigos, denominadores, umbrales internos y criterios de parada están preregistrados en `data/value-proposition.json`. Su existencia es **CONFIRMADO** como decisión e instrumento; su utilidad y todos los resultados de campo permanecen **PENDIENTE**. No hubo acceso acreditable a participantes reales, por lo que P-01 y P-02 no se ejecutaron. Precios, demanda, ubicación y viabilidad continúan **PENDIENTE**.

@@ -35,9 +35,9 @@ test('todas las rutas HTML internas básicas existen', async () => {
   }
 });
 
-test('NEXT_PROMPT existe, coincide con iteración 02 y anuncia iteración 03', async () => {
-  const current = await readFile(path.join(root, 'prompts/NEXT_PROMPT.md'), 'utf8');
-  const archived = await readFile(path.join(root, 'docs/iterations/02-clientes-problema-evidencia/NEXT_PROMPT.md'), 'utf8');
+test('CURRENT_PROMPT archiva íntegramente el encargo de iteración 03', async () => {
+  const current = await readFile(path.join(root, 'prompts/CURRENT_PROMPT.md'), 'utf8');
+  const archived = await readFile(path.join(root, 'docs/iterations/03-propuesta-valor-experimentos/PROMPT.md'), 'utf8');
   assert.equal(current, archived);
   assert.match(current, /ITERACIÓN 03 — PROPUESTA DE VALOR Y DISEÑO DE EXPERIMENTOS/);
 });
@@ -73,14 +73,14 @@ test('la tesis es contrastable y registra apoyo y refutación', async () => {
   }
 });
 
-test('la web declara iteración 02 y evidencia de campo pendiente', async () => {
+test('la web conserva la tesis y declara evidencia de campo pendiente', async () => {
   const [home, concept] = await Promise.all([
     readFile(path.join(root, 'index.html'), 'utf8'),
     readFile(path.join(root, 'concepto.html'), 'utf8')
   ]);
-  assert.match(home, /ITERACIÓN 02/);
+  assert.match(home, /ITERACIÓN 03/);
   assert.match(home, /SIN VALIDACIÓN CONCLUYENTE/);
-  assert.match(concept, /ITERACIÓN 02/);
+  assert.match(concept, /ITERACIÓN 03/);
   assert.match(concept, /TESIS ACTUALIZADA SIN CAMBIO DE ESTADO/);
 });
 
@@ -109,4 +109,42 @@ test('existe un workflow de Pages que prueba antes de desplegar', async () => {
   assert.match(workflow, /npm test/);
   assert.match(workflow, /needs: test/);
   assert.match(workflow, /actions\/deploy-pages@v4/);
+});
+
+test('NEXT_PROMPT coincide con iteración 03 y anuncia iteración 04', async () => {
+  const current = await readFile(path.join(root, 'prompts/NEXT_PROMPT.md'), 'utf8');
+  const archived = await readFile(path.join(root, 'docs/iterations/03-propuesta-valor-experimentos/NEXT_PROMPT.md'), 'utf8');
+  assert.equal(current, archived);
+  assert.match(current, /ITERACIÓN 04 — EJECUCIÓN CONTROLADA Y APRENDIZAJE DE MENSAJE/);
+});
+
+test('iteración 03 preregistra propuestas y experimentos sin inventar campo', async () => {
+  const value = JSON.parse(await readFile(path.join(root, 'data/value-proposition.json'), 'utf8'));
+  assert.equal(value.valuePropositions.length, 4);
+  assert.deepEqual(new Set(value.valuePropositions.map(item => item.segmentId)), new Set(['S-01', 'S-02']));
+  assert.equal(value.messageTest.messages.length, 4);
+  for (const item of value.valuePropositions) {
+    assert.equal(item.status, 'HIPÓTESIS');
+    assert.ok(item.job && item.observedFrictionToTest && item.promise && item.mechanism && item.boundary);
+  }
+  assert.ok(value.recruitment.eligible.length && value.recruitment.exclude.length);
+  assert.ok(value.consent.script && value.captureSheet.blankRecord && value.analysisPlan.denominators.length);
+  assert.ok(value.thresholds['P-01'] && value.thresholds['P-02'] && value.stopRules.earlyStop.length);
+  assert.equal(value.execution.fieldworkStarted, false);
+  assert.equal(value.execution.participants, 0);
+  assert.equal(value.execution.invitations, 0);
+  assert.deepEqual(value.captureSheet.records, []);
+  assert.equal(value.execution.status, 'PENDIENTE');
+  assert.ok(value.protectedPending.every(item => item.status === 'PENDIENTE'));
+});
+
+test('la web publica iteración 03, protocolo y límites', async () => {
+  const [home, proposal] = await Promise.all([
+    readFile(path.join(root, 'index.html'), 'utf8'),
+    readFile(path.join(root, 'propuesta-valor.html'), 'utf8')
+  ]);
+  assert.match(home, /ITERACIÓN 03/);
+  assert.match(proposal, /ITERACIÓN 03/);
+  assert.match(proposal, /Umbrales internos fijados antes del campo/);
+  assert.match(proposal, /No es validación/);
 });

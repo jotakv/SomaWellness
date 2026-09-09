@@ -34,6 +34,34 @@
       "decision": "Excluir actividad sanitaria, gimnasio generalista, contacto, franquicia y expansión del caso inicial.",
       "reason": "Evitar promesas y requisitos incompatibles con el objeto de análisis.",
       "status": "CONFIRMADO"
+    },
+    {
+      "id": "D-0006",
+      "date": "2026-09-09",
+      "decision": "Priorizar inicialmente S-01, seguido de S-02 y S-03, solo para ordenar aprendizaje.",
+      "reason": "Reclutar por situación y revisar la prioridad con evidencia, no solo por demografía.",
+      "status": "CONFIRMADO"
+    },
+    {
+      "id": "D-0007",
+      "date": "2026-09-09",
+      "decision": "Definir señales de apoyo, refutación y calidad antes del trabajo de campo.",
+      "reason": "Reducir sesgo de confirmación sin convertir el protocolo en validación.",
+      "status": "CONFIRMADO"
+    },
+    {
+      "id": "D-0008",
+      "date": "2026-09-09",
+      "decision": "Preregistrar mensajes, consentimiento, captura, análisis, umbrales y parada antes del campo.",
+      "reason": "Reducir cambios oportunistas y preservar evidencia adversa y denominadores.",
+      "status": "CONFIRMADO"
+    },
+    {
+      "id": "D-0009",
+      "date": "2026-09-09",
+      "decision": "No ejecutar P-01/P-02 sin participantes reales y consentimiento acreditable.",
+      "reason": "Evitar datos inventados y proteger la voluntariedad y trazabilidad.",
+      "status": "CONFIRMADO"
     }
   ]
 }

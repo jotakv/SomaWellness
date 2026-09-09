@@ -1,9 +1,9 @@
 {
   "meta": {
-    "iteration": "02-clientes-problema-evidencia",
+    "iteration": "03-propuesta-valor-experimentos",
     "consultedAt": "2026-09-09",
     "status": "CONFIRMADO",
-    "scope": "Diseño y arranque de investigación exploratoria; no validación de demanda ni viabilidad."
+    "scope": "P-01 y P-02 preparados y preregistrados; sin ejecución de campo ni validación de demanda o viabilidad."
   },
   "segments": [
     {
@@ -13,8 +13,17 @@
       "priorityRationale": "Mayor encaje teórico con orientación, acogida y reducción de fricción; accesibilidad y frecuencia real siguen sin observarse.",
       "situation": "Quiere empezar una práctica cuerpo-mente cerca de casa o trabajo, pero no sabe qué disciplina, nivel o frecuencia elegir.",
       "job": "Encontrar una primera práctica comprensible y convertirla en una rutina sostenible.",
-      "frictions": ["Comparación difícil entre disciplinas y niveles", "Temor a no encajar o no saber seguir la clase", "Desplazamiento, horario y reserva pueden impedir asistir"],
-      "currentAlternatives": ["No actuar o practicar de forma irregular", "Vídeos o aplicaciones", "Clase monodisciplina en estudio o centro deportivo", "Sesiones individuales"],
+      "frictions": [
+        "Comparación difícil entre disciplinas y niveles",
+        "Temor a no encajar o no saber seguir la clase",
+        "Desplazamiento, horario y reserva pueden impedir asistir"
+      ],
+      "currentAlternatives": [
+        "No actuar o practicar de forma irregular",
+        "Vídeos o aplicaciones",
+        "Clase monodisciplina en estudio o centro deportivo",
+        "Sesiones individuales"
+      ],
       "desiredOutcome": "Asistir con confianza y repetir sin dedicar mucho esfuerzo a elegir y coordinar.",
       "status": "HIPÓTESIS"
     },
@@ -25,8 +34,17 @@
       "priorityRationale": "Podrían reconocer mejor las diferencias de experiencia y comparar alternativas; su preferencia por multidisciplina no está demostrada.",
       "situation": "Ya practica una disciplina, pero cambia de centro, profesor u horario o percibe una experiencia impersonal.",
       "job": "Mantener una práctica regular con calidad percibida y relación estable.",
-      "frictions": ["Horarios o plazas incompatibles", "Calidad variable entre profesionales", "Oferta complementaria distribuida entre proveedores"],
-      "currentAlternatives": ["Estudio especializado", "Gimnasio o centro deportivo", "Profesor particular", "Combinar varios centros y recursos digitales"],
+      "frictions": [
+        "Horarios o plazas incompatibles",
+        "Calidad variable entre profesionales",
+        "Oferta complementaria distribuida entre proveedores"
+      ],
+      "currentAlternatives": [
+        "Estudio especializado",
+        "Gimnasio o centro deportivo",
+        "Profesor particular",
+        "Combinar varios centros y recursos digitales"
+      ],
       "desiredOutcome": "Repetir con un profesional y grupo reconocibles, con opciones complementarias útiles.",
       "status": "HIPÓTESIS"
     },
@@ -37,18 +55,47 @@
       "priorityRationale": "Situación potencialmente frecuente, pero el problema puede resolverse mejor con alternativas más convenientes que un estudio presencial.",
       "situation": "Dispone de ventanas breves antes o después del trabajo y quiere desconectar o moverse sin asumir una práctica clínica.",
       "job": "Usar una franja predecible para cuidarse y volver a su actividad cotidiana.",
-      "frictions": ["Tiempo total de desplazamiento", "Cambios de agenda", "Coste frente a opciones incluidas en gimnasio o disponibles en casa"],
-      "currentAlternatives": ["Caminar o entrenar por cuenta propia", "Gimnasio", "Aplicación o vídeo", "No hacer nada"],
+      "frictions": [
+        "Tiempo total de desplazamiento",
+        "Cambios de agenda",
+        "Coste frente a opciones incluidas en gimnasio o disponibles en casa"
+      ],
+      "currentAlternatives": [
+        "Caminar o entrenar por cuenta propia",
+        "Gimnasio",
+        "Aplicación o vídeo",
+        "No hacer nada"
+      ],
       "desiredOutcome": "Obtener una pausa valiosa dentro de un tiempo total aceptable.",
       "status": "HIPÓTESIS"
     }
   ],
   "prioritizationCriteria": [
-    {"criterion": "Intensidad y frecuencia observables del problema", "weight": "alta", "status": "CONFIRMADO"},
-    {"criterion": "Accesibilidad dentro de un radio local aún por definir", "weight": "alta", "status": "CONFIRMADO"},
-    {"criterion": "Encaje con T-0001, T-0002 y T-0003", "weight": "alta", "status": "CONFIRMADO"},
-    {"criterion": "Uso actual de alternativas y coste de cambiar", "weight": "media", "status": "CONFIRMADO"},
-    {"criterion": "Conducta de reserva, asistencia y repetición", "weight": "alta", "status": "CONFIRMADO"}
+    {
+      "criterion": "Intensidad y frecuencia observables del problema",
+      "weight": "alta",
+      "status": "CONFIRMADO"
+    },
+    {
+      "criterion": "Accesibilidad dentro de un radio local aún por definir",
+      "weight": "alta",
+      "status": "CONFIRMADO"
+    },
+    {
+      "criterion": "Encaje con T-0001, T-0002 y T-0003",
+      "weight": "alta",
+      "status": "CONFIRMADO"
+    },
+    {
+      "criterion": "Uso actual de alternativas y coste de cambiar",
+      "weight": "media",
+      "status": "CONFIRMADO"
+    },
+    {
+      "criterion": "Conducta de reserva, asistencia y repetición",
+      "weight": "alta",
+      "status": "CONFIRMADO"
+    }
   ],
   "interviewProtocol": {
     "goal": "Reconstruir conductas recientes, situaciones, alternativas y fricciones antes de presentar SomaWellness.",
@@ -65,26 +112,137 @@
       "¿Has pagado por algo comparable en los últimos seis meses? ¿Cómo decidiste?",
       "Tras mostrar dos mensajes en orden alternado: ¿qué crees que ofrece cada uno y para quién?"
     ],
-    "avoid": ["Preguntas hipotéticas de intención como sustituto de conducta", "Presentar la solución antes de conocer el episodio", "Interpretar cortesía o interés como compra", "Mezclar conocidos y captación externa sin etiquetarlo"],
-    "capture": ["segmento", "canal de reclutamiento", "episodio y fecha aproximada", "alternativa usada", "fricción textual", "conducta y desembolso recordado", "comprensión de mensajes", "evidencia adversa", "notas y consentimiento"],
+    "avoid": [
+      "Preguntas hipotéticas de intención como sustituto de conducta",
+      "Presentar la solución antes de conocer el episodio",
+      "Interpretar cortesía o interés como compra",
+      "Mezclar conocidos y captación externa sin etiquetarlo"
+    ],
+    "capture": [
+      "segmento",
+      "canal de reclutamiento",
+      "episodio y fecha aproximada",
+      "alternativa usada",
+      "fricción textual",
+      "conducta y desembolso recordado",
+      "comprensión de mensajes",
+      "evidencia adversa",
+      "notas y consentimiento"
+    ],
     "status": "CONFIRMADO"
   },
   "tests": [
-    {"id":"P-01","thesis":"T-0001","method":"Entrevistas por episodio + captación local a lista de interés","supportSignal":"Patrón repetido en más de un canal y registros locales cualificados que completan una acción","refuteSignal":"Problema ausente o infrecuente y captación sin acciones cualificadas","qualityGate":"Cuotas por segmento, canal y relación; denominadores completos; duplicados excluidos","status":"PENDIENTE"},
-    {"id":"P-02","thesis":"T-0002","method":"Prueba ciega y alternada de dos mensajes, seguida de elección y motivo","supportSignal":"Comprensión correcta y preferencia razonada por combinación en ambos órdenes","refuteSignal":"Confusión o preferencia consistente por oferta monodisciplina","qualityGate":"Orden aleatorio, texto fijo y codificación previa a conocer el segmento","status":"PENDIENTE"},
-    {"id":"P-03","thesis":"T-0003","method":"Prototipo de reserva y piloto presencial, si se cumplen seguridad y consentimiento","supportSignal":"Finalización de reserva, asistencia y segunda acción observadas por cohorte","refuteSignal":"Abandono recurrente o falta de repetición atribuible a la experiencia","qualityGate":"Eventos con definición única, ventana temporal fijada y razones de abandono registradas","status":"PENDIENTE"}
+    {
+      "id": "P-01",
+      "thesis": "T-0001",
+      "method": "Entrevistas por episodio reciente para S-01 y S-02; captación y lista de interés se medirán en una fase posterior",
+      "supportSignal": "Aplicar la regla interna preregistrada en data/value-proposition.json, siempre con conteo y denominador",
+      "refuteSignal": "Aplicar la regla interna preregistrada y conservar casos sin problema o con alternativa suficiente",
+      "qualityGate": "10 completadas; ≥5 por segmento; ≥2 canales; ≤50 % con relación previa; denominadores completos",
+      "status": "PENDIENTE"
+    },
+    {
+      "id": "P-02",
+      "thesis": "T-0002",
+      "method": "Comparación intrasegmento de dos mensajes de texto en orden AB/BA alternado",
+      "supportSignal": "Comprensión y preferencia razonada según umbrales preregistrados; no implica compra",
+      "refuteSignal": "Confusión, NINGUNO o falta de relevancia según umbrales preregistrados",
+      "qualityGate": "≥5 exposiciones por segmento; orden equilibrado; texto fijo; codificación doble parcial",
+      "status": "PENDIENTE"
+    },
+    {
+      "id": "P-03",
+      "thesis": "T-0003",
+      "method": "Prototipo de reserva y piloto presencial, si se cumplen seguridad y consentimiento",
+      "supportSignal": "Finalización de reserva, asistencia y segunda acción observadas por cohorte",
+      "refuteSignal": "Abandono recurrente o falta de repetición atribuible a la experiencia",
+      "qualityGate": "Eventos con definición única, ventana temporal fijada y razones de abandono registradas",
+      "status": "PENDIENTE"
+    }
   ],
   "evidenceMatrix": [
-    {"id":"EM-01","type":"primaria","supports":["T-0001","T-0002"],"artifact":"Transcripciones o notas codificadas de entrevistas reales","currentResult":"No se realizaron entrevistas en esta iteración.","quality":"PENDIENTE","status":"PENDIENTE"},
-    {"id":"EM-02","type":"primaria","supports":["T-0001","T-0003"],"artifact":"Embudo local con fuente, denominadores y cohortes","currentResult":"No se lanzó captación, reserva ni piloto.","quality":"PENDIENTE","status":"PENDIENTE"},
-    {"id":"EM-03","type":"secundaria","supports":["T-0001"],"artifact":"Población y hábitos de fuentes oficiales con geografía y periodo compatibles","currentResult":"Fuentes candidatas identificadas, pero su contenido no pudo consultarse por bloqueo de red.","quality":"Baja hasta verificar contenido y fecha","status":"PENDIENTE"},
-    {"id":"EM-04","type":"secundaria","supports":["T-0001","T-0002"],"artifact":"Muestra acotada de alternativas con URL, oferta y fecha","currentResult":"Tres webs candidatas identificadas; contenido y precios no verificados.","quality":"Baja; no constituye benchmark","status":"PENDIENTE"}
+    {
+      "id": "EM-01",
+      "type": "primaria",
+      "supports": [
+        "T-0001",
+        "T-0002"
+      ],
+      "artifact": "Transcripciones o notas codificadas de entrevistas reales",
+      "currentResult": "No se realizaron entrevistas en esta iteración.",
+      "quality": "PENDIENTE",
+      "status": "PENDIENTE"
+    },
+    {
+      "id": "EM-02",
+      "type": "primaria",
+      "supports": [
+        "T-0001",
+        "T-0003"
+      ],
+      "artifact": "Embudo local con fuente, denominadores y cohortes",
+      "currentResult": "No se lanzó captación, reserva ni piloto.",
+      "quality": "PENDIENTE",
+      "status": "PENDIENTE"
+    },
+    {
+      "id": "EM-03",
+      "type": "secundaria",
+      "supports": [
+        "T-0001"
+      ],
+      "artifact": "Población y hábitos de fuentes oficiales con geografía y periodo compatibles",
+      "currentResult": "Fuentes candidatas identificadas, pero su contenido no pudo consultarse por bloqueo de red.",
+      "quality": "Baja hasta verificar contenido y fecha",
+      "status": "PENDIENTE"
+    },
+    {
+      "id": "EM-04",
+      "type": "secundaria",
+      "supports": [
+        "T-0001",
+        "T-0002"
+      ],
+      "artifact": "Muestra acotada de alternativas con URL, oferta y fecha",
+      "currentResult": "Tres webs candidatas identificadas; contenido y precios no verificados.",
+      "quality": "Baja; no constituye benchmark",
+      "status": "PENDIENTE"
+    }
   ],
   "initialFindings": [
-    {"id":"H-01","finding":"El repositorio no contiene entrevistas, reservas, asistencias ni compras observadas.","sourceId":"E-0006","implication":"T-0001, T-0002 y T-0003 permanecen HIPÓTESIS.","status":"CONFIRMADO"},
-    {"id":"H-02","finding":"Se identificaron categorías de alternativa, pero no se verificó su prevalencia, preferencia ni precio.","sourceId":"E-0007","implication":"Sirven para guiar entrevistas, no para afirmar posicionamiento.","status":"DERIVADO"}
+    {
+      "id": "H-01",
+      "finding": "El repositorio no contiene entrevistas, reservas, asistencias ni compras observadas.",
+      "sourceId": "E-0006",
+      "implication": "T-0001, T-0002 y T-0003 permanecen HIPÓTESIS.",
+      "status": "CONFIRMADO"
+    },
+    {
+      "id": "H-02",
+      "finding": "Se identificaron categorías de alternativa, pero no se verificó su prevalencia, preferencia ni precio.",
+      "sourceId": "E-0007",
+      "implication": "Sirven para guiar entrevistas, no para afirmar posicionamiento.",
+      "status": "DERIVADO"
+    }
   ],
   "competitors": [],
-  "limitations": ["Acceso web denegado (HTTP 401 en búsqueda y 403 en conexión directa) el 2026-09-09", "Sin participantes reclutados ni estudio de campo", "Sin barrio o radio de captación definido", "Sin precios, demanda o frecuencia observados"],
-  "status": "HIPÓTESIS"
+  "limitations": [
+    "Sin participantes reales accesibles ni consentimiento en este entorno; P-01 y P-02 no ejecutados",
+    "Sin barrio o radio de captación definido",
+    "Sin precios, demanda, frecuencia, reservas o compras observados",
+    "Los umbrales son reglas internas exploratorias, no inferencia estadística ni validación"
+  ],
+  "status": "HIPÓTESIS",
+  "iteration03Artifacts": {
+    "source": "data/value-proposition.json",
+    "contains": [
+      "cuatro propuestas ligadas a trabajos y fricciones",
+      "cuatro mensajes comparables",
+      "guion de exposición y reclutamiento",
+      "consentimiento y hoja de captura vacía",
+      "reglas de análisis, umbrales y parada"
+    ],
+    "fieldworkStatus": "PENDIENTE",
+    "status": "CONFIRMADO"
+  }
 }

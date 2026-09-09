@@ -1,7 +1,7 @@
 {
   "meta": {
-    "iteration": "02-clientes-problema-evidencia",
-    "maturity": "SEGMENTOS Y PROTOCOLO DEFINIDOS; EVIDENCIA DE CAMPO PENDIENTE",
+    "iteration": "03-propuesta-valor-experimentos",
+    "maturity": "PROPUESTAS DE VALOR Y MENSAJES CONTRASTABLES; EVIDENCIA DE CAMPO PENDIENTE",
     "status": "CONFIRMADO"
   },
   "definitions": {
@@ -149,7 +149,8 @@
       "status": "HIPÓTESIS",
       "supportEvidence": "Entrevistas con patrón repetido, búsquedas o consultas locales y una lista de espera cualificada.",
       "refuteEvidence": "Entrevistas que no reconocen el problema o captación de prueba incapaz de producir interés local cualificado.",
-      "iteration02Update": "Se definieron prueba, señales y umbral de calidad antes de recopilar resultados; no hay evidencia conductual nueva y el estado no cambia."
+      "iteration02Update": "Se definieron prueba, señales y umbral de calidad antes de recopilar resultados; no hay evidencia conductual nueva y el estado no cambia.",
+      "iteration03Update": "Se preregistraron alternativas, mensajes, captura, análisis y parada; no se ejecutó campo y el estado no cambia."
     },
     {
       "id": "T-0002",
@@ -157,7 +158,8 @@
       "status": "HIPÓTESIS",
       "supportEvidence": "Pruebas de mensaje y entrevistas donde el público comprende la propuesta y elige combinaciones de actividades.",
       "refuteEvidence": "Confusión recurrente, preferencia consistente por una sola disciplina o falta de uso cruzado en pilotos.",
-      "iteration02Update": "Se definieron prueba, señales y umbral de calidad antes de recopilar resultados; no hay evidencia conductual nueva y el estado no cambia."
+      "iteration02Update": "Se definieron prueba, señales y umbral de calidad antes de recopilar resultados; no hay evidencia conductual nueva y el estado no cambia.",
+      "iteration03Update": "Se preregistraron alternativas, mensajes, captura, análisis y parada; no se ejecutó campo y el estado no cambia."
     },
     {
       "id": "T-0003",
@@ -165,7 +167,8 @@
       "status": "HIPÓTESIS",
       "supportEvidence": "Embudo de prueba con conversión a primera visita, repetición por cohortes y feedback que atribuya valor a esos principios.",
       "refuteEvidence": "Abandono significativo en reserva o acogida, baja repetición y feedback que no valore la cercanía.",
-      "iteration02Update": "Se definieron prueba, señales y umbral de calidad antes de recopilar resultados; no hay evidencia conductual nueva y el estado no cambia."
+      "iteration02Update": "Se definieron prueba, señales y umbral de calidad antes de recopilar resultados; no hay evidencia conductual nueva y el estado no cambia.",
+      "iteration03Update": "Se preregistraron alternativas, mensajes, captura, análisis y parada; no se ejecutó campo y el estado no cambia."
     },
     {
       "id": "T-0004",

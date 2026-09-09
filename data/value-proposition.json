@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "iteration": "03-propuesta-valor-experimentos",
+    "createdAt": "2026-09-09",
+    "scope": "Diseño preregistrado de propuestas de valor y preparación ética de P-01 y P-02; sin ejecución de campo.",
+    "status": "CONFIRMADO"
+  },
+  "valuePropositions": [
+    {
+      "id": "PV-01A",
+      "segmentId": "S-01",
+      "job": "Elegir una primera práctica comprensible y empezar una rutina sostenible.",
+      "observedFrictionToTest": "Dificultad para comparar disciplinas y niveles; temor a no encajar.",
+      "promise": "Una bienvenida orientada para elegir una práctica accesible y saber qué esperar antes de asistir.",
+      "mechanism": "Orientación inicial no clínica, explicación de nivel y grupo reducido.",
+      "boundary": "No promete resultados terapéuticos, disponibilidad, precio ni continuidad hasta observarlos.",
+      "status": "HIPÓTESIS"
+    },
+    {
+      "id": "PV-01B",
+      "segmentId": "S-01",
+      "job": "Reducir el esfuerzo de coordinar la primera asistencia y la repetición.",
+      "observedFrictionToTest": "Reserva, horario y desplazamiento pueden interrumpir el inicio.",
+      "promise": "Una ruta sencilla desde elegir hasta reservar y volver, en un estudio presencial cercano aún por ubicar.",
+      "mechanism": "Programación legible, reserva simple y recordatorio de siguiente paso.",
+      "boundary": "La cercanía, el horario y la repetición reales están PENDIENTE.",
+      "status": "HIPÓTESIS"
+    },
+    {
+      "id": "PV-02A",
+      "segmentId": "S-02",
+      "job": "Mantener una práctica regular con relación y calidad percibida estables.",
+      "observedFrictionToTest": "Cambios de profesor, plazas u horarios y experiencia impersonal.",
+      "promise": "Practicar en grupo reducido con profesionales y compañeros reconocibles, buscando continuidad.",
+      "mechanism": "Grupos reducidos y programación con responsables identificables.",
+      "boundary": "No garantiza profesor, plaza, calidad percibida ni frecuencia.",
+      "status": "HIPÓTESIS"
+    },
+    {
+      "id": "PV-02B",
+      "segmentId": "S-02",
+      "job": "Acceder a opciones complementarias sin coordinar proveedores separados.",
+      "observedFrictionToTest": "La oferta complementaria está distribuida entre centros y recursos.",
+      "promise": "Explorar prácticas cuerpo-mente seleccionadas bajo una programación común y comprensible.",
+      "mechanism": "Criterios explícitos de complementariedad y una única experiencia de información y reserva.",
+      "boundary": "La preferencia por multidisciplina y el uso cruzado están PENDIENTE.",
+      "status": "HIPÓTESIS"
+    }
+  ],
+  "messageTest": {
+    "id": "P-02",
+    "presentation": "Texto plano, sin marca visual, precio, imágenes, testimonios ni llamada comercial; mostrar solo el par del segmento declarado.",
+    "messages": [
+      {
+        "id": "M-01A",
+        "segmentId": "S-01",
+        "valuePropositionId": "PV-01A",
+        "headline": "Empieza sabiendo qué esperar",
+        "body": "Una bienvenida breve te ayuda a entender nivel y práctica antes de entrar en un grupo reducido de movimiento, respiración o meditación.",
+        "status": "HIPÓTESIS"
+      },
+      {
+        "id": "M-01B",
+        "segmentId": "S-01",
+        "valuePropositionId": "PV-01B",
+        "headline": "De elegir a volver, con menos pasos",
+        "body": "Consulta una programación clara, reserva de forma sencilla y encuentra un siguiente paso para construir tu rutina presencial.",
+        "status": "HIPÓTESIS"
+      },
+      {
+        "id": "M-02A",
+        "segmentId": "S-02",
+        "valuePropositionId": "PV-02A",
+        "headline": "Continuidad en un grupo reconocible",
+        "body": "Practica en grupos reducidos con profesionales identificables y una programación pensada para facilitar continuidad.",
+        "status": "HIPÓTESIS"
+      },
+      {
+        "id": "M-02B",
+        "segmentId": "S-02",
+        "valuePropositionId": "PV-02B",
+        "headline": "Prácticas complementarias, una programación",
+        "body": "Explora movimiento consciente, respiración y meditación seleccionados con un criterio común, sin coordinar varios espacios.",
+        "status": "HIPÓTESIS"
+      }
+    ],
+    "exposureScript": [
+      "Confirmar segmento con criterios de selección antes de exponer mensajes.",
+      "Asignar orden mediante alternancia registrada: AB al primer participante válido de cada segmento, BA al siguiente.",
+      "Mostrar el primer texto durante el mismo tiempo máximo que el segundo: 60 segundos cada uno; no explicarlo.",
+      "Después de cada texto preguntar: ¿qué ofrece?, ¿para quién parece?, ¿qué esperarías que ocurriera? Registrar literalmente cuando sea posible.",
+      "Después de ambos preguntar cuál describe mejor una respuesta a su episodio reciente y por qué; permitir «ninguno».",
+      "Preguntar qué genera duda, sobra o resultaría poco creíble; registrar evidencia adversa.",
+      "No revelar la hipótesis ni defender el mensaje hasta cerrar la captura."
+    ],
+    "status": "CONFIRMADO"
+  },
+  "recruitment": {
+    "eligible": [
+      "Persona adulta que se autoidentifica con S-01 o S-02 mediante un episodio ocurrido en los últimos seis meses",
+      "Vive, trabaja o estudia en Madrid; el vínculo se registra sin inferir radio de captación",
+      "Puede consentir por sí misma y comprender los textos en español"
+    ],
+    "exclude": [
+      "Equipo, proveedores potenciales o persona con interés económico directo",
+      "Menores de edad",
+      "Persona que busque diagnóstico, tratamiento o consejo clínico",
+      "Registro duplicado o sin episodio reciente reconstruible"
+    ],
+    "channels": [
+      "Contacto directo fuera del círculo del equipo, documentando procedencia",
+      "Difusión mediante una entidad o comunidad local independiente, si autoriza el acceso"
+    ],
+    "target": "10–14 entrevistas completadas: 5–7 por S-01 y S-02, con al menos dos canales en el total. Es una cuota exploratoria interna, no muestra representativa.",
+    "invitation": "Estamos investigando cómo personas adultas empiezan o mantienen prácticas presenciales de bienestar. Buscamos una conversación de 30–40 minutos sobre una experiencia reciente y dos textos de ejemplo. No se vende ni se ofrece tratamiento; participar es voluntario y no implica reserva futura.",
+    "incentive": "PENDIENTE; si se usa, será igual para todas las personas y se documentará antes de reclutar.",
+    "status": "CONFIRMADO"
+  },
+  "consent": {
+    "script": "Antes de empezar: explicaremos un estudio exploratorio de SomaWellness. La participación es voluntaria; puedes omitir preguntas o terminar sin justificarte. Pedimos permiso para tomar notas anonimizadas y usar respuestas agregadas para revisar hipótesis. No pediremos datos de salud ni publicaremos citas identificables. No hay venta, tratamiento ni beneficio garantizado. Conservaremos solo un código de participante; el canal y la relación con el equipo se analizarán como posibles sesgos. ¿Aceptas participar y que tomemos notas bajo estas condiciones?",
+    "requiredCapture": [
+      "consentimiento: sí/no",
+      "fecha y versión del guion",
+      "permiso de cita anonimizada: sí/no, separado",
+      "retirada solicitada: sí/no"
+    ],
+    "handling": "Si no consiente, no iniciar ni conservar respuestas. Separar datos de contacto de la hoja analítica; acceso restringido; borrar contactos al cerrar reclutamiento y notas a los 90 días, salvo retirada anterior.",
+    "safety": "Interrumpir preguntas clínicas, no solicitar diagnósticos y facilitar que la persona abandone sin penalización.",
+    "status": "CONFIRMADO"
+  },
+  "captureSheet": {
+    "version": "03.1",
+    "blankRecord": {
+      "participantId": null,
+      "date": null,
+      "channel": null,
+      "relationshipToTeam": null,
+      "segmentId": null,
+      "eligibilityEpisodeWithinSixMonths": null,
+      "consent": null,
+      "quotePermission": null,
+      "episodeApproxDate": null,
+      "trigger": null,
+      "actionTaken": null,
+      "alternativesUsed": [],
+      "frictionsVerbatim": [],
+      "observableConsequence": null,
+      "paymentBehaviorRecalled": null,
+      "messageOrder": null,
+      "messageResponses": [],
+      "preference": "A|B|NINGUNO|null",
+      "preferenceReason": null,
+      "adverseEvidence": [],
+      "interviewerNotes": null,
+      "exclusionReason": null
+    },
+    "messageResponseFields": [
+      "messageId",
+      "offerComprehensionVerbatim",
+      "codedOfferCorrect: sí/no/ambiguo",
+      "audienceComprehensionVerbatim",
+      "credibilityConcern",
+      "status"
+    ],
+    "allowedResponseStatus": "PENDIENTE hasta que exista una respuesta real consentida; después, la codificación sigue siendo evidencia exploratoria, no validación.",
+    "records": [],
+    "status": "CONFIRMADO"
+  },
+  "analysisPlan": {
+    "freezeRule": "Versionar mensajes, guion, códigos y umbrales antes del primer consentimiento. Toda desviación se registra y no se combina silenciosamente.",
+    "unit": "Participante elegible con consentimiento y entrevista completada; una persona cuenta una vez.",
+    "denominators": [
+      "contactos invitados",
+      "respuestas recibidas",
+      "personas cribadas",
+      "elegibles",
+      "consentimientos",
+      "entrevistas iniciadas",
+      "entrevistas completadas",
+      "exclusiones y motivo",
+      "exposición válida por segmento, mensaje y orden"
+    ],
+    "p01Coding": {
+      "problemPresent": "Existe episodio reciente, acción observable y al menos una fricción concreta.",
+      "problemAbsent": "Episodio reconstruible sin fricción relevante o alternativa actual suficiente.",
+      "indeterminate": "No recuerda episodio o la entrevista no permite codificar; se informa y no entra en el denominador de apoyo/refutación."
+    },
+    "p02Coding": {
+      "correct": "La paráfrasis identifica mecanismo y resultado principal sin ayuda.",
+      "ambiguous": "Reconoce solo un elemento genérico o mezcla una promesa no escrita.",
+      "incorrect": "Atribuye una oferta distinta o no puede explicarla."
+    },
+    "doubleCoding": "Primeras cuatro entrevistas y cualquier caso ambiguo se codifican por dos personas sin compartir su código inicial; desacuerdos se conservan y resuelven mediante regla documentada.",
+    "reporting": "Informar conteos y porcentajes con denominador, por segmento, canal, relación y orden; publicar «ninguno», ambiguos, abandonos y evidencia adversa. No realizar inferencia poblacional.",
+    "status": "CONFIRMADO"
+  },
+  "thresholds": {
+    "interpretation": "Reglas internas de aprendizaje, no validación de demanda, precio, ubicación o viabilidad.",
+    "P-01": {
+      "minimumQuality": "10 entrevistas completadas, al menos 5 por segmento, al menos 2 canales y máximo 50 % con relación previa al equipo.",
+      "provisionalSupport": "Al menos 6 de 10 unidades analizables cumplen problemPresent, con al menos 2 casos en cada segmento y presencia en ambos canales.",
+      "provisionalRefute": "Menos de 4 de 10 cumplen problemPresent o 6 o más clasifican problemAbsent.",
+      "mixed": "Cualquier otro resultado, o patrón concentrado en un solo segmento/canal."
+    },
+    "P-02": {
+      "minimumQuality": "Al menos 10 exposiciones válidas, 5 por segmento; diferencia de orden AB/BA no mayor de una persona dentro de cada segmento.",
+      "provisionalSupport": "Cada mensaje es comprendido correctamente por al menos 4 de 5 exposiciones de su segmento; para afirmar preferencia entre alternativas se exige ventaja de al menos 3 elecciones dentro del segmento y motivos ligados al episodio.",
+      "provisionalRefute": "Un mensaje tiene 2 o menos comprensiones correctas de 5, o al menos 3 de 5 eligen NINGUNO por confusión o falta de relevancia.",
+      "mixed": "Cualquier otro resultado; no se elige ganador."
+    },
+    "status": "CONFIRMADO"
+  },
+  "stopRules": {
+    "qualityStop": [
+      "Pausar si se rompe el consentimiento, se recogen datos de salud o no puede separarse contacto de respuestas",
+      "Pausar si un mensaje, orden o criterio cambia; crear versión nueva antes de continuar",
+      "No analizar como bloque si no se alcanzan las cuotas mínimas; informar solo flujo y limitación"
+    ],
+    "earlyStop": [
+      "Detener un mensaje tras tres interpretaciones consecutivas que atribuyan una promesa clínica o de resultado garantizado; corregir y reiniciar como nueva versión",
+      "Detener reclutamiento si un canal aporta más del 70 % de entrevistas completadas hasta incorporar otro canal",
+      "Detener al alcanzar 14 entrevistas completadas; no ampliar buscando cruzar un umbral"
+    ],
+    "status": "CONFIRMADO"
+  },
+  "execution": {
+    "fieldworkStarted": false,
+    "participants": 0,
+    "invitations": 0,
+    "channel": "PENDIENTE",
+    "startDate": "PENDIENTE",
+    "result": "No se ejecutó P-01 ni P-02: este entorno no proporciona acceso acreditable a participantes reales ni consentimiento. No existen citas, respuestas o métricas de campo.",
+    "biases": [
+      "Sesgo de selección y relación con el equipo: PENDIENTE de medir al reclutar",
+      "Sesgo de canal: PENDIENTE de medir al reclutar",
+      "Efecto de orden: control diseñado, aún no ejecutado"
+    ],
+    "adverseEvidence": [],
+    "status": "PENDIENTE"
+  },
+  "protectedPending": [
+    {
+      "topic": "precios",
+      "status": "PENDIENTE"
+    },
+    {
+      "topic": "demanda",
+      "status": "PENDIENTE"
+    },
+    {
+      "topic": "ubicación y radio",
+      "status": "PENDIENTE"
+    },
+    {
+      "topic": "viabilidad y decisión Go/No-Go",
+      "status": "PENDIENTE"
+    }
+  ],
+  "status": "HIPÓTESIS"
+}

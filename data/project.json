@@ -1,11 +1,11 @@
 {
   "name": "SomaWellness",
   "document": "Plan de Empresa",
-  "iteration": "02-clientes-problema-evidencia",
+  "iteration": "03-propuesta-valor-experimentos",
   "maturity": {
-    "completedIterations": 3,
+    "completedIterations": 4,
     "plannedIterations": 12,
-    "label": "CLIENTES Y PROBLEMA PRELIMINARES; EVIDENCIA DE CAMPO PENDIENTE"
+    "label": "PROPUESTAS Y EXPERIMENTOS PREREGISTRADOS; CAMPO PENDIENTE"
   },
   "evidenceStates": [
     "CONFIRMADO",
