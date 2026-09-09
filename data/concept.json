@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "iteration": "01-concepto-alcance-tesis",
+    "maturity": "TESIS INICIAL SIN VALIDACIÓN DE MERCADO",
+    "status": "CONFIRMADO"
+  },
+  "definitions": {
+    "brief": {
+      "text": "SomaWellness es el concepto de un estudio presencial pequeño de bienestar cuerpo-mente en Madrid, con práctica guiada en grupos reducidos, programación seleccionada y relación digital antes y después de la visita.",
+      "status": "HIPÓTESIS"
+    },
+    "developed": {
+      "text": "SomaWellness se plantea como un negocio independiente de servicios, no sanitario, que reúne prácticas accesibles de movimiento consciente, respiración, meditación y bienestar en una experiencia próxima y sencilla. El caso de análisis parte de una sede física de escala pequeña, profesionales especializados y una capa digital para informar, reservar, acompañar y medir. La selección concreta de actividades, ubicación, capacidad, precios y operación deberá validarse en iteraciones posteriores.",
+      "status": "HIPÓTESIS"
+    }
+  },
+  "problem": {
+    "statement": "Parte del público adulto podría encontrar fragmentada o impersonal la oferta para incorporar prácticas cuerpo-mente a su rutina, con fricción para elegir una actividad, un profesional y una frecuencia adecuados.",
+    "status": "HIPÓTESIS"
+  },
+  "proposedResponse": {
+    "statement": "Concentrar una selección coherente de prácticas guiadas en grupos reducidos, con orientación inicial, reserva simple, continuidad y un vínculo reconocible con profesionales y comunidad.",
+    "status": "HIPÓTESIS"
+  },
+  "scope": {
+    "geography": {
+      "value": "Madrid como ámbito inicial de análisis; barrio y local PENDIENTE.",
+      "status": "CONFIRMADO"
+    },
+    "businessType": {
+      "value": "Negocio independiente de servicios presenciales de bienestar cuerpo-mente, con soporte digital y una sede pequeña como caso base de análisis.",
+      "status": "CONFIRMADO"
+    },
+    "preliminaryBeneficiaries": [
+      {"segment": "Personas adultas principiantes que buscan iniciación y orientación sin entorno competitivo.", "status": "HIPÓTESIS"},
+      {"segment": "Practicantes que valoran grupos reducidos, variedad complementaria y continuidad.", "status": "HIPÓTESIS"},
+      {"segment": "Profesionales independientes que buscan impartir sesiones o talleres en un espacio compatible.", "status": "HIPÓTESIS"}
+    ],
+    "admissibleActivities": [
+      {"value": "Clases guiadas de yoga, movilidad, movimiento consciente, respiración y meditación.", "status": "HIPÓTESIS"},
+      {"value": "Talleres y encuentros formativos compatibles con el espacio y el carácter no sanitario.", "status": "HIPÓTESIS"},
+      {"value": "Orientación de bienvenida y contenidos de apoyo no clínicos.", "status": "HIPÓTESIS"}
+    ],
+    "admissibleChannels": [
+      {"value": "Sede física para prestación principal.", "status": "CONFIRMADO"},
+      {"value": "Web, buscadores, redes y mensajería para descubrimiento, información y reserva.", "status": "HIPÓTESIS"},
+      {"value": "Recomendación, comunidad y colaboraciones locales para captación.", "status": "HIPÓTESIS"}
+    ],
+    "admissibleRevenueFamilies": [
+      {"value": "Pago por clase y bonos o membresías de asistencia.", "status": "HIPÓTESIS"},
+      {"value": "Entradas para talleres o sesiones especiales.", "status": "HIPÓTESIS"},
+      {"value": "Cesión compatible de franjas a profesionales.", "status": "HIPÓTESIS"}
+    ],
+    "exclusions": [
+      {"value": "Servicios sanitarios, diagnóstico, tratamiento, rehabilitación clínica o promesas terapéuticas.", "status": "CONFIRMADO"},
+      {"value": "Gimnasio generalista, spa, alojamiento, restauración, venta relevante de producto o franquicia en el caso inicial.", "status": "CONFIRMADO"},
+      {"value": "Deportes de contacto, combate, sparring, caídas o actividades que requieran tatami o equipamiento especializado.", "status": "CONFIRMADO"},
+      {"value": "Oferta exclusivamente digital, expansión multisede e internacionalización durante el análisis inicial.", "status": "CONFIRMADO"},
+      {"value": "Fijar todavía ubicación, capacidad legal, precios, demanda, calendario, plantilla o estructura jurídica definitivos.", "status": "CONFIRMADO"}
+    ]
+  },
+  "experiencePrinciples": [
+    {"name": "Acogida", "statement": "Explicar qué esperar y facilitar una entrada comprensible para principiantes.", "status": "HIPÓTESIS"},
+    {"name": "Proximidad", "statement": "Favorecer atención reconocible y adaptación dentro del límite no clínico.", "status": "HIPÓTESIS"},
+    {"name": "Coherencia", "statement": "Seleccionar prácticas complementarias en lugar de acumular actividades sin criterio.", "status": "HIPÓTESIS"},
+    {"name": "Simplicidad", "statement": "Reducir fricción al descubrir, elegir, reservar, asistir y continuar.", "status": "HIPÓTESIS"},
+    {"name": "Seguridad y honestidad", "statement": "Definir límites, cualificaciones y expectativas sin promesas clínicas ni resultados garantizados.", "status": "CONFIRMADO"},
+    {"name": "Aprendizaje", "statement": "Medir experiencia y comportamiento para ajustar la propuesta antes de escalar.", "status": "CONFIRMADO"}
+  ],
+  "thesis": [
+    {
+      "id": "T-0001",
+      "claim": "Existe un segmento local accesible que reconoce el problema descrito y busca una alternativa presencial de grupos reducidos.",
+      "status": "HIPÓTESIS",
+      "supportEvidence": "Entrevistas con patrón repetido, búsquedas o consultas locales y una lista de espera cualificada.",
+      "refuteEvidence": "Entrevistas que no reconocen el problema o captación de prueba incapaz de producir interés local cualificado."
+    },
+    {
+      "id": "T-0002",
+      "claim": "La combinación seleccionada de prácticas se entiende como una propuesta coherente y preferible a contratar opciones separadas.",
+      "status": "HIPÓTESIS",
+      "supportEvidence": "Pruebas de mensaje y entrevistas donde el público comprende la propuesta y elige combinaciones de actividades.",
+      "refuteEvidence": "Confusión recurrente, preferencia consistente por una sola disciplina o falta de uso cruzado en pilotos."
+    },
+    {
+      "id": "T-0003",
+      "claim": "La acogida, proximidad y simplicidad de reserva favorecen primera asistencia y repetición.",
+      "status": "HIPÓTESIS",
+      "supportEvidence": "Embudo de prueba con conversión a primera visita, repetición por cohortes y feedback que atribuya valor a esos principios.",
+      "refuteEvidence": "Abandono significativo en reserva o acogida, baja repetición y feedback que no valore la cercanía."
+    },
+    {
+      "id": "T-0004",
+      "claim": "Profesionales compatibles aceptarán colaborar bajo condiciones que sostengan calidad, continuidad y economía del formato pequeño.",
+      "status": "HIPÓTESIS",
+      "supportEvidence": "Entrevistas, cartas de interés y pilotos con disponibilidad, condiciones y satisfacción documentadas.",
+      "refuteEvidence": "Falta de candidatos adecuados, condiciones incompatibles o sustituciones que impidan una programación estable."
+    },
+    {
+      "id": "T-0005",
+      "claim": "Los clientes objetivo muestran disposición de pago y frecuencia suficientes para sostener el servicio sin depender de promesas clínicas.",
+      "status": "HIPÓTESIS",
+      "supportEvidence": "Preventa o pilotos pagados, repetición y sensibilidad al precio observadas con condiciones explícitas.",
+      "refuteEvidence": "Interés declarado sin compra, compra solo con descuentos no sostenibles o frecuencia insuficiente."
+    }
+  ],
+  "unresolved": [
+    {"value": "Barrio, local y radio real de captación.", "status": "PENDIENTE"},
+    {"value": "Segmento prioritario y magnitud de su problema.", "status": "PENDIENTE"},
+    {"value": "Actividades iniciales, precios, capacidad, horarios y condiciones de colaboración.", "status": "PENDIENTE"}
+  ]
+}

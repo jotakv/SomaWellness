@@ -6,6 +6,34 @@
       "decision": "Adoptar una construcción incremental con registros maestros e histórico por iteración.",
       "reason": "Mantener trazabilidad entre prompts, evidencia, decisiones y resultados.",
       "status": "CONFIRMADO"
+    },
+    {
+      "id": "D-0002",
+      "date": "2026-09-09",
+      "decision": "Usar JSON como capa de datos estructurados.",
+      "reason": "Permitir validación automática y reutilización en documentación y web.",
+      "status": "CONFIRMADO"
+    },
+    {
+      "id": "D-0003",
+      "date": "2026-09-09",
+      "decision": "Delimitar el caso de análisis a un estudio presencial de bienestar cuerpo-mente, de escala pequeña y ámbito inicial Madrid, complementado por canales digitales.",
+      "reason": "Fijar un perímetro contrastable sin convertir ubicación, demanda ni capacidad en hechos validados.",
+      "status": "CONFIRMADO"
+    },
+    {
+      "id": "D-0004",
+      "date": "2026-09-09",
+      "decision": "Admitir como familias de ingreso clases, bonos o membresías, talleres y cesión compatible de franjas, sin fijar precios ni mezcla.",
+      "reason": "Permitir análisis posterior de alternativas coherentes con el concepto y excluir líneas que exigirían otro negocio.",
+      "status": "CONFIRMADO"
+    },
+    {
+      "id": "D-0005",
+      "date": "2026-09-09",
+      "decision": "Excluir actividad sanitaria, gimnasio generalista, contacto, franquicia y expansión del caso inicial.",
+      "reason": "Evitar promesas y requisitos incompatibles con el objeto de análisis.",
+      "status": "CONFIRMADO"
     }
   ]
 }
