@@ -11,8 +11,31 @@
       "id": "A-0002",
       "area": "Concepto",
       "statement": "El concepto y la tesis inicial se definirán en la iteración 01.",
-      "status": "PENDIENTE",
-      "introducedIn": "00-bootstrap"
+      "status": "CONFIRMADO",
+      "introducedIn": "00-bootstrap",
+      "resolvedIn": "01-concepto-alcance-tesis",
+      "resolution": "La definición, el perímetro y las afirmaciones contrastables se registran en data/concept.json."
+    },
+    {
+      "id": "A-0003",
+      "area": "Clientes",
+      "statement": "En Madrid hay personas adultas que valorarán una práctica presencial, cercana y de grupos reducidos lo suficiente como para repetir y pagar.",
+      "status": "HIPÓTESIS",
+      "introducedIn": "01-concepto-alcance-tesis"
+    },
+    {
+      "id": "A-0004",
+      "area": "Oferta",
+      "statement": "Una programación cuerpo-mente seleccionada reducirá la fragmentación percibida frente a buscar disciplinas y profesionales por separado.",
+      "status": "HIPÓTESIS",
+      "introducedIn": "01-concepto-alcance-tesis"
+    },
+    {
+      "id": "A-0005",
+      "area": "Canales",
+      "statement": "La combinación de descubrimiento digital, recomendación y reserva directa podrá generar captación y repetición medibles.",
+      "status": "HIPÓTESIS",
+      "introducedIn": "01-concepto-alcance-tesis"
     }
   ]
 }

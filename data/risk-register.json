@@ -8,7 +8,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "licencia",
@@ -19,7 +19,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "declaración responsable",
@@ -30,7 +30,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "aforo",
@@ -41,7 +41,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "accesibilidad",
@@ -52,7 +52,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "ventilación",
@@ -63,7 +63,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "evacuación",
@@ -74,7 +74,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "seguro",
@@ -85,7 +85,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "ruido",
@@ -96,7 +96,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "vecinos",
@@ -107,7 +107,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "CAPEX",
@@ -118,7 +118,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "alquiler",
@@ -129,7 +129,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "retraso apertura",
@@ -140,7 +140,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "captación",
@@ -151,7 +151,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "ocupación",
@@ -162,7 +162,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "churn",
@@ -173,7 +173,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "ticket medio",
@@ -184,7 +184,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "profesores",
@@ -195,7 +195,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "sustituciones",
@@ -206,7 +206,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "falso autónomo",
@@ -217,7 +217,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "baja de profesor",
@@ -228,7 +228,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "concentración en un profesor",
@@ -239,7 +239,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "estacionalidad",
@@ -250,7 +250,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "vacaciones",
@@ -261,7 +261,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "verano",
@@ -272,7 +272,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "Navidad",
@@ -283,7 +283,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "competidores",
@@ -294,7 +294,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "reseñas",
@@ -305,7 +305,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "reputación",
@@ -316,7 +316,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "accidentes",
@@ -327,7 +327,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "protección de datos",
@@ -338,7 +338,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "pagos",
@@ -349,7 +349,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "liquidez",
@@ -360,7 +360,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "impuestos",
@@ -371,7 +371,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "IVA",
@@ -382,7 +382,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "IRPF",
@@ -393,7 +393,7 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   },
   {
     "risk": "RETA",
@@ -404,6 +404,6 @@
     "mitigation": "Validar antes del compromiso; documentar responsable, presupuesto y plan alternativo.",
     "trigger": "Desviación o evidencia adversa",
     "owner": "Promotor / asesor competente",
-    "status": "abierto"
+    "status": "PENDIENTE"
   }
 ]

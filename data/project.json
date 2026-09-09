@@ -1,11 +1,11 @@
 {
   "name": "SomaWellness",
   "document": "Plan de Empresa",
-  "iteration": "00-bootstrap",
+  "iteration": "01-concepto-alcance-tesis",
   "maturity": {
-    "completedIterations": 1,
+    "completedIterations": 2,
     "plannedIterations": 12,
-    "label": "BOOTSTRAP"
+    "label": "CONCEPTO, ALCANCE Y TESIS INICIAL"
   },
   "evidenceStates": ["CONFIRMADO", "DERIVADO", "ESTIMADO", "HIPÓTESIS", "PENDIENTE"],
   "constraints": {

@@ -1,36 +1,8 @@
 <!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Construcción incremental y auditable del plan de empresa SomaWellness.">
-  <title>SomaWellness · Plan de Empresa en construcción</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-  <a class="skip" href="#contenido">Saltar al contenido</a>
-  <header class="top"><nav class="nav" aria-label="Navegación principal">
-    <a class="brand" href="index.html">SomaWellness<small>PLAN EN CONSTRUCCIÓN</small></a>
-    <div class="navlinks"><a href="index.html" aria-current="page">Inicio</a><a href="metodologia.html">Metodología</a><a href="fuentes.html">Fuentes</a></div>
-  </nav></header>
-  <section class="hero"><div>
-    <p class="eyebrow">ITERACIÓN 00 · BOOTSTRAP</p><h1>SomaWellness</h1>
-    <p class="lede">Plan de Empresa en construcción</p>
-    <p>Una base técnica, documental y verificable para desarrollar el plan de forma incremental.</p>
-  </div></section>
-  <main id="contenido">
-    <section aria-labelledby="progreso-titulo"><h2 id="progreso-titulo">Progreso y madurez</h2><div class="progress-card">
-      <div class="progress-heading"><strong>Bootstrap completado</strong><span>1 de 12 iteraciones</span></div>
-      <progress value="1" max="12" aria-label="Una de doce iteraciones completadas">1 de 12</progress>
-      <p><span class="tag">CONFIRMADO</span> Arquitectura inicial disponible. El concepto, el mercado, las finanzas y la viabilidad todavía requieren iteraciones específicas.</p>
-    </div></section>
-    <section aria-labelledby="estado-titulo"><h2 id="estado-titulo">Estado del plan</h2><div class="grid">
-      <article class="card"><h3>Ahora</h3><p>Estructura, registros maestros, datos base, histórico de iteraciones y validaciones automáticas.</p></article>
-      <article class="card"><h3>Siguiente</h3><p>Iteración 01: concepto, alcance y tesis, sin anticipar una conclusión de viabilidad.</p></article>
-      <article class="card"><h3>Criterio</h3><p>Cada afirmación relevante se clasifica como CONFIRMADO, DERIVADO, ESTIMADO, HIPÓTESIS o PENDIENTE.</p></article>
-    </div></section>
-    <aside class="notice"><strong>Límite de esta iteración:</strong> no se presenta aún un estudio de mercado profundo, un modelo financiero definitivo ni una conclusión de viabilidad.</aside>
-  </main>
-  <footer class="footer"><div><strong>SomaWellness</strong><p>Plan de empresa incremental · Iteración 00</p></div></footer>
-</body>
-</html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Concepto, alcance y tesis inicial del plan de empresa SomaWellness."><title>SomaWellness · Plan en construcción</title><link rel="stylesheet" href="assets/css/style.css"></head>
+<body><a class="skip" href="#contenido">Saltar al contenido</a><header class="top"><nav class="nav" aria-label="Navegación principal"><a class="brand" href="index.html">SomaWellness<small>PLAN EN CONSTRUCCIÓN</small></a><div class="navlinks"><a href="index.html" aria-current="page">Inicio</a><a href="concepto.html">Concepto</a><a href="metodologia.html">Metodología</a><a href="fuentes.html">Fuentes</a></div></nav></header>
+<section class="hero"><div><p class="eyebrow" id="iteration">ITERACIÓN 01 · CONCEPTO, ALCANCE Y TESIS</p><h1>SomaWellness</h1><p class="lede" id="brief">Cargando definición…</p><p><span class="tag hyp">TESIS INICIAL · HIPÓTESIS</span> <span class="tag pending">SIN VALIDACIÓN DE MERCADO</span></p></div></section>
+<main id="contenido"><section><h2>Progreso y madurez</h2><div class="progress-card"><div class="progress-heading"><strong>Concepto delimitado</strong><span id="progress-label">2 de 12 iteraciones previstas</span></div><progress id="progress" value="2" max="12" aria-label="Dos de doce iteraciones previstas">2 de 12</progress><p><span class="tag">CONFIRMADO</span> El perímetro documental está definido. <span class="tag hyp">HIPÓTESIS</span> La necesidad, preferencia, demanda y economía todavía deben contrastarse.</p></div></section>
+<section><h2>Qué se ha definido</h2><div class="grid"><article class="card"><h3>Problema y respuesta</h3><p>Una formulación inicial para investigar, no una necesidad ya demostrada.</p></article><article class="card"><h3>Perímetro explícito</h3><p>Geografía, tipo de negocio, públicos, actividades, canales, ingresos y exclusiones.</p></article><article class="card"><h3>Tesis refutable</h3><p id="thesis-count">Cinco afirmaciones con evidencia futura capaz de apoyarlas o refutarlas.</p></article></div><p><a href="concepto.html">Consultar concepto, alcance y tesis completos →</a></p></section>
+<aside class="notice"><strong>Límite de la iteración 01:</strong> no hay estudio profundo de mercado, censo exhaustivo de competidores, precios o capacidad definitivos, modelo financiero definitivo ni conclusión Go/No-Go.</aside></main>
+<footer class="footer"><div><strong>SomaWellness</strong><p>Plan de empresa incremental · Iteración 01 · tesis inicial sin validar</p></div></footer><script type="module">import {data} from './assets/js/common.js';const [p,c]=await Promise.all([data('project'),data('concept')]);document.querySelector('#brief').textContent=c.definitions.brief.text;document.querySelector('#progress').value=p.maturity.completedIterations;document.querySelector('#progress').max=p.maturity.plannedIterations;document.querySelector('#progress-label').textContent=`${p.maturity.completedIterations} de ${p.maturity.plannedIterations} iteraciones previstas`;document.querySelector('#thesis-count').textContent=`${c.thesis.length} afirmaciones con evidencia futura capaz de apoyarlas o refutarlas.`;</script></body></html>

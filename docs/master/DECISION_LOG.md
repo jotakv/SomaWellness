@@ -5,4 +5,7 @@ Las decisiones no se eliminan: si se sustituyen, debe añadirse una nueva entrad
 | ID | Fecha | Decisión | Evidencia | Alternativas | Motivo | Estado |
 |---|---|---|---|---|---|---|
 | D-0001 | 2026-09-09 | Construir el plan por iteraciones versionadas | Prompt de iteración 00 y metodología del repositorio | Documento monolítico | Asegurar trazabilidad y validación incremental | CONFIRMADO |
-| D-0002 | 2026-09-09 | Usar JSON como capa de datos estructurados | Requisitos de validación de la iteración 00 | Datos solo en HTML o Markdown | Permitir validación automática y reutilización | CONFIRMADO |
+| D-0002 | 2026-09-09 | Usar JSON como capa de datos estructurados | Requisitos de iteración 00 | Datos solo en HTML o Markdown | Permitir validación automática y reutilización | CONFIRMADO |
+| D-0003 | 2026-09-09 | Analizar un estudio presencial pequeño de bienestar cuerpo-mente en Madrid, con soporte digital | Prompt de iteración 01 y contexto heredado | Concepto exclusivamente digital, multisede o sin geografía | Crear un objeto de análisis acotado sin afirmar que mercado o local estén validados | CONFIRMADO |
+| D-0004 | 2026-09-09 | Admitir clases, bonos o membresías, talleres y cesión compatible de franjas como familias de ingreso | Perímetro conceptual de iteración 01 | Precio o catálogo definitivo; venta de productos; actividad clínica | Contrastar vías coherentes sin cerrar precios ni mezcla | CONFIRMADO |
+| D-0005 | 2026-09-09 | Excluir actividad sanitaria, gimnasio generalista, contacto, franquicia y expansión del caso inicial | Límites y seguridad del concepto en iteración 01 | Incorporarlas al mismo caso base | Evitar promesas y requisitos incompatibles con el objeto de análisis | CONFIRMADO |
