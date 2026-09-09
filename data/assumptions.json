@@ -1,0 +1,18 @@
+{
+  "assumptions": [
+    {
+      "id": "A-0001",
+      "area": "Alcance",
+      "statement": "SomaWellness se desarrollará mediante iteraciones auditables.",
+      "status": "CONFIRMADO",
+      "introducedIn": "00-bootstrap"
+    },
+    {
+      "id": "A-0002",
+      "area": "Concepto",
+      "statement": "El concepto y la tesis inicial se definirán en la iteración 01.",
+      "status": "PENDIENTE",
+      "introducedIn": "00-bootstrap"
+    }
+  ]
+}

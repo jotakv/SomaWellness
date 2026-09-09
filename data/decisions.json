@@ -1,0 +1,11 @@
+{
+  "decisions": [
+    {
+      "id": "D-0001",
+      "date": "2026-09-09",
+      "decision": "Adoptar una construcción incremental con registros maestros e histórico por iteración.",
+      "reason": "Mantener trazabilidad entre prompts, evidencia, decisiones y resultados.",
+      "status": "CONFIRMADO"
+    }
+  ]
+}

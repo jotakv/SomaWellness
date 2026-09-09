@@ -1,0 +1,9 @@
+{
+  "states": {
+    "CONFIRMADO": "Existe evidencia sólida y trazable.",
+    "DERIVADO": "Resultado reproducible calculado a partir de entradas identificadas.",
+    "ESTIMADO": "Aproximación razonable que aún debe confirmarse.",
+    "HIPÓTESIS": "Supuesto explícito elegido para analizar o modelizar.",
+    "PENDIENTE": "No existe evidencia suficiente o falta una decisión."
+  }
+}
