@@ -13,3 +13,5 @@ No se borrarán supuestos silenciosamente. Un cambio futuro conservará el regis
 Los detalles de prueba y refutación de la tesis se mantienen en `data/concept.json`, evitando duplicar formulaciones estructuradas.
 | A-0006 | Segmentos | S-01, S-02 y S-03 son unidades útiles para reclutar y comparar problemas | Alta | HIPÓTESIS | 02; contrastar con episodios y conducta, no demografía asumida |
 | A-0007 | Investigación | Episodios recientes y acciones observables reducirán el sesgo frente a intención declarada | Media | HIPÓTESIS | 02; protocolo adoptado, aplicación PENDIENTE |
+| A-0008 | Mensaje | Para S-01, orientación o simplicidad; para S-02, continuidad o complementariedad serán comprensibles y relevantes | Alta | HIPÓTESIS | 03; contrastar mediante P-02, sin inferir compra |
+| A-0009 | Método | El orden alternado, la codificación previa y denominadores completos reducirán sesgos para orientar la siguiente prueba | Media | HIPÓTESIS | 03; utilidad del protocolo PENDIENTE de ejecución |
