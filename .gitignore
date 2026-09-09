@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.webp
+*.pdf
+*.mp4
+*.woff
+*.woff2
+*.ttf
+*.zip
+*.gz
+*.db
+*.sqlite*

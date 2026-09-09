@@ -1,0 +1,5 @@
+{
+  "defensivo":{"label":"DEFENSIVO","classesPerWeek":12,"occupancy":0.45,"workshopsPerMonth":2},
+  "base":{"label":"BASE","classesPerWeek":18,"occupancy":0.60,"workshopsPerMonth":4},
+  "objetivo":{"label":"UPSIDE / OBJETIVO","classesPerWeek":24,"occupancy":0.70,"workshopsPerMonth":6}
+}

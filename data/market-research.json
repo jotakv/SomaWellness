@@ -1,0 +1,18 @@
+{
+ "status":"PENDIENTE","consultedAt":"2026-09-09","internetAccess":"No disponible durante la ejecución (consulta no autorizada por el servicio)",
+ "competitors":[],
+ "questions":[
+  {"question":"¿Existe demanda?","answer":"PENDIENTE: validar con lista de espera, entrevistas y preventa; no se asume demanda observada."},
+  {"question":"¿Quién compra?","answer":"HIPÓTESIS: profesionales urbanos, practicantes, principiantes y asistentes a talleres."},
+  {"question":"¿Cuánto paga?","answer":"HIPÓTESIS interna: PVP 9–80 € según producto; 10,50 € de ingreso efectivo por asistencia."},
+  {"question":"¿Qué alternativas existen?","answer":"PENDIENTE: completar muestra verificable de 10–15 centros de Madrid, centros deportivos y práctica digital."},
+  {"question":"¿Cómo se diferencia SomaWellness?","answer":"HIPÓTESIS: ocho plazas modeladas, cercanía, multidisciplina, operación lean y experiencia digital-first."},
+  {"question":"¿Cuántos alumnos necesita?","answer":"Lo calcula el motor desde costes, renta, ticket, shares, talleres y calendario; no es un umbral universal."},
+  {"question":"¿Qué franjas tienen sentido?","answer":"HIPÓTESIS a probar: antes del trabajo, tarde y talleres de fin de semana."},
+  {"question":"¿Qué riesgos comerciales existen?","answer":"Captación insuficiente, bajo ticket efectivo, churn, estacionalidad, reseñas y oferta competitiva."},
+  {"question":"¿Qué puede impedir llenar 18 clases?","answer":"Ubicación, horario, propuesta poco clara, baja notoriedad, oferta docente débil, precio o fricción de reserva."},
+  {"question":"¿Qué validar antes del alquiler?","answer":"Compatibilidad de actividad, licencia, aforo, coste total, demanda, profesores y escenario defensivo."}
+ ],
+ "competitorFields":["nombre","ubicacion","propuesta","claseSuelta","bonos","membresia","actividades","numeroAparenteActividades","posicionamiento","fortalezas","debilidades","url","fechaConsulta"],
+ "tamSamSom":{"method":"bottom-up","note":"No se publican cifras macro sin fuente. SOM operativo = capacidad × clases × semanas × ocupación × ticket; representa ventas máximas modeladas, no cuota arbitraria."}
+}
