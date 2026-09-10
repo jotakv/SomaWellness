@@ -19,7 +19,7 @@ El promotor opera principalmente como **propietario-gerente** de SOMA LAB y resp
 
 No es necesario que imparta personalmente todas las actividades ofrecidas.
 
-## 2. Prestación de actividades
+## 2. Realización de actividades
 
 Las actividades se asignarán según su naturaleza a:
 
@@ -43,7 +43,7 @@ SOMA LAB debe evitar presentar como tratamiento sanitario, psicoterapia, rehabil
 Los colaboradores externos no deben utilizarse como sustitución artificial de una relación laboral cuando concurran notas de dependencia y ajenidad. Antes del lanzamiento se definirá una matriz para decidir entre:
 
 - contrato laboral;
-- prestación mercantil auténticamente independiente;
+- colaboración mercantil auténticamente independiente;
 - contratación de empresa/proveedor.
 
 ## 6. Due diligence de cada facilitador

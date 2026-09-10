@@ -24,5 +24,5 @@ No se presupone que imparta personalmente todas las actividades físicas.
 
 - [PENDIENTE] CV formal.
 - [PENDIENTE] certificaciones y formación relevantes.
-- [PENDIENTE] resolución oficial de prestación.
+- [PENDIENTE] documentación administrativa relevante.
 - [PENDIENTE] forma jurídica definitiva.
