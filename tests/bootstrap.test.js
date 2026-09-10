@@ -35,11 +35,11 @@ test('todas las rutas HTML internas básicas existen', async () => {
   }
 });
 
-test('CURRENT_PROMPT archiva íntegramente el encargo de iteración 03', async () => {
+test('CURRENT_PROMPT archiva íntegramente el encargo de iteración 04', async () => {
   const current = await readFile(path.join(root, 'prompts/CURRENT_PROMPT.md'), 'utf8');
-  const archived = await readFile(path.join(root, 'docs/iterations/03-propuesta-valor-experimentos/PROMPT.md'), 'utf8');
+  const archived = await readFile(path.join(root, 'docs/iterations/04-ejecucion-controlada-aprendizaje-mensaje/PROMPT.md'), 'utf8');
   assert.equal(current, archived);
-  assert.match(current, /ITERACIÓN 03 — PROPUESTA DE VALOR Y DISEÑO DE EXPERIMENTOS/);
+  assert.match(current, /ITERACIÓN 04 — EJECUCIÓN CONTROLADA Y APRENDIZAJE DE MENSAJE/);
 });
 
 test('el proyecto declara exactamente el vocabulario oficial', async () => {
@@ -78,10 +78,10 @@ test('la web conserva la tesis y declara evidencia de campo pendiente', async ()
     readFile(path.join(root, 'index.html'), 'utf8'),
     readFile(path.join(root, 'concepto.html'), 'utf8')
   ]);
-  assert.match(home, /ITERACIÓN 03/);
+  assert.match(home, /ITERACIÓN 04/g);
   assert.match(home, /SIN VALIDACIÓN CONCLUYENTE/);
-  assert.match(concept, /ITERACIÓN 03/);
-  assert.match(concept, /TESIS ACTUALIZADA SIN CAMBIO DE ESTADO/);
+  assert.match(concept, /ITERACIÓN 04/g);
+  assert.match(concept, /TESIS SIN CAMBIO DE ESTADO/);
 });
 
 
@@ -94,7 +94,7 @@ test('la investigación define segmentos, pruebas y límites sin inventar result
     assert.ok(item.supportSignal && item.refuteSignal && item.qualityGate);
   }
   assert.equal(market.competitors.length, 0);
-  assert.match(market.limitations.join(' '), /Sin participantes/);
+  assert.match(market.limitations.join(' '), /Sin acceso ético y acreditable/);
 });
 
 test('las fuentes candidatas no se presentan como evidencia aceptada', async () => {
@@ -111,11 +111,11 @@ test('existe un workflow de Pages que prueba antes de desplegar', async () => {
   assert.match(workflow, /actions\/deploy-pages@v4/);
 });
 
-test('NEXT_PROMPT coincide con iteración 03 y anuncia iteración 04', async () => {
+test('NEXT_PROMPT coincide con iteración 04 y anuncia iteración 05', async () => {
   const current = await readFile(path.join(root, 'prompts/NEXT_PROMPT.md'), 'utf8');
-  const archived = await readFile(path.join(root, 'docs/iterations/03-propuesta-valor-experimentos/NEXT_PROMPT.md'), 'utf8');
+  const archived = await readFile(path.join(root, 'docs/iterations/04-ejecucion-controlada-aprendizaje-mensaje/NEXT_PROMPT.md'), 'utf8');
   assert.equal(current, archived);
-  assert.match(current, /ITERACIÓN 04 — EJECUCIÓN CONTROLADA Y APRENDIZAJE DE MENSAJE/);
+  assert.match(current, /ITERACIÓN 05 — ACCESO DE CAMPO Y REEVALUACIÓN CONTROLADA/);
 });
 
 test('iteración 03 preregistra propuestas y experimentos sin inventar campo', async () => {
@@ -138,13 +138,47 @@ test('iteración 03 preregistra propuestas y experimentos sin inventar campo', a
   assert.ok(value.protectedPending.every(item => item.status === 'PENDIENTE'));
 });
 
-test('la web publica iteración 03, protocolo y límites', async () => {
+test('la web publica iteración 04, protocolo y límites', async () => {
   const [home, proposal] = await Promise.all([
     readFile(path.join(root, 'index.html'), 'utf8'),
     readFile(path.join(root, 'propuesta-valor.html'), 'utf8')
   ]);
-  assert.match(home, /ITERACIÓN 03/);
-  assert.match(proposal, /ITERACIÓN 03/);
+  assert.match(home, /ITERACIÓN 04/g);
+  assert.match(proposal, /ITERACIÓN 04/g);
   assert.match(proposal, /Umbrales internos fijados antes del campo/);
   assert.match(proposal, /No es validación/);
+});
+
+
+test('iteración 04 congela el protocolo y registra ejecución nula completa', async () => {
+  const value = JSON.parse(await readFile(path.join(root, 'data/value-proposition.json'), 'utf8'));
+  const frozen = value.protocolVersions.find(item => item.version === '04.1');
+  assert.equal(frozen.beforeFirstConsent, true);
+  assert.equal(frozen.basedOn, '03.1');
+  assert.deepEqual(frozen.changesFromPrevious, []);
+  assert.match(frozen.contentSha256, /^[a-f0-9]{64}$/);
+  assert.deepEqual(value.deviations, []);
+  assert.equal(value.captureSheet.version, '04.1');
+  assert.deepEqual(value.captureSheet.records, []);
+  assert.equal(value.execution.fieldworkStarted, false);
+  assert.equal(value.execution.status, 'PENDIENTE');
+  assert.ok(Object.values(value.execution.flow).every(value => value === 0));
+  assert.ok(Object.values(value.execution.breakdowns).every(value => Array.isArray(value) && value.length === 0));
+  assert.equal(value.execution.coding.applied, false);
+  assert.equal(value.execution.coding.disagreements, 0);
+  assert.equal(value.execution.coding.thresholdOutcome, 'PENDIENTE');
+  assert.deepEqual(value.execution.adverseEvidence, []);
+  assert.ok(value.protectedPending.every(item => item.status === 'PENDIENTE'));
+});
+
+test('la web explica ausencia de acceso sin convertirla en aprendizaje comercial', async () => {
+  const [home, proposal] = await Promise.all([
+    readFile(path.join(root, 'index.html'), 'utf8'),
+    readFile(path.join(root, 'propuesta-valor.html'), 'utf8')
+  ]);
+  assert.match(home, /todos los denominadores son cero/i);
+  assert.match(proposal, /PROTOCOLO 04\.1 CONGELADO/);
+  assert.match(proposal, /no existe acceso ético y acreditable/i);
+  assert.match(proposal, /Precios, demanda, ubicación y viabilidad siguen PENDIENTE/);
+  assert.doesNotMatch(proposal, /Go\/No-Go emitido|demanda validada|compra confirmada/i);
 });

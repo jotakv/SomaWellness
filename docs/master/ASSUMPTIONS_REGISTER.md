@@ -15,3 +15,5 @@ Los detalles de prueba y refutación de la tesis se mantienen en `data/concept.j
 | A-0007 | Investigación | Episodios recientes y acciones observables reducirán el sesgo frente a intención declarada | Media | HIPÓTESIS | 02; protocolo adoptado, aplicación PENDIENTE |
 | A-0008 | Mensaje | Para S-01, orientación o simplicidad; para S-02, continuidad o complementariedad serán comprensibles y relevantes | Alta | HIPÓTESIS | 03; contrastar mediante P-02, sin inferir compra |
 | A-0009 | Método | El orden alternado, la codificación previa y denominadores completos reducirán sesgos para orientar la siguiente prueba | Media | HIPÓTESIS | 03; utilidad del protocolo PENDIENTE de ejecución |
+| A-0010 | Acceso de campo | Será posible obtener acceso ético y acreditable por canales preregistrados | Alta | PENDIENTE | 04; no disponible en este entorno, reevaluar antes de invitar |
+| A-0011 | Aprendizaje | P-01/P-02 producirán evidencia para orientar problema y mensaje | Alta | PENDIENTE | 04; no evaluable sin campo, no se revisaron mensajes |

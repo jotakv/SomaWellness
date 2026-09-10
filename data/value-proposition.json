@@ -1,9 +1,9 @@
 {
   "meta": {
-    "iteration": "03-propuesta-valor-experimentos",
-    "createdAt": "2026-09-09",
-    "scope": "Diseño preregistrado de propuestas de valor y preparación ética de P-01 y P-02; sin ejecución de campo.",
-    "status": "CONFIRMADO"
+    "iteration": "04-ejecucion-controlada-aprendizaje-mensaje",
+    "consultedAt": "2026-09-09",
+    "status": "CONFIRMADO",
+    "scope": "P-01 y P-02 auditados para ejecución; sin acceso ético y acreditable, permanecen PENDIENTE y sin datos de campo."
   },
   "valuePropositions": [
     {
@@ -129,7 +129,7 @@
     "status": "CONFIRMADO"
   },
   "captureSheet": {
-    "version": "03.1",
+    "version": "04.1",
     "blankRecord": {
       "participantId": null,
       "date": null,
@@ -225,15 +225,47 @@
   },
   "execution": {
     "fieldworkStarted": false,
+    "accessAssessment": "No existe en este entorno un canal autorizado que permita acreditar identidad real, elegibilidad, voluntariedad y consentimiento de participantes.",
+    "accessDecision": "No reclutar ni ejecutar P-01/P-02; conservar el protocolo congelado para una ejecución futura acreditable.",
+    "protocolVersion": "04.1",
     "participants": 0,
     "invitations": 0,
     "channel": "PENDIENTE",
     "startDate": "PENDIENTE",
-    "result": "No se ejecutó P-01 ni P-02: este entorno no proporciona acceso acreditable a participantes reales ni consentimiento. No existen citas, respuestas o métricas de campo.",
+    "flow": {
+      "invitations": 0,
+      "responses": 0,
+      "screened": 0,
+      "eligible": 0,
+      "consents": 0,
+      "interviewsStarted": 0,
+      "interviewsCompleted": 0,
+      "dropouts": 0,
+      "exclusions": 0,
+      "validExposures": 0
+    },
+    "breakdowns": {
+      "bySegment": [],
+      "byChannel": [],
+      "byRelationship": [],
+      "byDate": [],
+      "byOrder": [],
+      "exclusionReasons": [],
+      "dropoutReasons": []
+    },
+    "coding": {
+      "applied": false,
+      "reason": "No hay unidades consentidas que codificar.",
+      "doubleCodedCases": 0,
+      "disagreements": 0,
+      "resolutions": [],
+      "thresholdOutcome": "PENDIENTE"
+    },
+    "result": "P-01 y P-02 no se ejecutaron: no existe acceso ético y acreditable a participantes reales. Todos los denominadores son cero; no hay respuestas, preferencias, abandonos ni evidencia adversa.",
     "biases": [
       "Sesgo de selección y relación con el equipo: PENDIENTE de medir al reclutar",
       "Sesgo de canal: PENDIENTE de medir al reclutar",
-      "Efecto de orden: control diseñado, aún no ejecutado"
+      "Efecto de orden: PENDIENTE; no hubo exposiciones"
     ],
     "adverseEvidence": [],
     "status": "PENDIENTE"
@@ -256,5 +288,23 @@
       "status": "PENDIENTE"
     }
   ],
-  "status": "HIPÓTESIS"
+  "status": "HIPÓTESIS",
+  "protocolVersions": [
+    {
+      "version": "03.1",
+      "origin": "Iteración 03",
+      "description": "Preregistro original anterior a cualquier consentimiento.",
+      "status": "CONFIRMADO"
+    },
+    {
+      "version": "04.1",
+      "frozenAt": "2026-09-09",
+      "beforeFirstConsent": true,
+      "basedOn": "03.1",
+      "contentSha256": "b76762132e9e08de0e99c72037b0071893e18680ea7d0b4ca9221f992c3987cb",
+      "changesFromPrevious": [],
+      "status": "CONFIRMADO"
+    }
+  ],
+  "deviations": []
 }

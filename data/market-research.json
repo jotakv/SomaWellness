@@ -1,9 +1,9 @@
 {
   "meta": {
-    "iteration": "03-propuesta-valor-experimentos",
+    "iteration": "04-ejecucion-controlada-aprendizaje-mensaje",
     "consultedAt": "2026-09-09",
     "status": "CONFIRMADO",
-    "scope": "P-01 y P-02 preparados y preregistrados; sin ejecución de campo ni validación de demanda o viabilidad."
+    "scope": "Control de ejecución de P-01/P-02; campo no iniciado por falta de acceso ético y acreditable."
   },
   "segments": [
     {
@@ -227,7 +227,7 @@
   ],
   "competitors": [],
   "limitations": [
-    "Sin participantes reales accesibles ni consentimiento en este entorno; P-01 y P-02 no ejecutados",
+    "Sin acceso ético y acreditable a participantes reales en este entorno; P-01 y P-02 no ejecutados y todos sus denominadores son cero",
     "Sin barrio o radio de captación definido",
     "Sin precios, demanda, frecuencia, reservas o compras observados",
     "Los umbrales son reglas internas exploratorias, no inferencia estadística ni validación"
@@ -243,6 +243,14 @@
       "reglas de análisis, umbrales y parada"
     ],
     "fieldworkStatus": "PENDIENTE",
+    "status": "CONFIRMADO"
+  },
+  "iteration04Execution": {
+    "protocolVersion": "04.1",
+    "accessEthicalAndAccreditable": false,
+    "fieldworkStatus": "PENDIENTE",
+    "analysisStatus": "PENDIENTE",
+    "messageRevision": "No realizada: sin resultados posteriores al análisis que justifiquen cambios. Las versiones 03.1 y 04.1 se conservan.",
     "status": "CONFIRMADO"
   }
 }

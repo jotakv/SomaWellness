@@ -1,11 +1,11 @@
 {
   "name": "SomaWellness",
   "document": "Plan de Empresa",
-  "iteration": "03-propuesta-valor-experimentos",
+  "iteration": "04-ejecucion-controlada-aprendizaje-mensaje",
   "maturity": {
-    "completedIterations": 4,
+    "completedIterations": 5,
     "plannedIterations": 12,
-    "label": "PROPUESTAS Y EXPERIMENTOS PREREGISTRADOS; CAMPO PENDIENTE"
+    "label": "PROTOCOLO 04.1 CONGELADO; P-01 Y P-02 PENDIENTES POR FALTA DE ACCESO ACREDITABLE"
   },
   "evidenceStates": [
     "CONFIRMADO",

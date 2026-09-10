@@ -62,6 +62,24 @@
       "decision": "No ejecutar P-01/P-02 sin participantes reales y consentimiento acreditable.",
       "reason": "Evitar datos inventados y proteger la voluntariedad y trazabilidad.",
       "status": "CONFIRMADO"
+    },
+    {
+      "id": "D-0010",
+      "date": "2026-09-09",
+      "decision": "Congelar como 04.1 el protocolo preregistrado 03.1 antes de cualquier consentimiento, sin cambiar contenido.",
+      "evidence": "Huella SHA-256 y versionado en data/value-proposition.json",
+      "alternatives": "Modificar el protocolo sin datos o iniciar campo sin congelación",
+      "rationale": "Preservar comparabilidad y trazabilidad; la congelación confirma el instrumento, no su eficacia.",
+      "status": "CONFIRMADO"
+    },
+    {
+      "id": "D-0011",
+      "date": "2026-09-09",
+      "decision": "Mantener P-01 y P-02 PENDIENTE y no reclutar desde este entorno.",
+      "evidence": "Evaluación de acceso de iteración 04: no hay canal autorizado para acreditar participantes y consentimiento",
+      "alternatives": "Inventar contactos, respuestas o asumir consentimiento",
+      "rationale": "Cumplir los límites éticos y evitar evidencia fabricada.",
+      "status": "CONFIRMADO"
     }
   ]
 }

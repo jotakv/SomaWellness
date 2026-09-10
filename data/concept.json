@@ -1,8 +1,9 @@
 {
   "meta": {
-    "iteration": "03-propuesta-valor-experimentos",
+    "iteration": "04-ejecucion-controlada-aprendizaje-mensaje",
     "maturity": "PROPUESTAS DE VALOR Y MENSAJES CONTRASTABLES; EVIDENCIA DE CAMPO PENDIENTE",
-    "status": "CONFIRMADO"
+    "status": "CONFIRMADO",
+    "updatedAt": "2026-09-09"
   },
   "definitions": {
     "brief": {
