@@ -16,3 +16,4 @@ Resolver una pregunta de definición no confirma la realidad comercial de su res
 | Q-0010 | ¿Qué evidencia adversa aparece y cambia la formulación de problema o propuesta? | Alta | 04 | PENDIENTE |
 | Q-0011 | ¿Existe un canal autorizado que permita acreditar participantes reales, elegibilidad y consentimiento? | Alta | 05 | PENDIENTE |
 | Q-0012 | ¿Qué resultado producen la codificación y los umbrales 04.1 con unidades consentidas? | Alta | 05 | PENDIENTE; no hubo unidades que analizar |
+| Q-0013 | ¿Quién aportará evidencia verificable, alcance y vigencia para completar AC-01–AC-04? | Alta | 06 | PENDIENTE |

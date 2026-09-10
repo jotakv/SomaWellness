@@ -1,9 +1,9 @@
 {
   "meta": {
-    "iteration": "04-ejecucion-controlada-aprendizaje-mensaje",
-    "consultedAt": "2026-09-09",
+    "iteration": "05-acceso-campo-reevaluacion-controlada",
+    "consultedAt": "2026-09-10",
     "status": "CONFIRMADO",
-    "scope": "P-01 y P-02 auditados para ejecución; sin acceso ético y acreditable, permanecen PENDIENTE y sin datos de campo."
+    "scope": "Acceso ético y acreditable reevaluado antes de invitar; sin autorización de canal verificable, P-01 y P-02 permanecen PENDIENTE y sin datos de campo."
   },
   "valuePropositions": [
     {
@@ -225,8 +225,8 @@
   },
   "execution": {
     "fieldworkStarted": false,
-    "accessAssessment": "No existe en este entorno un canal autorizado que permita acreditar identidad real, elegibilidad, voluntariedad y consentimiento de participantes.",
-    "accessDecision": "No reclutar ni ejecutar P-01/P-02; conservar el protocolo congelado para una ejecución futura acreditable.",
+    "accessAssessment": "No se aportó al repositorio ni está disponible en este entorno evidencia verificable que complete los cuatro controles. La inexistencia de esa evidencia aquí no demuestra que ningún canal externo exista; impide autorizar invitaciones.",
+    "accessDecision": "No liberar invitaciones ni ejecutar P-01/P-02 mientras AC-01–AC-04 sigan PENDIENTE.",
     "protocolVersion": "04.1",
     "participants": 0,
     "invitations": 0,
@@ -261,14 +261,15 @@
       "resolutions": [],
       "thresholdOutcome": "PENDIENTE"
     },
-    "result": "P-01 y P-02 no se ejecutaron: no existe acceso ético y acreditable a participantes reales. Todos los denominadores son cero; no hay respuestas, preferencias, abandonos ni evidencia adversa.",
+    "result": "P-01 y P-02 no se ejecutaron en la reevaluación 05: falta evidencia verificable de autorización de canal y de los controles previos. Todos los denominadores permanecen en cero; no hay aprendizaje de participantes.",
     "biases": [
       "Sesgo de selección y relación con el equipo: PENDIENTE de medir al reclutar",
       "Sesgo de canal: PENDIENTE de medir al reclutar",
       "Efecto de orden: PENDIENTE; no hubo exposiciones"
     ],
     "adverseEvidence": [],
-    "status": "PENDIENTE"
+    "status": "PENDIENTE",
+    "reassessedAt": "2026-09-10"
   },
   "protectedPending": [
     {
@@ -306,5 +307,90 @@
       "status": "CONFIRMADO"
     }
   ],
-  "deviations": []
+  "deviations": [],
+  "fieldAccessGate": {
+    "evaluatedAt": "2026-09-10",
+    "decisionRule": "No enviar invitaciones hasta que una entrada del registro de autorizaciones identifique responsable, alcance, fecha y prueba verificable, y estén definidos cribado, voluntariedad y consentimiento.",
+    "checks": [
+      {
+        "id": "AC-01",
+        "criterion": "Autorización del canal",
+        "requiredEvidence": "Entidad o responsable, canal concreto, alcance autorizado, fecha y referencia verificable.",
+        "evidence": null,
+        "status": "PENDIENTE"
+      },
+      {
+        "id": "AC-02",
+        "criterion": "Elegibilidad",
+        "requiredEvidence": "Responsable de cribado, aplicación de criterios 04.1 y registro mínimo sin respuestas de personas excluidas.",
+        "evidence": null,
+        "status": "PENDIENTE"
+      },
+      {
+        "id": "AC-03",
+        "criterion": "Voluntariedad",
+        "requiredEvidence": "Invitación sin presión, consecuencia por rechazo ni interés económico directo; retirada disponible.",
+        "evidence": null,
+        "status": "PENDIENTE"
+      },
+      {
+        "id": "AC-04",
+        "criterion": "Consentimiento",
+        "requiredEvidence": "Responsable, medio y versión 04.1 para capturar consentimiento y permiso de cita por separado antes de responder.",
+        "evidence": null,
+        "status": "PENDIENTE"
+      }
+    ],
+    "authorizationRegister": [],
+    "invitationRelease": false,
+    "assessment": "No se aportó al repositorio ni está disponible en este entorno evidencia verificable que complete los cuatro controles. La inexistencia de esa evidencia aquí no demuestra que ningún canal externo exista; impide autorizar invitaciones.",
+    "status": "PENDIENTE"
+  },
+  "operationalReadiness": {
+    "purpose": "Preparar una ejecución futura sin modificar el contenido del protocolo 04.1.",
+    "preInvitationSequence": [
+      "Registrar autorización verificable del canal",
+      "Asignar responsable de cribado y comprobar elegibilidad",
+      "Confirmar ausencia de coerción y declarar relación con el equipo",
+      "Asignar responsable y medio de consentimiento 04.1",
+      "Liberar invitación solo si AC-01–AC-04 están completos"
+    ],
+    "authorizationBlankRecord": {
+      "authorizationId": null,
+      "channelName": null,
+      "authorizingEntityOrPerson": null,
+      "authorizationScope": null,
+      "evidenceReference": null,
+      "authorizedAt": null,
+      "expiresAt": null,
+      "recruiter": null,
+      "status": "PENDIENTE"
+    },
+    "screeningBlankRecord": {
+      "screeningId": null,
+      "date": null,
+      "channelAuthorizationId": null,
+      "relationshipToTeam": null,
+      "adult": null,
+      "madridLink": null,
+      "segmentEpisodeWithinSixMonths": null,
+      "canConsentAndUnderstandSpanish": null,
+      "exclusionReason": null,
+      "eligible": null,
+      "invitationReleased": false,
+      "status": "PENDIENTE"
+    },
+    "consentControlBlankRecord": {
+      "participantId": null,
+      "protocolVersion": "04.1",
+      "scriptDate": null,
+      "consent": null,
+      "quotePermission": null,
+      "withdrawalRequested": null,
+      "capturedBy": null,
+      "status": "PENDIENTE"
+    },
+    "handoffRule": "La persona que invita documenta autorización y relación; quien entrevista verifica elegibilidad y consentimiento antes de capturar respuestas; quienes codifican reciben solo el registro anonimizado.",
+    "status": "CONFIRMADO"
+  }
 }

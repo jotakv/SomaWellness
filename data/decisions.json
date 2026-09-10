@@ -80,6 +80,15 @@
       "alternatives": "Inventar contactos, respuestas o asumir consentimiento",
       "rationale": "Cumplir los límites éticos y evitar evidencia fabricada.",
       "status": "CONFIRMADO"
+    },
+    {
+      "id": "D-0012",
+      "date": "2026-09-10",
+      "decision": "Mantener bloqueadas las invitaciones tras reevaluar el acceso y exigir evidencia completa de AC-01–AC-04 antes del campo.",
+      "evidence": "Registro de autorizaciones vacío y controles previos PENDIENTE en data/value-proposition.json.",
+      "alternatives": "Asumir autorización, elegibilidad, voluntariedad o consentimiento sin prueba.",
+      "rationale": "La preparación operativa no sustituye acceso real ni permite fabricar aprendizaje.",
+      "status": "CONFIRMADO"
     }
   ]
 }

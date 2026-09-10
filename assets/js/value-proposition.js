@@ -12,6 +12,7 @@ document.querySelector('#messages').innerHTML = model.messageTest.messages.map(i
   <article class="card"><p>${tag(item.status)} <strong>${item.id} · ${item.segmentId}</strong></p><h3>${item.headline}</h3><p>${item.body}</p>
   <small>Contrasta ${item.valuePropositionId}; texto fijo sin precio, imágenes ni testimonios.</small></article>`).join('');
 document.querySelector('#exposure').innerHTML = list(model.messageTest.exposureScript);
+document.querySelector('#access-gate').innerHTML = model.fieldAccessGate.checks.map(item => `<article class="card"><p>${tag(item.status)} <strong>${item.id} · ${item.criterion}</strong></p><p>${item.requiredEvidence}</p><p><strong>Evidencia registrada:</strong> ${item.evidence ?? 'ninguna'}</p></article>`).join('') + `<article class="card"><h3>Liberación</h3><p><strong>Autorizaciones:</strong> ${model.fieldAccessGate.authorizationRegister.length} · <strong>Invitación liberada:</strong> ${model.fieldAccessGate.invitationRelease ? 'sí' : 'no'}</p><p>${model.fieldAccessGate.assessment}</p></article>`;
 document.querySelector('#recruitment').innerHTML = `<p>${model.recruitment.target}</p><p><strong>Invitación:</strong> ${model.recruitment.invitation}</p><h3>Elegibilidad</h3>${list(model.recruitment.eligible)}<h3>Exclusiones</h3>${list(model.recruitment.exclude)}`;
 document.querySelector('#consent').innerHTML = `<blockquote>${model.consent.script}</blockquote><p><strong>Datos:</strong> ${model.consent.handling}</p><p><strong>Seguridad:</strong> ${model.consent.safety}</p>`;
 const blank = model.captureSheet.blankRecord;

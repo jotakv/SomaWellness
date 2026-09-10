@@ -2,7 +2,7 @@
 
 ## Propósito
 
-Construir de forma incremental, versionada y auditable un plan de empresa para **SomaWellness**. En la iteración 04 se congela el protocolo 04.1 y se controla si P-01/P-02 pueden ejecutarse; al no existir acceso ético y acreditable, ambos permanecen PENDIENTE; no se concluye demanda, rentabilidad ni viabilidad. **Estado: CONFIRMADO.**
+Construir de forma incremental, versionada y auditable un plan de empresa para **SomaWellness**. En la iteración 05 se reevalúa el acceso mediante AC-01–AC-04; al faltar evidencia verificable para liberar invitaciones, P-01/P-02 permanecen PENDIENTE; no se concluye demanda, rentabilidad ni viabilidad. **Estado: CONFIRMADO.**
 
 ## Definición breve
 
@@ -48,7 +48,7 @@ Acogida, proximidad, coherencia de programación y simplicidad son **HIPÓTESIS*
 
 ## Madurez y límites actuales
 
-**Iteración 04 completada: 5 de 12 previstas — protocolo 04.1 congelado y ejecución no iniciada por falta de acceso ético y acreditable.** El total de iteraciones sigue siendo una HIPÓTESIS de planificación. No se ha realizado estudio profundo de mercado, censo exhaustivo de competencia, modelo financiero definitivo ni evaluación Go/No-Go.
+**Iteración 05 completada: 6 de 12 previstas — acceso reevaluado, invitación bloqueada y P-01/P-02 pendientes.** El total de iteraciones sigue siendo una HIPÓTESIS de planificación. No se ha realizado estudio profundo de mercado, censo exhaustivo de competencia, modelo financiero definitivo ni evaluación Go/No-Go.
 
 ## Aprendizaje de iteración 02
 
@@ -67,3 +67,10 @@ El consentimiento, reclutamiento, hoja vacía, códigos, denominadores, umbrales
 El protocolo preregistrado 03.1 se congeló como versión 04.1 antes de cualquier consentimiento, sin cambios, y se conserva su huella SHA-256. **Estado: CONFIRMADO** como control documental, no como prueba de utilidad. No existe acceso ético y acreditable a participantes reales desde este entorno; por ello no se reclutó y P-01/P-02 siguen **PENDIENTE**.
 
 Todos los denominadores son cero. No existen segmentos, canales, relaciones, fechas u órdenes observados; tampoco abandonos, exclusiones, desacuerdos de codificación, resultados mixtos o evidencia adversa de participantes. No se aplicaron umbrales y no se revisaron propuestas ni mensajes. Precios, demanda, ubicación y viabilidad permanecen **PENDIENTE**; no se emite Go/No-Go.
+
+
+## Aprendizaje de iteración 05
+
+La reevaluación separa cuatro requisitos previos: autorización de canal, elegibilidad, voluntariedad y consentimiento (AC-01–AC-04). No existe en el repositorio ni en este entorno evidencia verificable para completarlos; el registro de autorizaciones está vacío y la invitación no se libera. **Estado del acceso: PENDIENTE.** Esta observación no demuestra la inexistencia de canales externos.
+
+Se prepararon plantillas vacías y separación de responsabilidades sin cambiar 04.1. Son instrumentos **CONFIRMADO** como artefactos, no evidencia de aplicación. Todos los denominadores siguen en cero; no hubo codificación ni revisión de mensajes. Precios, demanda, ubicación y viabilidad permanecen **PENDIENTE**; no se emite Go/No-Go.

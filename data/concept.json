@@ -1,9 +1,9 @@
 {
   "meta": {
-    "iteration": "04-ejecucion-controlada-aprendizaje-mensaje",
+    "iteration": "05-acceso-campo-reevaluacion-controlada",
     "maturity": "PROPUESTAS DE VALOR Y MENSAJES CONTRASTABLES; EVIDENCIA DE CAMPO PENDIENTE",
     "status": "CONFIRMADO",
-    "updatedAt": "2026-09-09"
+    "updatedAt": "2026-09-10"
   },
   "definitions": {
     "brief": {

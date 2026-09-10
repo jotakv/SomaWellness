@@ -17,3 +17,4 @@ Los detalles de prueba y refutación de la tesis se mantienen en `data/concept.j
 | A-0009 | Método | El orden alternado, la codificación previa y denominadores completos reducirán sesgos para orientar la siguiente prueba | Media | HIPÓTESIS | 03; utilidad del protocolo PENDIENTE de ejecución |
 | A-0010 | Acceso de campo | Será posible obtener acceso ético y acreditable por canales preregistrados | Alta | PENDIENTE | 04; no disponible en este entorno, reevaluar antes de invitar |
 | A-0011 | Aprendizaje | P-01/P-02 producirán evidencia para orientar problema y mensaje | Alta | PENDIENTE | 04; no evaluable sin campo, no se revisaron mensajes |
+| A-0012 | Operación de campo | Completar AC-01–AC-04 permitirá iniciar una ejecución ética y trazable de 04.1 | Alta | HIPÓTESIS | 05; instrumentos preparados, acceso real PENDIENTE |

@@ -70,7 +70,7 @@
       "area": "Acceso de campo",
       "assumption": "Será posible obtener acceso ético y acreditable a participantes reales por los canales preregistrados.",
       "sensitivity": "Alta",
-      "resolution": "Iteración 04: no disponible en el entorno; reevaluar antes de cualquier invitación.",
+      "resolution": "Iteración 05: no hay evidencia verificable que complete AC-01–AC-04; no se liberaron invitaciones.",
       "status": "PENDIENTE"
     },
     {
@@ -78,7 +78,7 @@
       "area": "Aprendizaje",
       "assumption": "P-01 y P-02 producirán evidencia suficiente para orientar problema y mensaje.",
       "sensitivity": "Alta",
-      "resolution": "Iteración 04: no evaluable sin campo; no se revisaron mensajes.",
+      "resolution": "Iteración 05: sigue sin ser evaluable; no hubo campo ni revisión de mensajes.",
       "status": "PENDIENTE"
     }
   ]
