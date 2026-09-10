@@ -1,11 +1,11 @@
 {
   "name": "SomaWellness",
   "document": "Plan de Empresa",
-  "iteration": "04-ejecucion-controlada-aprendizaje-mensaje",
+  "iteration": "05-acceso-campo-reevaluacion-controlada",
   "maturity": {
-    "completedIterations": 5,
+    "completedIterations": 6,
     "plannedIterations": 12,
-    "label": "PROTOCOLO 04.1 CONGELADO; P-01 Y P-02 PENDIENTES POR FALTA DE ACCESO ACREDITABLE"
+    "label": "ACCESO REEVALUADO; INVITACIÓN BLOQUEADA Y P-01/P-02 PENDIENTES"
   },
   "evidenceStates": [
     "CONFIRMADO",
