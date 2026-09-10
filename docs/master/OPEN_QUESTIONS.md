@@ -33,3 +33,10 @@ Resolver una pregunta de definición no confirma la realidad comercial de su res
 | Q-TECH-008 | ¿Community crea participación o complejidad/moderación? | P1 | PENDIENTE |
 | Q-TECH-009 | ¿Puede el marketplace alcanzar liquidez sin subsidio permanente? | P0 | PENDIENTE |
 | Q-TECH-010 | ¿AI COGS, soporte y onboarding permiten margen SaaS? | P0 | PENDIENTE |
+
+## Modelo económico híbrido — pendientes 2026-09-10
+
+- ¿Qué oferta, ARPU, subscribers, creator share, churn y fees validan Online School?
+- ¿Qué capacidad, ticket, costes, exposición máxima y break-even validan cada retiro de julio/agosto?
+- ¿Cuál es el cash cost completo y el coste de oportunidad de desarrollo de SOMA OS?
+- ¿Qué escenario —lean en alquiler o compra histórica de 100.000 €— se someterá finalmente a decisión?
