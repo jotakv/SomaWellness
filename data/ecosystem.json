@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "status": "HIPÓTESIS",
+    "source": "CODEX master prompt, 2026-09-10; design brief only"
+  },
+  "labRoles": [
+    {
+      "role": "Customer Zero",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-003",
+      "evidence_id": null
+    },
+    {
+      "role": "Living Lab",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-003",
+      "evidence_id": null
+    },
+    {
+      "role": "initial community",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-003",
+      "evidence_id": null
+    },
+    {
+      "role": "product laboratory",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-003",
+      "evidence_id": null
+    },
+    {
+      "role": "acquisition channel",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-003",
+      "evidence_id": null
+    },
+    {
+      "role": "feedback source",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-003",
+      "evidence_id": null
+    },
+    {
+      "role": "test space",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-003",
+      "evidence_id": null
+    },
+    {
+      "role": "creator hub",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-003",
+      "evidence_id": null
+    },
+    {
+      "role": "B2B showroom",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-003",
+      "evidence_id": null
+    },
+    {
+      "role": "content production space",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-003",
+      "evidence_id": null
+    }
+  ],
+  "labPotentialActivities": [
+    {
+      "activity": "yoga",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "mobility",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "calisthenics",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "movement",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "breathwork",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "meditation",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "dance",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "salsa",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "bachata",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "ecstatic dance",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "contact improvisation",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "acroyoga",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "workshops",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "experiences",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "human development",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    },
+    {
+      "activity": "contemplative activities",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-LAB-ACTIVITIES",
+      "evidence_id": null
+    }
+  ],
+  "experienceTypes": [
+    "class",
+    "workshop",
+    "event",
+    "retreat",
+    "digital session",
+    "live stream",
+    "challenge",
+    "group activity"
+  ],
+  "scaleConstraint": {
+    "text": "Digital growth must not require locations or staff proportional to users",
+    "status": "HIPÓTESIS",
+    "source": "CODEX master prompt, 2026-09-10; design brief only",
+    "assumption_id": "HYP-TECH-016",
+    "evidence_id": null
+  }
+}

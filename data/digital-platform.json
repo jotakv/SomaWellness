@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "definition": "SOMA = SOMA LAB + SOMA DIGITAL",
+    "status": "HIPÓTESIS",
+    "source": "CODEX master prompt, 2026-09-10; design brief only"
+  },
+  "strategicRule": {
+    "text": "SOMA LAB is where the platform learns. SOMA DIGITAL is how the company scales.",
+    "status": "HIPÓTESIS",
+    "source": "CODEX master prompt, 2026-09-10; design brief only",
+    "assumption_id": "HYP-TECH-003",
+    "evidence_id": null
+  },
+  "components": [
+    {
+      "id": "HYP-TECH-009",
+      "claim": "SOMA OS creates B2B operational value",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-009",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-010",
+      "claim": "SOMA AI safely orchestrates knowledge, tools and intelligence",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-010",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-004",
+      "claim": "Users value personalized Journeys",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-004",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-011",
+      "claim": "Content supports acquisition and retention",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-011",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-005",
+      "claim": "Creators want distribution through SOMA",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-005",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-012",
+      "claim": "Community moves users from consumption to participation",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-012",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-006",
+      "claim": "A wellness experiences marketplace can reach liquidity",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-006",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-013",
+      "claim": "Retreat organizers may value SaaS plus transactions",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-013",
+      "evidence_id": null
+    }
+  ],
+  "customers": [
+    {
+      "type": "B2C",
+      "description": "people seeking wellness experiences",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-014",
+      "evidence_id": null
+    },
+    {
+      "type": "B2B",
+      "description": "independent wellness businesses",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-014",
+      "evidence_id": null
+    },
+    {
+      "type": "B2Creator",
+      "description": "facilitators and creators",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-014",
+      "evidence_id": null
+    }
+  ]
+}

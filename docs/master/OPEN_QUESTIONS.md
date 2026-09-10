@@ -17,3 +17,19 @@ Resolver una pregunta de definición no confirma la realidad comercial de su res
 | Q-0011 | ¿Existe un canal autorizado que permita acreditar participantes reales, elegibilidad y consentimiento? | Alta | 05 | PENDIENTE |
 | Q-0012 | ¿Qué resultado producen la codificación y los umbrales 04.1 con unidades consentidas? | Alta | 05 | PENDIENTE; no hubo unidades que analizar |
 | Q-0013 | ¿Quién aportará evidencia verificable, alcance y vigencia para completar AC-01–AC-04? | Alta | 06 | PENDIENTE |
+
+
+## TOP 10 incertidumbres digitales
+
+| ID | Pregunta | Prioridad | Estado |
+|---|---|---|---|
+| Q-TECH-001 | ¿Cuál es el ICP B2B y su workflow más doloroso? | P0 | PENDIENTE |
+| Q-TECH-002 | ¿Paga un centro independiente recurrentemente por SOMA OS? | P0 | PENDIENTE |
+| Q-TECH-003 | ¿Qué aprendizaje de LAB se transfiere fuera de LAB? | P0 | PENDIENTE |
+| Q-TECH-004 | ¿Qué métrica mejora AI Receptionist frente al proceso actual? | P0 | PENDIENTE |
+| Q-TECH-005 | ¿Journeys generan completion y repetición incremental? | P1 | PENDIENTE |
+| Q-TECH-006 | ¿Quién produce contenido y con qué economía/derechos? | P1 | PENDIENTE |
+| Q-TECH-007 | ¿Creators publican y obtienen valor repetido? | P1 | PENDIENTE |
+| Q-TECH-008 | ¿Community crea participación o complejidad/moderación? | P1 | PENDIENTE |
+| Q-TECH-009 | ¿Puede el marketplace alcanzar liquidez sin subsidio permanente? | P0 | PENDIENTE |
+| Q-TECH-010 | ¿AI COGS, soporte y onboarding permiten margen SaaS? | P0 | PENDIENTE |

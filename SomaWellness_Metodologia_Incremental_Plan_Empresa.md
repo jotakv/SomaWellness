@@ -1147,7 +1147,7 @@ Crear vistas o estilos para:
 - promotor;
 - banco;
 - AVS;
-- SEPE;
+- posibles financiadores;
 - profesor;
 - posible socio/inversor.
 

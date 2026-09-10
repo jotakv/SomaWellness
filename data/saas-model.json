@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "product": "SOMA OS",
+    "positioning": "AI-native operating system for independent wellness businesses",
+    "status": "HIPÓTESIS",
+    "source": "CODEX master prompt, 2026-09-10; design brief only"
+  },
+  "problems": [
+    {
+      "id": "HYP-TECH-001-1",
+      "claim": "fragmented tools",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-001-1",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-001-2",
+      "claim": "lost leads",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-001-2",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-001-3",
+      "claim": "manual communication",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-001-3",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-001-4",
+      "claim": "booking disconnected from CRM",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-001-4",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-001-5",
+      "claim": "limited automation",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-001-5",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-001-6",
+      "claim": "poor lifecycle visibility",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-001-6",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-001-7",
+      "claim": "retention difficulty",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-001-7",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-001-8",
+      "claim": "limited personalization",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-001-8",
+      "evidence_id": null
+    },
+    {
+      "id": "HYP-TECH-001-9",
+      "claim": "insufficient reporting",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-001-9",
+      "evidence_id": null
+    }
+  ],
+  "pricing": [
+    {
+      "tier": "Starter",
+      "monthly_eur": [
+        69,
+        99
+      ],
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-015",
+      "evidence_id": null
+    },
+    {
+      "tier": "Growth",
+      "monthly_eur": [
+        149,
+        199
+      ],
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-015",
+      "evidence_id": null
+    },
+    {
+      "tier": "AI",
+      "monthly_eur": [
+        249,
+        349
+      ],
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-015",
+      "evidence_id": null
+    },
+    {
+      "tier": "Multi-location",
+      "monthly_eur": "custom",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-015",
+      "evidence_id": null
+    }
+  ],
+  "pricingAxes": [
+    "per location",
+    "active member",
+    "feature tier",
+    "AI usage"
+  ],
+  "actuals": {
+    "customers": null,
+    "mrr_eur": null,
+    "arpa_eur": null,
+    "cac_eur": null,
+    "churn": null,
+    "nrr": null,
+    "gross_margin": null,
+    "status": "PENDIENTE",
+    "source": "No external pilots or sales recorded",
+    "assumption_id": null,
+    "evidence_id": null
+  }
+}

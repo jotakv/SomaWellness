@@ -209,3 +209,72 @@ test('la web publica la puerta de acceso 05 y conserva límites', async () => {
   assert.match(proposal, /Precios, demanda, ubicación y viabilidad siguen PENDIENTE/);
   assert.doesNotMatch(proposal, /Go\/No-Go emitido|demanda validada|compra confirmada/i);
 });
+
+const digitalDocuments = [
+  'docs/master/SOMA_HYBRID_THESIS.md', 'docs/master/PHYSICAL_DIGITAL_FLYWHEEL.md',
+  'docs/master/MULTI_SIDED_BUSINESS_MODEL.md', 'docs/master/DIGITAL_REVENUE_MODEL.md',
+  'docs/master/TECHNOLOGY_ROADMAP.md', 'docs/technology/ARCHITECTURE.md',
+  'docs/technology/SOMA_AI.md', 'docs/technology/AI_RECEPTIONIST.md',
+  'docs/technology/RETENTION_ENGINE.md', 'docs/technology/RECOMMENDATION_ENGINE.md',
+  'docs/platform/SOMA_JOURNEYS.md', 'docs/platform/HUMAN_PROFILE.md',
+  'docs/platform/SOMA_CONTENT.md', 'docs/platform/SOMA_CREATORS.md',
+  'docs/platform/SOMA_COMMUNITY.md', 'docs/platform/SOMA_MARKETPLACE.md',
+  'docs/platform/SOMA_RETREATS.md', 'docs/platform/EXPERIENCE_MODEL.md',
+  'docs/product/SOMA_APP.md'
+];
+
+test('el blueprint digital requerido existe y conserva la cautela de evidencia', async () => {
+  for (const relative of digitalDocuments) {
+    const content = await readFile(path.join(root, relative), 'utf8');
+    assert.match(content, /HIPÓTESIS|PENDIENTE/, relative);
+  }
+  for (const page of ['tecnologia.html', 'ecosistema.html', 'escalabilidad.html']) {
+    const html = await readFile(path.join(root, page), 'utf8');
+    assert.match(html, /HIPÓTESIS|PENDIENTE/, page);
+  }
+});
+
+test('los modelos digitales declaran trazabilidad y no fabrican actuals', async () => {
+  const names = ['technology', 'digital-platform', 'product-roadmap', 'saas-model', 'ecosystem', 'ai-use-cases'];
+  for (const name of names) {
+    const value = JSON.parse(await readFile(path.join(root, `data/${name}.json`), 'utf8'));
+    assert.ok(value.meta?.status && states.has(value.meta.status), name);
+  }
+  const saas = JSON.parse(await readFile(path.join(root, 'data/saas-model.json'), 'utf8'));
+  assert.equal(saas.actuals.status, 'PENDIENTE');
+  assert.equal(saas.actuals.customers, null);
+  assert.equal(saas.actuals.mrr_eur, null);
+  assert.ok(saas.pricing.every(tier => tier.status === 'HIPÓTESIS'));
+});
+
+test('SOMA AI queda aislada de DB y la retención no se etiqueta como ML', async () => {
+  const [ai, receptionist, retention] = await Promise.all([
+    readFile(path.join(root, 'docs/technology/SOMA_AI.md'), 'utf8'),
+    readFile(path.join(root, 'docs/technology/AI_RECEPTIONIST.md'), 'utf8'),
+    readFile(path.join(root, 'docs/technology/RETENTION_ENGINE.md'), 'utf8')
+  ]);
+  assert.match(ai + receptionist, /nunca accede directamente a DB|no accede directamente a la base de datos/i);
+  assert.match(retention, /reglas, no machine learning/i);
+});
+
+test('la continuidad tecnológica es paralela y completa', async () => {
+  const files = await readdir(path.join(root, 'prompts/technology'));
+  assert.equal(files.length, 14);
+  assert.ok(files.includes('00_TECH_MASTER.md') && files.includes('13_NEXT_TECH_ITERATION.md'));
+  const [physicalCurrent, physicalNext] = await Promise.all([
+    readFile(path.join(root, 'prompts/CURRENT_PROMPT.md'), 'utf8'),
+    readFile(path.join(root, 'prompts/NEXT_PROMPT.md'), 'utf8')
+  ]);
+  assert.match(physicalCurrent, /ITERACIÓN 05/);
+  assert.match(physicalNext, /ITERACIÓN 06/);
+});
+
+test('no se incluyen referencias administrativas excluidas', async () => {
+  const files = (await filesBelow(root)).filter(file => !file.includes(`${path.sep}.git${path.sep}`));
+  const forbidden = [new RegExp('se'+'pe','i'), new RegExp('desem'+'pleo','i'), new RegExp('presta'+'ci[oó]n','i'), new RegExp('pago '+'[uú]nico','i'), new RegExp('capitaliza'+'ci[oó]n del paro','i'), new RegExp('indemniza'+'ci[oó]n laboral','i')];
+  for (const file of files) {
+    if (!/\.(?:md|html|json|js|css|yml)$/.test(file)) continue;
+    const content = await readFile(file, 'utf8');
+    for (const pattern of forbidden) assert.doesNotMatch(content, pattern, file);
+  }
+});

@@ -18,3 +18,26 @@ Los detalles de prueba y refutación de la tesis se mantienen en `data/concept.j
 | A-0010 | Acceso de campo | Será posible obtener acceso ético y acreditable por canales preregistrados | Alta | PENDIENTE | 04; no disponible en este entorno, reevaluar antes de invitar |
 | A-0011 | Aprendizaje | P-01/P-02 producirán evidencia para orientar problema y mensaje | Alta | PENDIENTE | 04; no evaluable sin campo, no se revisaron mensajes |
 | A-0012 | Operación de campo | Completar AC-01–AC-04 permitirá iniciar una ejecución ética y trazable de 04.1 | Alta | HIPÓTESIS | 05; instrumentos preparados, acceso real PENDIENTE |
+
+## Hipótesis tecnológicas — apertura 2026-09-10
+
+| ID | Área | Hipótesis | Sensibilidad | Estado | Prueba siguiente |
+|---|---|---|---|---|---|
+| HYP-TECH-001 | B2B | Estudios externos tienen dolor operativo suficiente para pagar SOMA OS | Alta | HIPÓTESIS | problem discovery externo |
+| HYP-TECH-002 | AI | AI Receptionist reduce carga administrativa | Alta | HIPÓTESIS | baseline y piloto controlado |
+| HYP-TECH-003 | Learning | LAB aporta discovery transferible a terceros | Alta | HIPÓTESIS | comparar workflow externo |
+| HYP-TECH-004 | B2C | Usuarios valoran Journeys personalizados | Alta | HIPÓTESIS | concierge manual y repetición |
+| HYP-TECH-005 | Creator | Creators quieren distribuir contenido mediante SOMA | Alta | HIPÓTESIS | entrevistas y publicación manual |
+| HYP-TECH-006 | Marketplace | Existe potencial de marketplace de experiencias | Alta | HIPÓTESIS | concierge de oferta/demanda |
+| HYP-TECH-007 | Arquitectura | Modular monolith resulta adecuado al inicio | Media | HIPÓTESIS | spike y ADR tras MVP |
+| HYP-TECH-008 | Seguridad | Aislamiento por organization_id satisface primera etapa | Alta | HIPÓTESIS | threat model y tests |
+| HYP-TECH-009 | SaaS | CRM + booking constituyen un wedge útil | Alta | HIPÓTESIS | workflow y design partners |
+| HYP-TECH-010 | AI | Orquestación aporta valor más allá de interfaces convencionales | Alta | HIPÓTESIS | A/B o comparación operacional |
+| HYP-TECH-011 | Content | Contenido aumenta adquisición o continuidad | Alta | HIPÓTESIS | cohortes |
+| HYP-TECH-012 | Community | Grafo de experiencias aumenta participación | Alta | HIPÓTESIS | cohortes y conexiones recíprocas |
+| HYP-TECH-013 | Retreats | Organizadores pagarían SaaS + fee | Alta | HIPÓTESIS | discovery posterior |
+| HYP-TECH-014 | Multi-sided | B2C, B2B y B2Creator generan refuerzo mutuo | Alta | HIPÓTESIS | medir cada enlace |
+| HYP-TECH-015 | Pricing | Ranges 69–349 €/mes sirven para test de pricing | Alta | HIPÓTESIS | willingness-to-pay conductual |
+| HYP-TECH-016 | Scale | Digital puede crecer sin recursos físicos proporcionales | Alta | HIPÓTESIS | ratio digital/location/staff |
+| HYP-TECH-017 | Retention | Scoring explicable permite acción incremental | Alta | HIPÓTESIS | baseline y holdout |
+| HYP-TECH-018 | Recommendation | Ranking explicable mejora selección/completion | Alta | HIPÓTESIS | comparación con catálogo simple |

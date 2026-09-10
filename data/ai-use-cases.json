@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "status": "HIPÓTESIS",
+    "source": "CODEX master prompt, 2026-09-10; design brief only",
+    "rule": "LLM has no direct database access"
+  },
+  "useCases": [
+    {
+      "id": "AI-01",
+      "name": "AI Receptionist",
+      "priority": 1,
+      "method": "controlled knowledge + tool calling + APIs + handoff",
+      "channels": {
+        "mvp": "web",
+        "next": "WhatsApp",
+        "future": "voice"
+      },
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-002",
+      "evidence_id": null
+    },
+    {
+      "id": "AI-02",
+      "name": "Retention Engine",
+      "priority": 2,
+      "method": "explainable rules and scoring; not machine learning",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-017",
+      "evidence_id": null
+    },
+    {
+      "id": "AI-03",
+      "name": "Recommendation Engine",
+      "priority": 3,
+      "method": "rules and weighted explainable ranking",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-018",
+      "evidence_id": null
+    }
+  ],
+  "safety": {
+    "prohibited": [
+      "direct database access",
+      "clinical diagnosis",
+      "cross-tenant context",
+      "unconfirmed booking or price claims"
+    ],
+    "status": "CONFIRMADO",
+    "source": "Internal design decision",
+    "assumption_id": null,
+    "evidence_id": "E-TECH-002"
+  }
+}
