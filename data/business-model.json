@@ -7,6 +7,9 @@
   "operatingCosts":{"electricidad":70,"agua":15,"internet":25,"limpieza":70,"seguro":30,"gestoria":40,"retaPromotor":80,"reservasSoftware":20,"mantenimiento":25,"consumibles":20,"otrosContingencia":55},
   "initialCapital":5000,
   "founderTime":{"founderHoursPerMonth":40,"shadowHourlyRate":15},
+  "onlineSchool":{"externalRevenueBase24m":0,"subscribers":null,"arpu":null,"creatorShare":null,"status":"PENDIENTE"},
+  "retreats":{"externalRevenueBase24m":0,"months":[7,8,19,20],"capacity":null,"occupancy":null,"ticket":null,"variableCostPerParticipant":null,"status":"PENDIENTE"},
+  "somaOS":{"externalSaasRevenueBase24m":0,"cashCosts":{"software":20,"hosting":null,"database":null,"storage":null,"email":null,"aiApis":null,"monitoring":null,"paymentTooling":null},"founderDevelopmentOpportunityCost":null,"status":"PENDIENTE"},
   "realEstateResidual":0,
   "rentSchedule":[{"fromMonth":1,"toMonth":6,"rate":0},{"fromMonth":7,"toMonth":12,"rate":0.25},{"fromMonth":13,"toMonth":24,"rate":0.50},{"fromMonth":25,"toMonth":36,"rate":0.75},{"fromMonth":37,"toMonth":60,"rate":1}],
   "yearOneRamp":[{"fromMonth":1,"toMonth":3,"classesPerWeek":8,"occupancy":0.35,"workshopsPerMonth":2},{"fromMonth":4,"toMonth":6,"classesPerWeek":12,"occupancy":0.45,"workshopsPerMonth":3},{"fromMonth":7,"toMonth":9,"classesPerWeek":16,"occupancy":0.55,"workshopsPerMonth":4},{"fromMonth":10,"toMonth":12,"classesPerWeek":18,"occupancy":0.60,"workshopsPerMonth":4}]

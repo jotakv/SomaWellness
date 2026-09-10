@@ -22,3 +22,9 @@ Las decisiones no se eliminan: si se sustituyen, debe añadirse una nueva entrad
 | D-0015 | 2026-09-10 | Diseñar SOMA OS multi-tenant, API-first y modular monolith | Blueprint técnico | Microservices o single-tenant | Reducir complejidad preservando aislamiento | CONFIRMADO |
 | D-0016 | 2026-09-10 | Priorizar AI Receptionist web y exigir APIs sin acceso directo a DB | Blueprint de seguridad | Acceso del modelo a tablas o voice-first | Control, auditoría y alcance | CONFIRMADO |
 | D-0017 | 2026-09-10 | Mantener este repo como source of truth estratégico; `soma-os` queda pendiente | ADR-001 | Crear monorepo SaaS ahora | Evitar producción prematura | CONFIRMADO |
+
+## DEC-2026-09-10 — Arquitectura económica web
+
+**Decisión:** el caso principal se limita a SOMA Local + Online School + Retreats, con SOMA OS como infraestructura. Online, Retreats y external SaaS revenue permanecen en 0 € en BASE 24m hasta tener drivers verificables. La compra histórica del local no se borra ni se mezcla con el caso lean.
+
+**Estado:** CONFIRMADO como regla de modelización; resultados comerciales PENDIENTE.

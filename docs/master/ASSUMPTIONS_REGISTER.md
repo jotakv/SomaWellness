@@ -41,3 +41,11 @@ Los detalles de prueba y refutación de la tesis se mantienen en `data/concept.j
 | HYP-TECH-016 | Scale | Digital puede crecer sin recursos físicos proporcionales | Alta | HIPÓTESIS | ratio digital/location/staff |
 | HYP-TECH-017 | Retention | Scoring explicable permite acción incremental | Alta | HIPÓTESIS | baseline y holdout |
 | HYP-TECH-018 | Recommendation | Ranking explicable mejora selección/completion | Alta | HIPÓTESIS | comparación con catálogo simple |
+
+## Iteración modelo económico web — 2026-09-10
+
+| ID | Supuesto | Estado | Regla de salida |
+|---|---|---|---|
+| HYP-WEB-001 | Online School aporta 0 € en BASE 24m mientras subscribers, ARPU y costes estén pendientes. | HIPÓTESIS prudente | Pago verificable y unit economics completos. |
+| HYP-WEB-002 | Retreats aporta 0 € en BASE; julio/agosto son ventanas conceptuales, no eventos confirmados. | HIPÓTESIS prudente | Venue, ticket, capacidad, costes y reservas verificables. |
+| HYP-WEB-003 | 20 €/mes ya presupuestados como software se muestran como cash cost SOMA OS, sin duplicarlos en central OPEX. | HIPÓTESIS | Facturas e inventario tecnológico. |

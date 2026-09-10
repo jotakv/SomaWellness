@@ -1,0 +1,1439 @@
+{
+  "meta": {
+    "generated": true,
+    "generatedBy": "scripts/build-economic-dashboard.js",
+    "scenario": "BASE",
+    "asOf": "2026-09-10",
+    "taxBasis": "PRE-TAX",
+    "warning": "PROYECCIÓN basada en HIPÓTESIS; no son resultados actuales."
+  },
+  "summary": {
+    "capitalLeanMinimum": 3800,
+    "capitalLeanRecommended": 5000,
+    "capitalComfortable": 7500,
+    "capexInitial": 2000,
+    "monthlyOpexStabilized": 750,
+    "revenueM12": 4456.18,
+    "fcfM12": 1623.89,
+    "revenueM24": 4456.18,
+    "fcfM24": 1548.89,
+    "paybackMonth": 8.01,
+    "breakEvenOccupancy": 0.17,
+    "cashM24": 34705.58,
+    "revenue5Years": 249378.69,
+    "fcf5Years": 80965.56,
+    "status": "DERIVADO"
+  },
+  "investment": {
+    "totals": {
+      "minimum": 3800,
+      "recommended": 5000,
+      "comfortable": 7500
+    },
+    "categories": [
+      {
+        "name": "esterillas10",
+        "minimum": null,
+        "recommended": 220,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "zafus10",
+        "minimum": null,
+        "recommended": 200,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "bloquesCintas",
+        "minimum": null,
+        "recommended": 120,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "mantas",
+        "minimum": null,
+        "recommended": 120,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "almacenamiento",
+        "minimum": null,
+        "recommended": 180,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "zapateroPercheros",
+        "minimum": null,
+        "recommended": 80,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "altavoz",
+        "minimum": null,
+        "recommended": 100,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "iluminacion",
+        "minimum": null,
+        "recommended": 150,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "pinturaDIY",
+        "minimum": null,
+        "recommended": 180,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "senalizacion",
+        "minimum": null,
+        "recommended": 70,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "seguridadBotiquin",
+        "minimum": null,
+        "recommended": 150,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "decoracion",
+        "minimum": null,
+        "recommended": 150,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "limpiezaInicial",
+        "minimum": null,
+        "recommended": 80,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "otros",
+        "minimum": null,
+        "recommended": 200,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "Fianza",
+        "minimum": null,
+        "recommended": 600,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "Fondo de maniobra",
+        "minimum": null,
+        "recommended": 1000,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "Técnico, licencia y trámites",
+        "minimum": null,
+        "recommended": 800,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      },
+      {
+        "name": "Contingencia",
+        "minimum": null,
+        "recommended": 600,
+        "comfortable": null,
+        "status": "ESTIMADO"
+      }
+    ]
+  },
+  "capex": {
+    "physical": {
+      "esterillas10": 220,
+      "zafus10": 200,
+      "bloquesCintas": 120,
+      "mantas": 120,
+      "almacenamiento": 180,
+      "zapateroPercheros": 80,
+      "altavoz": 100,
+      "iluminacion": 150,
+      "pinturaDIY": 180,
+      "senalizacion": 70,
+      "seguridadBotiquin": 150,
+      "decoracion": 150,
+      "limpiezaInicial": 80,
+      "otros": 200
+    },
+    "digital": {
+      "hardware": null,
+      "microphone": null,
+      "lighting": 150,
+      "development": null,
+      "infrastructure": null
+    },
+    "retreatSetup": null,
+    "status": "ESTIMADO"
+  },
+  "workingCapital": {
+    "threeMonths": 2250,
+    "sixMonths": 4500,
+    "minimumCashBalance": 1000,
+    "status": "DERIVADO"
+  },
+  "opex": {
+    "fixed": {
+      "electricidad": 70,
+      "agua": 15,
+      "internet": 25,
+      "limpieza": 70,
+      "seguro": 30,
+      "gestoria": 40,
+      "retaPromotor": 80,
+      "reservasSoftware": 20,
+      "mantenimiento": 25,
+      "consumibles": 20,
+      "otrosContingencia": 55
+    },
+    "centralExcludingSomaOS": 430,
+    "rentStabilized": 300,
+    "variable": {
+      "facilitatorClassShare": 0.5,
+      "facilitatorWorkshopShare": 0.65,
+      "payments": null,
+      "creators": null,
+      "aiUsage": null,
+      "retreatCosts": null
+    },
+    "snapshots": [
+      {
+        "month": 1,
+        "fixedOpex": 430,
+        "somaOS": 20,
+        "variableCosts": 680.81
+      },
+      {
+        "month": 6,
+        "fixedOpex": 430,
+        "somaOS": 20,
+        "variableCosts": 1239.44
+      },
+      {
+        "month": 12,
+        "fixedOpex": 505,
+        "somaOS": 20,
+        "variableCosts": 2307.29
+      },
+      {
+        "month": 24,
+        "fixedOpex": 580,
+        "somaOS": 20,
+        "variableCosts": 2307.29
+      }
+    ]
+  },
+  "engines": {
+    "physical": {
+      "status": "HIPÓTESIS",
+      "stableMonth": {
+        "revenue": 4456.18,
+        "contribution": 2148.89
+      },
+      "classUnitEconomics": [
+        {
+          "students": 1,
+          "revenue": 10.5,
+          "teacherCost": 5.25,
+          "somaMargin": 5.25,
+          "marginPercent": 0.5,
+          "contributionPerHour": 5.25
+        },
+        {
+          "students": 2,
+          "revenue": 21,
+          "teacherCost": 10.5,
+          "somaMargin": 10.5,
+          "marginPercent": 0.5,
+          "contributionPerHour": 10.5
+        },
+        {
+          "students": 3,
+          "revenue": 31.5,
+          "teacherCost": 15.75,
+          "somaMargin": 15.75,
+          "marginPercent": 0.5,
+          "contributionPerHour": 15.75
+        },
+        {
+          "students": 4,
+          "revenue": 42,
+          "teacherCost": 21,
+          "somaMargin": 21,
+          "marginPercent": 0.5,
+          "contributionPerHour": 21
+        },
+        {
+          "students": 5,
+          "revenue": 52.5,
+          "teacherCost": 26.25,
+          "somaMargin": 26.25,
+          "marginPercent": 0.5,
+          "contributionPerHour": 26.25
+        },
+        {
+          "students": 6,
+          "revenue": 63,
+          "teacherCost": 31.5,
+          "somaMargin": 31.5,
+          "marginPercent": 0.5,
+          "contributionPerHour": 31.5
+        },
+        {
+          "students": 7,
+          "revenue": 73.5,
+          "teacherCost": 36.75,
+          "somaMargin": 36.75,
+          "marginPercent": 0.5,
+          "contributionPerHour": 36.75
+        },
+        {
+          "students": 8,
+          "revenue": 84,
+          "teacherCost": 42,
+          "somaMargin": 42,
+          "marginPercent": 0.5,
+          "contributionPerHour": 42
+        }
+      ]
+    },
+    "onlineSchool": {
+      "externalRevenueBase24m": 0,
+      "subscribers": null,
+      "arpu": null,
+      "creatorShare": null,
+      "status": "PENDIENTE",
+      "formats": [
+        "Direct Classes",
+        "Library",
+        "Programs",
+        "Journeys",
+        "Challenges",
+        "Workshops",
+        "Membership",
+        "Community"
+      ],
+      "base24m": {
+        "revenue": 0,
+        "contribution": 0
+      }
+    },
+    "retreats": {
+      "externalRevenueBase24m": 0,
+      "months": [
+        7,
+        8,
+        19,
+        20
+      ],
+      "capacity": null,
+      "occupancy": null,
+      "ticket": null,
+      "variableCostPerParticipant": null,
+      "status": "PENDIENTE",
+      "base24m": {
+        "revenue": 0,
+        "contribution": 0
+      },
+      "july": {
+        "status": "PENDIENTE"
+      },
+      "august": {
+        "status": "PENDIENTE"
+      }
+    },
+    "somaOS": {
+      "externalSaasRevenueBase24m": 0,
+      "cashCosts": {
+        "software": 20,
+        "hosting": null,
+        "database": null,
+        "storage": null,
+        "email": null,
+        "aiApis": null,
+        "monitoring": null,
+        "paymentTooling": null
+      },
+      "founderDevelopmentOpportunityCost": null,
+      "status": "PENDIENTE",
+      "cashCostMonthly": 20
+    }
+  },
+  "months": [
+    {
+      "month": 1,
+      "id": "M01",
+      "classesPerWeek": 8,
+      "occupancy": 0.35,
+      "averageAttendees": 2.8,
+      "revenuePhysical": 1282.42,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 1282.42,
+      "facilitators": 680.81,
+      "otherVariableCosts": 0,
+      "variableCosts": 680.81,
+      "contribution": 601.61,
+      "fixedOpex": 430,
+      "somaOSCost": 20,
+      "ebitdaLike": 151.61,
+      "operatingFcf": 151.61,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 151.61,
+      "cumulativeFcf": 151.61,
+      "cashAccumulated": 5151.61,
+      "paybackPending": 4848.39,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 2,
+      "id": "M02",
+      "classesPerWeek": 8,
+      "occupancy": 0.35,
+      "averageAttendees": 2.8,
+      "revenuePhysical": 1282.42,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 1282.42,
+      "facilitators": 680.81,
+      "otherVariableCosts": 0,
+      "variableCosts": 680.81,
+      "contribution": 601.61,
+      "fixedOpex": 430,
+      "somaOSCost": 20,
+      "ebitdaLike": 151.61,
+      "operatingFcf": 151.61,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 151.61,
+      "cumulativeFcf": 303.22,
+      "cashAccumulated": 5303.22,
+      "paybackPending": 4696.78,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 3,
+      "id": "M03",
+      "classesPerWeek": 8,
+      "occupancy": 0.35,
+      "averageAttendees": 2.8,
+      "revenuePhysical": 1282.42,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 1282.42,
+      "facilitators": 680.81,
+      "otherVariableCosts": 0,
+      "variableCosts": 680.81,
+      "contribution": 601.61,
+      "fixedOpex": 430,
+      "somaOSCost": 20,
+      "ebitdaLike": 151.61,
+      "operatingFcf": 151.61,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 151.61,
+      "cumulativeFcf": 454.82,
+      "cashAccumulated": 5454.82,
+      "paybackPending": 4545.18,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 4,
+      "id": "M04",
+      "classesPerWeek": 12,
+      "occupancy": 0.45,
+      "averageAttendees": 3.6,
+      "revenuePhysical": 2360.09,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 2360.09,
+      "facilitators": 1239.44,
+      "otherVariableCosts": 0,
+      "variableCosts": 1239.44,
+      "contribution": 1120.64,
+      "fixedOpex": 430,
+      "somaOSCost": 20,
+      "ebitdaLike": 670.64,
+      "operatingFcf": 670.64,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 670.64,
+      "cumulativeFcf": 1125.47,
+      "cashAccumulated": 6125.47,
+      "paybackPending": 3874.53,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 5,
+      "id": "M05",
+      "classesPerWeek": 12,
+      "occupancy": 0.45,
+      "averageAttendees": 3.6,
+      "revenuePhysical": 2360.09,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 2360.09,
+      "facilitators": 1239.44,
+      "otherVariableCosts": 0,
+      "variableCosts": 1239.44,
+      "contribution": 1120.64,
+      "fixedOpex": 430,
+      "somaOSCost": 20,
+      "ebitdaLike": 670.64,
+      "operatingFcf": 670.64,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 670.64,
+      "cumulativeFcf": 1796.11,
+      "cashAccumulated": 6796.11,
+      "paybackPending": 3203.89,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 6,
+      "id": "M06",
+      "classesPerWeek": 12,
+      "occupancy": 0.45,
+      "averageAttendees": 3.6,
+      "revenuePhysical": 2360.09,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 2360.09,
+      "facilitators": 1239.44,
+      "otherVariableCosts": 0,
+      "variableCosts": 1239.44,
+      "contribution": 1120.64,
+      "fixedOpex": 430,
+      "somaOSCost": 20,
+      "ebitdaLike": 670.64,
+      "operatingFcf": 670.64,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 670.64,
+      "cumulativeFcf": 2466.76,
+      "cashAccumulated": 7466.76,
+      "paybackPending": 2533.24,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 7,
+      "id": "M07",
+      "classesPerWeek": 16,
+      "occupancy": 0.55,
+      "averageAttendees": 4.4,
+      "revenuePhysical": 3728.74,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 3728.74,
+      "facilitators": 1943.57,
+      "otherVariableCosts": 0,
+      "variableCosts": 1943.57,
+      "contribution": 1785.17,
+      "fixedOpex": 505,
+      "somaOSCost": 20,
+      "ebitdaLike": 1260.17,
+      "operatingFcf": 1260.17,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1260.17,
+      "cumulativeFcf": 3726.92,
+      "cashAccumulated": 8726.92,
+      "paybackPending": 1273.08,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 8,
+      "id": "M08",
+      "classesPerWeek": 16,
+      "occupancy": 0.55,
+      "averageAttendees": 4.4,
+      "revenuePhysical": 3728.74,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 3728.74,
+      "facilitators": 1943.57,
+      "otherVariableCosts": 0,
+      "variableCosts": 1943.57,
+      "contribution": 1785.17,
+      "fixedOpex": 505,
+      "somaOSCost": 20,
+      "ebitdaLike": 1260.17,
+      "operatingFcf": 1260.17,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1260.17,
+      "cumulativeFcf": 4987.09,
+      "cashAccumulated": 9987.09,
+      "paybackPending": 12.91,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 9,
+      "id": "M09",
+      "classesPerWeek": 16,
+      "occupancy": 0.55,
+      "averageAttendees": 4.4,
+      "revenuePhysical": 3728.74,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 3728.74,
+      "facilitators": 1943.57,
+      "otherVariableCosts": 0,
+      "variableCosts": 1943.57,
+      "contribution": 1785.17,
+      "fixedOpex": 505,
+      "somaOSCost": 20,
+      "ebitdaLike": 1260.17,
+      "operatingFcf": 1260.17,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1260.17,
+      "cumulativeFcf": 6247.26,
+      "cashAccumulated": 11247.26,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 10,
+      "id": "M10",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 505,
+      "somaOSCost": 20,
+      "ebitdaLike": 1623.89,
+      "operatingFcf": 1623.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1623.89,
+      "cumulativeFcf": 7871.15,
+      "cashAccumulated": 12871.15,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 11,
+      "id": "M11",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 505,
+      "somaOSCost": 20,
+      "ebitdaLike": 1623.89,
+      "operatingFcf": 1623.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1623.89,
+      "cumulativeFcf": 9495.04,
+      "cashAccumulated": 14495.04,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 12,
+      "id": "M12",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 505,
+      "somaOSCost": 20,
+      "ebitdaLike": 1623.89,
+      "operatingFcf": 1623.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1623.89,
+      "cumulativeFcf": 11118.92,
+      "cashAccumulated": 16118.92,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 13,
+      "id": "M13",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 12667.81,
+      "cashAccumulated": 17667.81,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 14,
+      "id": "M14",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 14216.7,
+      "cashAccumulated": 19216.7,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 15,
+      "id": "M15",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 15765.59,
+      "cashAccumulated": 20765.59,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 16,
+      "id": "M16",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 17314.48,
+      "cashAccumulated": 22314.48,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 17,
+      "id": "M17",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 18863.36,
+      "cashAccumulated": 23863.36,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 18,
+      "id": "M18",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 20412.25,
+      "cashAccumulated": 25412.25,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 19,
+      "id": "M19",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 21961.14,
+      "cashAccumulated": 26961.14,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 20,
+      "id": "M20",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 23510.03,
+      "cashAccumulated": 28510.03,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 21,
+      "id": "M21",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 25058.92,
+      "cashAccumulated": 30058.92,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 22,
+      "id": "M22",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 26607.8,
+      "cashAccumulated": 31607.8,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 23,
+      "id": "M23",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 28156.69,
+      "cashAccumulated": 33156.69,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    },
+    {
+      "month": 24,
+      "id": "M24",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "averageAttendees": 4.8,
+      "revenuePhysical": 4456.18,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 4456.18,
+      "facilitators": 2307.29,
+      "otherVariableCosts": 0,
+      "variableCosts": 2307.29,
+      "contribution": 2148.89,
+      "fixedOpex": 580,
+      "somaOSCost": 20,
+      "ebitdaLike": 1548.89,
+      "operatingFcf": 1548.89,
+      "capex": 0,
+      "workingCapital": 0,
+      "netCashFlow": 1548.89,
+      "cumulativeFcf": 29705.58,
+      "cashAccumulated": 34705.58,
+      "paybackPending": 0,
+      "evidence": "DERIVADO"
+    }
+  ],
+  "years": [
+    {
+      "year": 1,
+      "drivers": {
+        "classesPerWeek": "rampa 8→18",
+        "capacity": 8,
+        "occupancy": "35%→60%",
+        "onlineSubscribers": null,
+        "onlineArpu": null,
+        "retreats": 0
+      },
+      "revenuePhysical": 35482.25,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 35482.25,
+      "variableCosts": 18513.32,
+      "contribution": 16968.92,
+      "fixedOpex": 5610,
+      "somaOSCost": 240,
+      "ebitda": 11118.92,
+      "fcf": 11118.92,
+      "cashAccumulated": 16118.92,
+      "evidence": "DERIVADO"
+    },
+    {
+      "year": 2,
+      "drivers": {
+        "classesPerWeek": 18,
+        "capacity": 8,
+        "occupancy": 0.6,
+        "onlineSubscribers": null,
+        "onlineArpu": null,
+        "retreats": 0
+      },
+      "revenuePhysical": 53474.11,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 53474.11,
+      "variableCosts": 27687.46,
+      "contribution": 25786.66,
+      "fixedOpex": 6960,
+      "somaOSCost": 240,
+      "ebitda": 18586.66,
+      "fcf": 18586.66,
+      "cashAccumulated": 34705.58,
+      "evidence": "DERIVADO"
+    },
+    {
+      "year": 3,
+      "drivers": {
+        "classesPerWeek": 18,
+        "capacity": 8,
+        "occupancy": 0.6,
+        "onlineSubscribers": null,
+        "onlineArpu": null,
+        "retreats": 0
+      },
+      "revenuePhysical": 53474.11,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 53474.11,
+      "variableCosts": 27687.46,
+      "contribution": 25786.66,
+      "fixedOpex": 7860,
+      "somaOSCost": 240,
+      "ebitda": 17686.66,
+      "fcf": 17686.66,
+      "cashAccumulated": 52392.24,
+      "evidence": "DERIVADO"
+    },
+    {
+      "year": 4,
+      "drivers": {
+        "classesPerWeek": 18,
+        "capacity": 8,
+        "occupancy": 0.6,
+        "onlineSubscribers": null,
+        "onlineArpu": null,
+        "retreats": 0
+      },
+      "revenuePhysical": 53474.11,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 53474.11,
+      "variableCosts": 27687.46,
+      "contribution": 25786.66,
+      "fixedOpex": 8760,
+      "somaOSCost": 240,
+      "ebitda": 16786.66,
+      "fcf": 16786.66,
+      "cashAccumulated": 69178.89,
+      "evidence": "DERIVADO"
+    },
+    {
+      "year": 5,
+      "drivers": {
+        "classesPerWeek": 18,
+        "capacity": 8,
+        "occupancy": 0.6,
+        "onlineSubscribers": null,
+        "onlineArpu": null,
+        "retreats": 0
+      },
+      "revenuePhysical": 53474.11,
+      "revenueOnline": 0,
+      "revenueRetreats": 0,
+      "revenueTotal": 53474.11,
+      "variableCosts": 27687.46,
+      "contribution": 25786.66,
+      "fixedOpex": 8760,
+      "somaOSCost": 240,
+      "ebitda": 16786.66,
+      "fcf": 16786.66,
+      "cashAccumulated": 85965.55,
+      "evidence": "DERIVADO"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "lean",
+      "label": "LEAN",
+      "classesPerWeek": 12,
+      "occupancy": 0.45,
+      "workshopsPerMonth": 2,
+      "initialInvestment": 3800,
+      "revenueM12": 2228.09,
+      "fcfM12": 324.44,
+      "revenueM24": 2228.09,
+      "fcfM24": 324.44,
+      "cashM24": 12786.66,
+      "payback": 15.41,
+      "breakEvenOccupancy": 0.3,
+      "revenueY5": 26737.06,
+      "fcfY5": 3893.33,
+      "evidence": "HIPÓTESIS"
+    },
+    {
+      "id": "conservative",
+      "label": "CONSERVADOR",
+      "classesPerWeek": 12,
+      "occupancy": 0.4,
+      "workshopsPerMonth": 2,
+      "initialInvestment": 5000,
+      "revenueM12": 2009.86,
+      "fcfM12": 215.33,
+      "revenueM24": 2009.86,
+      "fcfM24": 215.33,
+      "cashM24": 10167.87,
+      "payback": 23.22,
+      "breakEvenOccupancy": 0.3,
+      "revenueY5": 24118.27,
+      "fcfY5": 2583.94,
+      "evidence": "HIPÓTESIS"
+    },
+    {
+      "id": "base",
+      "label": "BASE",
+      "classesPerWeek": 18,
+      "occupancy": 0.6,
+      "workshopsPerMonth": 4,
+      "initialInvestment": 5000,
+      "revenueM12": 4456.18,
+      "fcfM12": 1398.89,
+      "revenueM24": 4456.18,
+      "fcfM24": 1398.89,
+      "cashM24": 38573.31,
+      "payback": 3.57,
+      "breakEvenOccupancy": 0.17,
+      "revenueY5": 53474.11,
+      "fcfY5": 16786.66,
+      "evidence": "HIPÓTESIS"
+    },
+    {
+      "id": "expansive",
+      "label": "EXPANSIVO",
+      "classesPerWeek": 22,
+      "occupancy": 0.7,
+      "workshopsPerMonth": 6,
+      "initialInvestment": 7500,
+      "revenueM12": 6393.29,
+      "fcfM12": 2327.84,
+      "revenueM24": 6393.29,
+      "fcfM24": 2327.84,
+      "cashM24": 60868.26,
+      "payback": 2.15,
+      "breakEvenOccupancy": 0.12,
+      "revenueY5": 76719.46,
+      "fcfY5": 27934.13,
+      "evidence": "HIPÓTESIS"
+    },
+    {
+      "id": "stress",
+      "label": "STRESS",
+      "classesPerWeek": 0,
+      "occupancy": 0,
+      "workshopsPerMonth": 0,
+      "initialInvestment": 5000,
+      "revenueM12": 0,
+      "fcfM12": -750,
+      "revenueM24": 0,
+      "fcfM24": -750,
+      "cashM24": -13000,
+      "payback": null,
+      "breakEvenOccupancy": null,
+      "revenueY5": 0,
+      "fcfY5": -9000,
+      "evidence": "HIPÓTESIS"
+    }
+  ],
+  "sensitivity": {
+    "occupancy": [
+      {
+        "value": 0.3,
+        "revenue": 2492.09,
+        "fcf": 416.84,
+        "breakEvenOccupancy": 0.17
+      },
+      {
+        "value": 0.4,
+        "revenue": 3146.78,
+        "fcf": 744.19,
+        "breakEvenOccupancy": 0.17
+      },
+      {
+        "value": 0.5,
+        "revenue": 3801.48,
+        "fcf": 1071.54,
+        "breakEvenOccupancy": 0.17
+      },
+      {
+        "value": 0.6,
+        "revenue": 4456.18,
+        "fcf": 1398.89,
+        "breakEvenOccupancy": 0.17
+      },
+      {
+        "value": 0.7,
+        "revenue": 5110.87,
+        "fcf": 1726.24,
+        "breakEvenOccupancy": 0.17
+      },
+      {
+        "value": 0.8,
+        "revenue": 5765.57,
+        "fcf": 2053.58,
+        "breakEvenOccupancy": 0.17
+      }
+    ],
+    "ticket": [
+      {
+        "value": 8,
+        "revenue": 3520.9,
+        "fcf": 931.25,
+        "breakEvenOccupancy": 0.23
+      },
+      {
+        "value": 9,
+        "revenue": 3895.01,
+        "fcf": 1118.3,
+        "breakEvenOccupancy": 0.2
+      },
+      {
+        "value": 10,
+        "revenue": 4269.12,
+        "fcf": 1305.36,
+        "breakEvenOccupancy": 0.18
+      },
+      {
+        "value": 10.5,
+        "revenue": 4456.18,
+        "fcf": 1398.89,
+        "breakEvenOccupancy": 0.17
+      },
+      {
+        "value": 11,
+        "revenue": 4643.23,
+        "fcf": 1492.42,
+        "breakEvenOccupancy": 0.16
+      },
+      {
+        "value": 12,
+        "revenue": 5017.34,
+        "fcf": 1679.47,
+        "breakEvenOccupancy": 0.15
+      },
+      {
+        "value": 13,
+        "revenue": 5391.46,
+        "fcf": 1866.53,
+        "breakEvenOccupancy": 0.14
+      },
+      {
+        "value": 15,
+        "revenue": 6139.68,
+        "fcf": 2240.64,
+        "breakEvenOccupancy": 0.12
+      }
+    ],
+    "capacity": [
+      {
+        "value": 8,
+        "revenue": 4456.18,
+        "fcf": 1398.89,
+        "breakEvenOccupancy": 0.17
+      },
+      {
+        "value": 10,
+        "revenue": 5438.22,
+        "fcf": 1889.91,
+        "breakEvenOccupancy": 0.14
+      },
+      {
+        "value": 12,
+        "revenue": 6420.26,
+        "fcf": 2380.93,
+        "breakEvenOccupancy": 0.12
+      },
+      {
+        "value": 15,
+        "revenue": 7893.33,
+        "fcf": 3117.47,
+        "breakEvenOccupancy": 0.09
+      }
+    ],
+    "facilitatorShare": [
+      {
+        "value": 0.4,
+        "revenue": 4456.18,
+        "fcf": 1791.71,
+        "breakEvenOccupancy": 0.14
+      },
+      {
+        "value": 0.5,
+        "revenue": 4456.18,
+        "fcf": 1398.89,
+        "breakEvenOccupancy": 0.17
+      },
+      {
+        "value": 0.6,
+        "revenue": 4456.18,
+        "fcf": 1006.07,
+        "breakEvenOccupancy": 0.22
+      },
+      {
+        "value": 0.65,
+        "revenue": 4456.18,
+        "fcf": 809.66,
+        "breakEvenOccupancy": 0.25
+      },
+      {
+        "value": 0.7,
+        "revenue": 4456.18,
+        "fcf": 613.25,
+        "breakEvenOccupancy": 0.29
+      }
+    ]
+  },
+  "founderCompensation": [
+    {
+      "compensation": 0,
+      "stabilizedFcf": 1398.89,
+      "breakEvenOccupancy": 0.17,
+      "cashM24": 34705.58
+    },
+    {
+      "compensation": 1000,
+      "stabilizedFcf": 398.89,
+      "breakEvenOccupancy": 0.48,
+      "cashM24": 10705.58
+    },
+    {
+      "compensation": 1500,
+      "stabilizedFcf": -101.11,
+      "breakEvenOccupancy": 0.63,
+      "cashM24": -1294.42
+    },
+    {
+      "compensation": 2000,
+      "stabilizedFcf": -601.11,
+      "breakEvenOccupancy": 0.78,
+      "cashM24": -13294.42
+    },
+    {
+      "compensation": 2500,
+      "stabilizedFcf": -1101.11,
+      "breakEvenOccupancy": 0.94,
+      "cashM24": -25294.42
+    }
+  ],
+  "comparisons": {
+    "physical": {
+      "revenueM12": 4456.18,
+      "fcfM12": 1623.89,
+      "revenueM24": 4456.18,
+      "fcfM24": 1548.89,
+      "cashM24": 34705.58
+    },
+    "physicalOnline": {
+      "status": "PENDIENTE"
+    },
+    "hybrid": {
+      "status": "PENDIENTE"
+    }
+  },
+  "assumptions": [
+    {
+      "id": "HYP-WEB-001",
+      "text": "Online School permanece a 0 € hasta validar subscribers, ARPU y costes.",
+      "status": "HIPÓTESIS"
+    },
+    {
+      "id": "HYP-WEB-002",
+      "text": "Retreats permanecen a 0 €; julio y agosto son ventanas conceptuales sin economics validados.",
+      "status": "HIPÓTESIS"
+    },
+    {
+      "id": "HYP-WEB-003",
+      "text": "SOMA OS reclasifica 20 €/mes de software existente como cash cost; resto PENDIENTE.",
+      "status": "HIPÓTESIS"
+    }
+  ],
+  "sources": [
+    "memoria/economia/00_METODOLOGIA_MODELO.md",
+    "memoria/economia/02_CAPEX_INVERSION_INICIAL.md",
+    "memoria/economia/03_OPEX.md",
+    "memoria/economia/04_UNIT_ECONOMICS_CLASE.md",
+    "memoria/economia/06_PROYECCION_24_MESES.md",
+    "memoria/economia/07_PROYECCION_5_ANOS.md",
+    "memoria/economia/09_BREAK_EVEN_PAYBACK.md",
+    "memoria/economia/12_DIGITAL_SAAS_ECONOMICS.md"
+  ]
+}

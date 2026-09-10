@@ -1,1 +1,1 @@
-{"name":"somawellness-plan","version":"1.0.0","private":true,"type":"module","scripts":{"test":"node --test","serve":"python -m http.server 8000","check:content":"node tests/content.test.js"}}
+{"name":"somawellness-plan","version":"1.0.0","private":true,"type":"module","scripts":{"build:economics":"node scripts/build-economic-dashboard.js","test":"node --test","serve":"python -m http.server 8000","check:content":"node tests/content.test.js"}}
