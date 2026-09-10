@@ -10,3 +10,7 @@
 - Margen de contribución: **2.148,89 €/mes (48,22% ventas) — DERIVADO**.
 
 Memberships, bonos y drop-in son formatos de cobro: el modelo evita sumarlos otra vez y usa ticket efectivo por asistencia. Otros eventos/alquiler/contenido = 0 € en base — **HIPÓTESIS prudente**.
+
+## Motores planificados adicionales
+
+El BASE MODELADO integra Online School y Retreats sin reclasificarlos como ACTUAL. En 24 meses: Online aporta 20.520 € de revenue y 9.302,40 € de contribution; Retreats aporta 23.400 € de revenue y 4.860 € de contribution — todo **DERIVADO DE HIPÓTESIS**. Véanse inputs y unit economics en [`14_ONLINE_RETREATS_PLANNING_MODEL.md`](14_ONLINE_RETREATS_PLANNING_MODEL.md).

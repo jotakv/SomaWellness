@@ -43,3 +43,7 @@ SOMA LAB se calcula sin ingresos digitales. SOMA OS tiene 0 clientes, 0 € MRR 
 ## Condiciones antes de decidir
 
 Continúan **PENDIENTE**: local/licencia y aforo, renta contractual, presupuestos, fiscalidad, comisiones, acuerdos laborales/mercantiles, evidencia de pago, ocupación y condiciones de financiación. La viabilidad matemática no es viabilidad demostrada.
+
+## Planning model de Online School y Retreats
+
+Sin modificar la evidencia **ACTUAL**, que continúa **PENDIENTE**, el BASE MODELADO incorpora desde M07 una rampa online y tres retreats durante los primeros 24 meses. El resultado híbrido suma costes variables y fijos de cada motor, mantiene SOMA OS con 0 € de revenue SaaS y alcanza 504.498,93 € de revenue y 177.196,05 € de FCF en cinco años — **DERIVADO DE HIPÓTESIS**, no forecast garantizado. Inputs, fórmulas, break-even y puertas de validación: [`economia/14_ONLINE_RETREATS_PLANNING_MODEL.md`](economia/14_ONLINE_RETREATS_PLANNING_MODEL.md).
