@@ -4,7 +4,7 @@
 |---|---|---|
 | Resumen ejecutivo | Sintetizar el plan cuando exista evidencia suficiente | PENDIENTE |
 | Concepto, alcance y tesis | Definir el negocio que se analizará | CONFIRMADO — perímetro documental completado en iteración 01; proposiciones comerciales HIPÓTESIS |
-| Problema, propuesta de valor y servicios | Contrastar necesidad, solución y oferta | HIPÓTESIS — propuestas y mensajes preregistrados para S-01/S-02; campo PENDIENTE |
+| Problema, propuesta de valor y servicios | Contrastar necesidad, solución y oferta | HIPÓTESIS — propuestas y mensajes conservados; protocolo 04.1 congelado y campo PENDIENTE por falta de acceso acreditable |
 | Clientes y mercado | Segmentar demanda y dimensionar mercado | DERIVADO — segmentos y protocolo preliminares; demanda y dimensión PENDIENTE |
 | Competencia y posicionamiento | Comparar alternativas y diferenciación | PENDIENTE |
 | Operaciones, equipo y cumplimiento | Diseñar funcionamiento y requisitos | PENDIENTE |

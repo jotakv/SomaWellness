@@ -2,7 +2,7 @@
 
 ## Propósito
 
-Construir de forma incremental, versionada y auditable un plan de empresa para **SomaWellness**. En la iteración 03 se convierten problemas preliminares en propuestas y mensajes contrastables para S-01 y S-02 y se preregistra cómo ejecutar P-01 y P-02; no se concluye demanda, rentabilidad ni viabilidad. **Estado: CONFIRMADO.**
+Construir de forma incremental, versionada y auditable un plan de empresa para **SomaWellness**. En la iteración 04 se congela el protocolo 04.1 y se controla si P-01/P-02 pueden ejecutarse; al no existir acceso ético y acreditable, ambos permanecen PENDIENTE; no se concluye demanda, rentabilidad ni viabilidad. **Estado: CONFIRMADO.**
 
 ## Definición breve
 
@@ -48,7 +48,7 @@ Acogida, proximidad, coherencia de programación y simplicidad son **HIPÓTESIS*
 
 ## Madurez y límites actuales
 
-**Iteración 03 completada: 4 de 12 previstas — propuestas, mensajes y protocolo ético preregistrados, sin entrevistas ni evidencia conductual.** El total de iteraciones sigue siendo una HIPÓTESIS de planificación. No se ha realizado estudio profundo de mercado, censo exhaustivo de competencia, modelo financiero definitivo ni evaluación Go/No-Go.
+**Iteración 04 completada: 5 de 12 previstas — protocolo 04.1 congelado y ejecución no iniciada por falta de acceso ético y acreditable.** El total de iteraciones sigue siendo una HIPÓTESIS de planificación. No se ha realizado estudio profundo de mercado, censo exhaustivo de competencia, modelo financiero definitivo ni evaluación Go/No-Go.
 
 ## Aprendizaje de iteración 02
 
@@ -60,3 +60,10 @@ Se priorizan para reclutamiento S-01 (principiantes que intentan crear rutina), 
 Cuatro alternativas de propuesta de valor conectan explícitamente trabajos y fricciones de S-01 y S-02. Sus cuatro mensajes se compararán solo dentro de cada segmento, con orden alternado, texto fijo y captura de comprensión, preferencia «ninguno» y evidencia adversa. **Estado: HIPÓTESIS.**
 
 El consentimiento, reclutamiento, hoja vacía, códigos, denominadores, umbrales internos y criterios de parada están preregistrados en `data/value-proposition.json`. Su existencia es **CONFIRMADO** como decisión e instrumento; su utilidad y todos los resultados de campo permanecen **PENDIENTE**. No hubo acceso acreditable a participantes reales, por lo que P-01 y P-02 no se ejecutaron. Precios, demanda, ubicación y viabilidad continúan **PENDIENTE**.
+
+
+## Aprendizaje de iteración 04
+
+El protocolo preregistrado 03.1 se congeló como versión 04.1 antes de cualquier consentimiento, sin cambios, y se conserva su huella SHA-256. **Estado: CONFIRMADO** como control documental, no como prueba de utilidad. No existe acceso ético y acreditable a participantes reales desde este entorno; por ello no se reclutó y P-01/P-02 siguen **PENDIENTE**.
+
+Todos los denominadores son cero. No existen segmentos, canales, relaciones, fechas u órdenes observados; tampoco abandonos, exclusiones, desacuerdos de codificación, resultados mixtos o evidencia adversa de participantes. No se aplicaron umbrales y no se revisaron propuestas ni mensajes. Precios, demanda, ubicación y viabilidad permanecen **PENDIENTE**; no se emite Go/No-Go.

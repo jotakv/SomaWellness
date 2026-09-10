@@ -64,6 +64,22 @@
       "statement": "La exposición alternada, la codificación previa y los denominadores completos reducirán sesgos suficientes para orientar una siguiente prueba.",
       "status": "HIPÓTESIS",
       "introducedIn": "03-propuesta-valor-experimentos"
+    },
+    {
+      "id": "A-0010",
+      "area": "Acceso de campo",
+      "assumption": "Será posible obtener acceso ético y acreditable a participantes reales por los canales preregistrados.",
+      "sensitivity": "Alta",
+      "resolution": "Iteración 04: no disponible en el entorno; reevaluar antes de cualquier invitación.",
+      "status": "PENDIENTE"
+    },
+    {
+      "id": "A-0011",
+      "area": "Aprendizaje",
+      "assumption": "P-01 y P-02 producirán evidencia suficiente para orientar problema y mensaje.",
+      "sensitivity": "Alta",
+      "resolution": "Iteración 04: no evaluable sin campo; no se revisaron mensajes.",
+      "status": "PENDIENTE"
     }
   ]
 }
