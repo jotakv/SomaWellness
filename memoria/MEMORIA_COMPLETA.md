@@ -268,11 +268,9 @@ Sólo ingresos físicos:
 
 **SOMA OS = 0 € de ingresos** en el escenario base utilizado para demostrar sostenibilidad del local.
 
-### Upside separado
+### Escenario híbrido de planificación
 
-- online;
-- subscriptions;
-- SaaS B2B.
+Online School y Retreats disponen de un BASE MODELADO a 24 meses y cinco años. Sus drivers son **HIPÓTESIS** y sus resultados **DERIVADO DE HIPÓTESIS**; subscribers, clientes y pagos ACTUALES continúan **PENDIENTE**. SOMA OS conserva 0 € de revenue SaaS externo — **HIPÓTESIS prudente**. El caso físico permanece separado para que la extensión híbrida no oculte su economía standalone.
 
 ## 17. Operaciones
 

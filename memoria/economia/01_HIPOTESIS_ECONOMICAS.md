@@ -26,3 +26,7 @@
 | 13–24 | 18 | 60% | 4.8 | 4 | 150,00 € | HIPÓTESIS |
 
 No hay evidencia de campo que valide la rampa: las iteraciones registran acceso incompleto y ejecución nula.
+
+## Planning model comercial híbrido
+
+Online School: lanzamiento M07, rampa 20 → 40 → 75 suscriptores durante los primeros 24 meses, ARPU 19 €, creator share 35%, payments 3%, coste variable 1,50 €/suscriptor y plataforma fija 100 €/mes — **HIPÓTESIS**. Retreats: eventos M12/M18/M24, 16 plazas, 75% de ocupación, ticket 650 €, coste variable 390 €/participante y fijo 1.500 €/evento — **HIPÓTESIS**. Los actuals de ambos motores siguen **PENDIENTE**. Desarrollo y fórmulas: [`14_ONLINE_RETREATS_PLANNING_MODEL.md`](14_ONLINE_RETREATS_PLANNING_MODEL.md).
