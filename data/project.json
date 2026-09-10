@@ -1,11 +1,11 @@
 {
   "name": "SomaWellness",
   "document": "Plan de Empresa",
-  "iteration": "05-acceso-campo-reevaluacion-controlada",
+  "iteration": "05-physical-plus-digital-blueprint-00",
   "maturity": {
     "completedIterations": 6,
     "plannedIterations": 12,
-    "label": "ACCESO REEVALUADO; INVITACIÓN BLOQUEADA Y P-01/P-02 PENDIENTES"
+    "label": "ITERACIÓN FÍSICA 05 + BLUEPRINT DIGITAL 00; VALIDACIÓN PENDIENTE"
   },
   "evidenceStates": [
     "CONFIRMADO",
@@ -19,5 +19,10 @@
     "definitiveFinancialModelCompleted": false,
     "viabilityConclusionCompleted": false
   },
-  "status": "CONFIRMADO"
+  "status": "CONFIRMADO",
+  "digitalBlueprint": {
+    "introducedAt": "2026-09-10",
+    "status": "CONFIRMADO",
+    "commercialValidation": "PENDIENTE"
+  }
 }

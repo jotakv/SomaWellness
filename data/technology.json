@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "version": "0.1",
+    "scope": "SOMA OS conceptual architecture",
+    "status": "HIPÓTESIS",
+    "source": "CODEX master prompt, 2026-09-10; design brief only"
+  },
+  "principle": {
+    "id": "HYP-TECH-007",
+    "claim": "A modular monolith is the lowest-complexity suitable starting architecture.",
+    "status": "HIPÓTESIS",
+    "source": "CODEX master prompt, 2026-09-10; design brief only",
+    "assumption_id": "HYP-TECH-007",
+    "evidence_id": null
+  },
+  "stack": [
+    {
+      "component": "frontend",
+      "choice": "TypeScript, React, Next.js",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-007",
+      "evidence_id": null
+    },
+    {
+      "component": "backend",
+      "choice": "TypeScript, Node.js, NestJS",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-007",
+      "evidence_id": null
+    },
+    {
+      "component": "database",
+      "choice": "PostgreSQL",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-007",
+      "evidence_id": null
+    },
+    {
+      "component": "jobs",
+      "choice": "Redis/BullMQ when justified",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-007",
+      "evidence_id": null
+    },
+    {
+      "component": "storage",
+      "choice": "S3-compatible",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-007",
+      "evidence_id": null
+    },
+    {
+      "component": "payments",
+      "choice": "Stripe",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-007",
+      "evidence_id": null
+    },
+    {
+      "component": "ai",
+      "choice": "provider abstraction",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-007",
+      "evidence_id": null
+    },
+    {
+      "component": "observability",
+      "choice": "OpenTelemetry/Sentry when justified",
+      "status": "HIPÓTESIS",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": "HYP-TECH-007",
+      "evidence_id": null
+    }
+  ],
+  "mvpEntities": [
+    "Organization",
+    "Location",
+    "User",
+    "Lead",
+    "Customer",
+    "Membership",
+    "MembershipPlan",
+    "Facilitator",
+    "Activity",
+    "Session",
+    "Booking",
+    "Attendance",
+    "Interaction",
+    "Preference",
+    "Consent",
+    "Task",
+    "Campaign",
+    "Recommendation",
+    "RetentionSignal",
+    "AIConversation",
+    "Event"
+  ],
+  "tenancy": {
+    "model": "organization_id scoped; SOMA LAB conceptual tenant 1",
+    "status": "HIPÓTESIS",
+    "source": "CODEX master prompt, 2026-09-10; design brief only",
+    "assumption_id": "HYP-TECH-008",
+    "evidence_id": null
+  },
+  "repositoryDecision": {
+    "current": "SomaWellness remains strategic source of truth",
+    "future": "independent soma-os repository only after validation",
+    "status": "PENDIENTE",
+    "source": "ADR-001",
+    "assumption_id": null,
+    "evidence_id": null
+  }
+}

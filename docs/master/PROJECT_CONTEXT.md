@@ -23,7 +23,7 @@ Se plantea como un negocio independiente de servicios, no sanitario, que reúne 
 - **Tipo — CONFIRMADO como decisión de alcance:** negocio independiente de servicios presenciales de bienestar, con soporte digital y una sede pequeña como caso base.
 - **Beneficiarios/clientes — HIPÓTESIS:** personas adultas principiantes; practicantes que valoran grupos reducidos y continuidad; y profesionales independientes compatibles.
 - **Actividades admisibles — HIPÓTESIS:** clases de yoga, movilidad, movimiento consciente, respiración y meditación; talleres compatibles; orientación y contenidos no clínicos.
-- **Canales — CONFIRMADO/HIPÓTESIS:** la prestación principal es presencial; web, buscadores, redes, mensajería, recomendación y colaboraciones locales deberán contrastarse.
+- **Canales — CONFIRMADO/HIPÓTESIS:** la actividad principal es presencial; web, buscadores, redes, mensajería, recomendación y colaboraciones locales deberán contrastarse.
 - **Ingresos admisibles — HIPÓTESIS:** clases, bonos o membresías, talleres y cesión compatible de franjas. No se fijan precios ni mezcla.
 
 La fuente estructurada única de este perímetro, los principios y la tesis es `data/concept.json`.
@@ -74,3 +74,14 @@ Todos los denominadores son cero. No existen segmentos, canales, relaciones, fec
 La reevaluación separa cuatro requisitos previos: autorización de canal, elegibilidad, voluntariedad y consentimiento (AC-01–AC-04). No existe en el repositorio ni en este entorno evidencia verificable para completarlos; el registro de autorizaciones está vacío y la invitación no se libera. **Estado del acceso: PENDIENTE.** Esta observación no demuestra la inexistencia de canales externos.
 
 Se prepararon plantillas vacías y separación de responsabilidades sin cambiar 04.1. Son instrumentos **CONFIRMADO** como artefactos, no evidencia de aplicación. Todos los denominadores siguen en cero; no hubo codificación ni revisión de mensajes. Precios, demanda, ubicación y viabilidad permanecen **PENDIENTE**; no se emite Go/No-Go.
+
+## Ampliación paralela SOMA DIGITAL — blueprint 00
+
+La evidencia del repositorio sitúa la línea física en iteración 05, no en iteración 02 como indicaba el README anterior. Se conserva sin alterar `prompts/CURRENT_PROMPT.md` y `prompts/NEXT_PROMPT.md`; la investigación física puede continuar. En paralelo se diseña **SOMA = SOMA LAB + SOMA DIGITAL**. **Estado de la ampliación documental: CONFIRMADO; estado de todas sus proposiciones comerciales: HIPÓTESIS o PENDIENTE.**
+
+- **SOMA LAB:** caso físico autónomo, potencial Customer Zero/Living Lab; transferibilidad PENDIENTE.
+- **SOMA OS:** CRM y booking B2B SaaS multi-tenant; problema, adopción y pago PENDIENTE.
+- **SOMA AI:** capability layer con APIs, aislamiento y human handoff; impacto PENDIENTE.
+- **Plataforma:** Journeys, Human Profile, Content, Creators, Community, Marketplace y Retreats; todo sujeto a gates.
+
+No existen en el repositorio design partners, pilotos externos, clientes digitales, ventas, MRR, CAC, churn, ROI ni network effects. LAB no es la unidad de escala tecnológica. El caso PHYSICAL STANDALONE mantiene ingreso digital cero.

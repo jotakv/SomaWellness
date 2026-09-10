@@ -16,3 +16,9 @@ Las decisiones no se eliminan: si se sustituyen, debe añadirse una nueva entrad
 | D-0010 | 2026-09-09 | Congelar el protocolo como 04.1, idéntico a 03.1, antes de cualquier consentimiento | Huella SHA-256 en `data/value-proposition.json` | Cambiar sin datos o iniciar sin congelación | Preservar comparación y trazabilidad; no confirma utilidad | CONFIRMADO |
 | D-0011 | 2026-09-09 | No reclutar y mantener P-01/P-02 PENDIENTE al faltar acceso ético y acreditable | Auditoría de acceso de iteración 04 | Inventar contactos o asumir consentimiento | Evitar evidencia fabricada | CONFIRMADO |
 | D-0012 | 2026-09-10 | Mantener bloqueadas las invitaciones hasta acreditar AC-01–AC-04 | Registro de autorizaciones vacío y controles PENDIENTE en `data/value-proposition.json` | Asumir autorización o consentimiento | La preparación no sustituye acceso real ni permite fabricar aprendizaje | CONFIRMADO |
+
+| D-0013 | 2026-09-10 | Integrar SOMA LAB y SOMA DIGITAL sin sustituir el caso físico | Encargo de blueprint tecnológico | Mantener plan exclusivamente físico o reemplazarlo | Evaluar dos motores y conservar historia | CONFIRMADO |
+| D-0014 | 2026-09-10 | Tratar LAB como Customer Zero, no unidad de escala | Tesis de diseño; sin evidencia comercial | Escalar solo con locales propios | Hacer falsable el desacoplamiento físico/digital | CONFIRMADO |
+| D-0015 | 2026-09-10 | Diseñar SOMA OS multi-tenant, API-first y modular monolith | Blueprint técnico | Microservices o single-tenant | Reducir complejidad preservando aislamiento | CONFIRMADO |
+| D-0016 | 2026-09-10 | Priorizar AI Receptionist web y exigir APIs sin acceso directo a DB | Blueprint de seguridad | Acceso del modelo a tablas o voice-first | Control, auditoría y alcance | CONFIRMADO |
+| D-0017 | 2026-09-10 | Mantener este repo como source of truth estratégico; `soma-os` queda pendiente | ADR-001 | Crear monorepo SaaS ahora | Evitar producción prematura | CONFIRMADO |

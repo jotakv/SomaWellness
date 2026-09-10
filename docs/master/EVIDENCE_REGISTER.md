@@ -18,3 +18,9 @@ Las entradas E-0001 y E-0002 prueban artefactos y decisiones internas, no acepta
 | E-0012 | Campo | P-01/P-02 registran cero en todos los denominadores porque no hubo acceso ético y acreditable | `data/value-proposition.json`, ejecución 04 | 2026-09-09 | Alta para ausencia de actividad en el repositorio; no apoya ni refuta tesis | CONFIRMADO |
 | E-0013 | Acceso de campo | La reevaluación 05 no encuentra en el repositorio ni en el entorno evidencia verificable para completar AC-01–AC-04; no se liberaron invitaciones | `data/value-proposition.json`, ejecución 05 | 2026-09-10 | Alta para el estado documental interno; no prueba inexistencia de canales externos ni informa mercado | CONFIRMADO |
 | E-0014 | Preparación | Existen plantillas vacías y una secuencia de control para autorización, cribado y consentimiento | `data/value-proposition.json`, preparación operativa 05 | 2026-09-10 | Alta para constatar instrumentos; no acredita aplicación ni acceso | CONFIRMADO |
+
+| E-TECH-001 | Blueprint | Existen documentos y JSON de SOMA DIGITAL | Inspección del repositorio, 2026-09-10 | Alta para existencia; nula para mercado | CONFIRMADO |
+| E-TECH-002 | Gobierno | AI sin acceso directo a DB, multi-tenancy y límites wellness están decididos conceptualmente | Documentos technology y ADR | Alta para decisión interna; implementación PENDIENTE | CONFIRMADO |
+| E-TECH-003 | Problema B2B | Centros externos sufren y pagarían por SOMA OS | Sin evidencia externa recopilada | Sin evaluar | PENDIENTE |
+| E-TECH-004 | Tracción | Design partners, pilotos, clientes, MRR, CAC, churn o ROI digital | Sin registros | Sin evaluar | PENDIENTE |
+| E-TECH-005 | Network effects | Creators, community y marketplace se refuerzan | Sin uso ni cohortes | Sin evaluar | PENDIENTE |

@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "ordering": "Reorder when evidence indicates",
+    "status": "HIPÓTESIS",
+    "source": "CODEX master prompt, 2026-09-10; design brief only"
+  },
+  "phases": [
+    {
+      "phase": 0,
+      "name": "Discovery",
+      "scope": [
+        "ICP",
+        "problem",
+        "architecture",
+        "data"
+      ],
+      "gate": "problem evidence",
+      "status": "PENDIENTE",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": null,
+      "evidence_id": null
+    },
+    {
+      "phase": 1,
+      "name": "SOMA LAB Core",
+      "scope": [
+        "CRM",
+        "booking",
+        "memberships",
+        "attendance"
+      ],
+      "gate": "reliable Customer Zero usage",
+      "status": "PENDIENTE",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": null,
+      "evidence_id": null
+    },
+    {
+      "phase": 2,
+      "name": "AI",
+      "scope": [
+        "Receptionist",
+        "Retention",
+        "Recommendations"
+      ],
+      "gate": "safe measurable value",
+      "status": "PENDIENTE",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": null,
+      "evidence_id": null
+    },
+    {
+      "phase": 3,
+      "name": "Digital Consumer",
+      "scope": [
+        "Content",
+        "Human Profile",
+        "Journeys"
+      ],
+      "gate": "repeat usage",
+      "status": "PENDIENTE",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": null,
+      "evidence_id": null
+    },
+    {
+      "phase": 4,
+      "name": "Creator",
+      "scope": [
+        "Profile",
+        "Studio",
+        "Content"
+      ],
+      "gate": "active creators",
+      "status": "PENDIENTE",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": null,
+      "evidence_id": null
+    },
+    {
+      "phase": 5,
+      "name": "Community",
+      "scope": [
+        "Groups",
+        "Cohorts",
+        "Challenges"
+      ],
+      "gate": "participation",
+      "status": "PENDIENTE",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": null,
+      "evidence_id": null
+    },
+    {
+      "phase": 6,
+      "name": "Marketplace",
+      "scope": [
+        "Experiences",
+        "Studios",
+        "Booking"
+      ],
+      "gate": "repeat transactions",
+      "status": "PENDIENTE",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": null,
+      "evidence_id": null
+    },
+    {
+      "phase": 7,
+      "name": "Retreats",
+      "scope": [
+        "Consumer",
+        "Organizer"
+      ],
+      "gate": "specific problem evidence",
+      "status": "PENDIENTE",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": null,
+      "evidence_id": null
+    },
+    {
+      "phase": 8,
+      "name": "External SOMA OS",
+      "scope": [
+        "multi-tenant commercialization"
+      ],
+      "gate": "external recurring payment",
+      "status": "PENDIENTE",
+      "source": "CODEX master prompt, 2026-09-10; design brief only",
+      "assumption_id": null,
+      "evidence_id": null
+    }
+  ]
+}

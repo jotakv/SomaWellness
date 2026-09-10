@@ -1,20 +1,27 @@
-# Esquema maestro del plan de empresa
+# Esquema maestro del plan de empresa híbrido
 
-| Bloque | Objetivo | Estado actual |
+> Estado real: línea física completada hasta **iteración 05**; blueprint digital inicial añadido en paralelo. No existe validación de demanda ni conclusión de viabilidad.
+
+## MOTOR 1 — PHYSICAL BUSINESS: SOMA LAB
+
+Conserva concepto, mercado, propuesta, servicios, operación, local, equipo, marketing, CAPEX/OPEX, escenarios y riesgos del caso físico. Debe poder evaluarse en **PHYSICAL STANDALONE**, con digital revenue = 0.
+
+## MOTOR 2 — DIGITAL PLATFORM: SOMA DIGITAL
+
+| Bloque | Blueprint | Evidencia comercial |
 |---|---|---|
-| Resumen ejecutivo | Sintetizar el plan cuando exista evidencia suficiente | PENDIENTE |
-| Concepto, alcance y tesis | Definir el negocio que se analizará | CONFIRMADO — perímetro documental completado en iteración 01; proposiciones comerciales HIPÓTESIS |
-| Problema, propuesta de valor y servicios | Contrastar necesidad, solución y oferta | HIPÓTESIS — propuestas y mensajes conservados; protocolo 04.1 congelado y campo PENDIENTE por falta de acceso acreditable |
-| Clientes y mercado | Segmentar demanda y dimensionar mercado | DERIVADO — segmentos y protocolo preliminares; demanda y dimensión PENDIENTE |
-| Competencia y posicionamiento | Comparar alternativas y diferenciación | PENDIENTE |
-| Operaciones, equipo y cumplimiento | Diseñar funcionamiento y requisitos | PENDIENTE |
-| Marketing y ventas | Diseñar adquisición, conversión y retención | PENDIENTE |
-| Modelo económico y financiación | Construir supuestos, escenarios y caja | PENDIENTE |
-| Riesgos y roadmap | Priorizar incertidumbres y ejecución | PENDIENTE |
-| Evaluación de viabilidad | Aplicar criterios de decisión a la evidencia | PENDIENTE |
+| SOMA OS | CRM/booking multi-tenant B2B SaaS | PENDIENTE |
+| SOMA AI | orchestration, Receptionist, Retention, Recommendations | PENDIENTE |
+| Journeys / Human Profile / Content | experiencia B2C física + digital | PENDIENTE |
+| Creators / Community | B2Creator y participación | PENDIENTE |
+| Marketplace / Retreats | transacciones y expansión | PENDIENTE |
 
-## Tesis inicial a contrastar
+## Análisis integrado obligatorio
 
-Las cinco afirmaciones T-0001 a T-0005 de `data/concept.json` preguntan si existe un segmento local accesible, si entiende y prefiere la combinación propuesta, si la experiencia favorece conversión y repetición, si existe oferta profesional compatible y si aparecen pago y frecuencia sostenibles. Todas tienen estado **HIPÓTESIS**; cada una registra evidencia futura que podría apoyarla o refutarla. No constituyen conclusiones.
+1. **Independencia económica:** estados separados de LAB y DIGITAL.
+2. **Sinergias:** adquisición, discovery, supply y datos, todas HIPÓTESIS.
+3. **Cross-subsidy:** identificar transferencias explícitas, runway y límite.
+4. **Risks:** complejidad, foco, privacidad, seguridad, channel conflict y margen.
+5. **Upside:** HYBRID y TECHNOLOGY SCALE sin mezclar GMV con revenue.
 
-Este índice es una estructura de trabajo. El cierre documental del perímetro no confirma demanda, capacidad, precio, operación, rentabilidad ni viabilidad.
+El plan no concluirá viabilidad hasta contrastar los motores por separado y juntos. La pregunta de escala es si ingresos digitales pueden crecer 10x sin 10x metros cuadrados; hoy la respuesta es **PENDIENTE**.
