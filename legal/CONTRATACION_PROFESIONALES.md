@@ -12,7 +12,7 @@ Definir un marco prudente para incorporar facilitadores y especialistas sin crea
 
 Adecuada cuando concurran organización empresarial, dependencia, horario impuesto, integración estable y demás elementos propios de una relación laboral.
 
-### Prestación mercantil independiente
+### Colaboración mercantil independiente
 
 Sólo cuando el profesional actúe con verdadera autonomía organizativa y económica, sin reproducir materialmente una relación laboral.
 

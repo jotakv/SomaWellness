@@ -23,7 +23,7 @@ La estructura inicial de financiación se plantea con recursos propios y financi
 
 **Promotor:** [PENDIENTE incorporar versión pública/privada según destino documental].
 
-**Situación:** persona desempleada [PENDIENTE documentación laboral relevante].
+**Situación:** situación profesional [PENDIENTE documentación laboral relevante].
 
 **Experiencia profesional relevante:** perfil técnico y de consultoría en Microsoft Dynamics 365, Power Platform, automatización, CRM, desarrollo de soluciones empresariales y gestión de proyectos [PENDIENTE CV formal].
 
@@ -46,11 +46,11 @@ SOMA LAB pretende resolver dos necesidades:
 
 ## 5. Descripción del proyecto
 
-SOMA LAB se plantea como un centro flexible de bienestar, movimiento y comunidad. La prioridad del proyecto en fase de lanzamiento es la prestación efectiva de servicios presenciales.
+SOMA LAB se plantea como un centro flexible de bienestar, movimiento y comunidad. La prioridad del proyecto en fase de lanzamiento es la ejecución efectiva de servicios presenciales.
 
 ### Funciones principales del local
 
-1. prestación de actividades presenciales;
+1. realización de actividades presenciales;
 2. generación de facturación recurrente;
 3. atención y fidelización de clientes;
 4. celebración de talleres, eventos y programas;
@@ -512,7 +512,7 @@ El roadmap definitivo deberá respetar el orden legal y administrativo aplicable
 
 ## 39. Conclusión
 
-SOMA LAB plantea una actividad económica real, progresiva y basada en prestación efectiva de servicios. El local se pretende afectar directamente a esa actividad y su adquisición deberá demostrarse necesaria y proporcional mediante documentación técnica, económica y financiera.
+SOMA LAB plantea una actividad económica real, progresiva y basada en ejecución efectiva de servicios. El local se pretende afectar directamente a esa actividad y su adquisición deberá demostrarse necesaria y proporcional mediante documentación técnica, económica y financiera.
 
 La inversión se estructurará con recursos propios y financiación externa, sin tratar ninguna estimación como hecho hasta contar con documentación oficial.
 
@@ -524,7 +524,7 @@ La versión final deberá demostrar cuantitativamente que la unidad física alca
 
 El índice estructural y la trazabilidad se mantienen en `evidence/INDICE_ANEXOS_Y_TRAZABILIDAD.md`.
 
-- resolución de prestación [PENDIENTE];
+- documentación administrativa aplicable [PENDIENTE];
 - acta SMAC [PENDIENTE];
 - CV/promotor [PENDIENTE];
 - presupuestos CAPEX [PENDIENTE];
@@ -544,3 +544,47 @@ El índice estructural y la trazabilidad se mantienen en `evidence/INDICE_ANEXOS
 
 La documentación sobre marketplace, creator platform, expansión SaaS, Lanzadera, ENISA, Wayra, fundraising o escalabilidad se conservará en los directorios de tecnología/roadmap/inversores, pero no ocupará un papel central en la memoria empresarial.
 
+
+---
+
+## 41. Anexo económico lean consolidado — actualización prioritaria
+
+> Esta sección sustituye, para el **caso principal lean**, las cifras incompletas de los apartados 21–32. No sustituye el caso alternativo de compra inmobiliaria: lo separa. Todas las entradas son **HIPÓTESIS/ESTIMACIONES** y los resultados son **DERIVADO**.
+
+### 41.1 Respuesta cuantitativa
+
+| Métrica | Resultado modelado | Estado |
+|---|---:|---|
+| Capital mínimo lean | 5.000 € | DERIVADO de ESTIMACIONES |
+| Ventas estabilizadas | 4.456,18 €/mes | DERIVADO |
+| Facilitadores | 2.307,29 €/mes | DERIVADO |
+| Margen contribución | 2.148,89 €/mes; 48,22% | DERIVADO |
+| OPEX + renta completa | 750 €/mes | DERIVADO |
+| EBITDA / FCF simplificado | 1.398,89 €/mes | DERIVADO |
+| Break-even | 17,27% ocupación | DERIVADO |
+| Payback | mes 8,01 | DERIVADO |
+| FCF acumulado M24 | 29.705,58 € | DERIVADO |
+| FCF acumulado 5 años | 80.965,55 € | DERIVADO |
+| SOMA OS base | 0 € | HIPÓTESIS prudente |
+
+### 41.2 Fórmula y régimen estabilizado
+
+`18 clases/semana × 4,33 × 8 plazas × 60% × 10,50 € = 3.928,18 €` de clases. Cuatro talleres de seis asistentes a 22 € suman 528 €. Después del share de facilitadores (50% clases; 65% talleres) quedan 2.148,89 €. Menos 450 € de OPEX y 300 € de renta produce 1.398,89 € — **DERIVADO**.
+
+FCF equivale aquí a EBITDA sólo como simplificación: no hay impuestos, deuda, variación de circulante o CAPEX posterior. Con coste sombra del promotor de 600 €/mes — **HIPÓTESIS**— el resultado económico sería 798,89 € — **DERIVADO**.
+
+### 41.3 Inversión y contradicción reconciliada
+
+Los 5.000 € lean incluyen equipamiento 2.000 €, fianza 600 €, circulante 1.000 €, técnico/licencias 800 € y colchón 600 € — **ESTIMADO**. El precio de compra de 100.000 € — **HIPÓTESIS**— pertenece a otro escenario e impide afirmar que 5.000 € financien una adquisición. Compra, deuda y residual se excluyen del modelo lean y permanecen **PENDIENTE**.
+
+### 41.4 Rampa, cinco años y sensibilidad
+
+La rampa pasa de 8 clases/semana y 35% de ocupación en M1–M3 a 18 y 60% desde M10 — **HIPÓTESIS**. Produce FCF de 11.118,92 € en año 1 y 18.586,66 € en año 2 — **DERIVADO**. Con rentas escalonadas y sin crecimiento/inflación, el FCF a cinco años suma 80.965,55 € — **DERIVADO**, no forecast validado.
+
+Cada +1 punto de ocupación aporta 32,73 €/mes; +1 clase semanal, 109,12 €/mes; +1 € de ticket, 187,06 €/mes — **DERIVADO**, manteniendo lo demás constante.
+
+### 41.5 Independencia Physical / Digital
+
+SOMA LAB alcanza equilibrio matemático sin SOMA OS bajo las hipótesis. Esto no demuestra demanda. SOMA OS se modela con 0 clientes, MRR y ARR; ARPA, CAC, churn, LTV y COGS están **PENDIENTE**. Sólo pagos y cohortes verificables permitirán crear un escenario SaaS.
+
+El detalle mensual, fórmulas, escenarios, sensibilidad y fuentes se conserva en [`memoria/economia/`](economia/README.md); la síntesis operativa está en [`11_PLAN_ECONOMICO.md`](11_PLAN_ECONOMICO.md).
